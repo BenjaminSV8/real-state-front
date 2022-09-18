@@ -1,0 +1,43 @@
+<div class="kep-content">
+  <div class="kep-menu">
+    <app-menu></app-menu>
+  </div>
+
+  <div class="kep-section">
+    <app-header title="NFL"></app-header>
+
+    <div class="kep-subsection">
+      <app-slide img="{{ img }}"></app-slide>
+      <div class="kep-list-games">
+        <h2>Juegos</h2>
+        <ul>
+          <li *ngFor="let game of teamArray; let i = index">
+            <img
+              src="{{ game.TeamWin.ImgWin }}"
+              alt="{{ game.TeamWin.TeamWin }}"
+            />
+            <h3 [ngStyle]="{ color: game.AwayTeam.Color }">
+              <a (click)="openTeam(game.AwayTeam.GlobalTeamID)">
+                {{ game.AwayTeam.Name }}
+              </a>
+              : {{ game.AwayTeam.Percentage }}%
+            </h3>
+            <h3 [ngStyle]="{ color: game.HomeTeam.Color }">
+              <a (click)="openTeam(game.HomeTeam.GlobalTeamID)">
+                {{game.HomeTeam.Name}}
+              </a>
+              : {{ game.HomeTeam.Percentage }}%
+            </h3>
+            <h3 style="color: #B1FCFF">
+              Empate : {{ game.tie }}%
+            </h3>
+            <!-- <p>
+              El equipo que tiene mas probabilidad de ganar es ====>
+              {{ game.TeamWin.TeamWinName }}
+            </p> -->
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>

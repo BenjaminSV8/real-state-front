@@ -1,0 +1,2272 @@
+[
+    {
+        "Week": 1,
+        "AwayTeam": "HOU",
+        "HomeTeam": "KC",
+        "GlobalAwayTeamID": 13,
+        "GlobalHomeTeamID": 16,
+        "Status": "Final"
+    },
+    {
+        "Week": 1,
+        "AwayTeam": "SEA",
+        "HomeTeam": "ATL",
+        "GlobalAwayTeamID": 30,
+        "GlobalHomeTeamID": 2,
+        "Status": "Final"
+    },
+    {
+        "Week": 1,
+        "AwayTeam": "CLE",
+        "HomeTeam": "BAL",
+        "GlobalAwayTeamID": 8,
+        "GlobalHomeTeamID": 3,
+        "Status": "Final"
+    },
+    {
+        "Week": 1,
+        "AwayTeam": "NYJ",
+        "HomeTeam": "BUF",
+        "GlobalAwayTeamID": 24,
+        "GlobalHomeTeamID": 4,
+        "Status": "Final"
+    },
+    {
+        "Week": 1,
+        "AwayTeam": "LV",
+        "HomeTeam": "CAR",
+        "GlobalAwayTeamID": 25,
+        "GlobalHomeTeamID": 5,
+        "Status": "Final"
+    },
+    {
+        "Week": 1,
+        "AwayTeam": "CHI",
+        "HomeTeam": "DET",
+        "GlobalAwayTeamID": 6,
+        "GlobalHomeTeamID": 11,
+        "Status": "Final"
+    },
+    {
+        "Week": 1,
+        "AwayTeam": "IND",
+        "HomeTeam": "JAX",
+        "GlobalAwayTeamID": 14,
+        "GlobalHomeTeamID": 15,
+        "Status": "Final"
+    },
+    {
+        "Week": 1,
+        "AwayTeam": "GB",
+        "HomeTeam": "MIN",
+        "GlobalAwayTeamID": 12,
+        "GlobalHomeTeamID": 20,
+        "Status": "Final"
+    },
+    {
+        "Week": 1,
+        "AwayTeam": "MIA",
+        "HomeTeam": "NE",
+        "GlobalAwayTeamID": 19,
+        "GlobalHomeTeamID": 21,
+        "Status": "Final"
+    },
+    {
+        "Week": 1,
+        "AwayTeam": "PHI",
+        "HomeTeam": "WAS",
+        "GlobalAwayTeamID": 26,
+        "GlobalHomeTeamID": 35,
+        "Status": "Final"
+    },
+    {
+        "Week": 1,
+        "AwayTeam": "LAC",
+        "HomeTeam": "CIN",
+        "GlobalAwayTeamID": 29,
+        "GlobalHomeTeamID": 7,
+        "Status": "Final"
+    },
+    {
+        "Week": 1,
+        "AwayTeam": "TB",
+        "HomeTeam": "NO",
+        "GlobalAwayTeamID": 33,
+        "GlobalHomeTeamID": 22,
+        "Status": "Final"
+    },
+    {
+        "Week": 1,
+        "AwayTeam": "ARI",
+        "HomeTeam": "SF",
+        "GlobalAwayTeamID": 1,
+        "GlobalHomeTeamID": 31,
+        "Status": "Final"
+    },
+    {
+        "Week": 1,
+        "AwayTeam": "DAL",
+        "HomeTeam": "LAR",
+        "GlobalAwayTeamID": 9,
+        "GlobalHomeTeamID": 32,
+        "Status": "Final"
+    },
+    {
+        "Week": 1,
+        "AwayTeam": "PIT",
+        "HomeTeam": "NYG",
+        "GlobalAwayTeamID": 28,
+        "GlobalHomeTeamID": 23,
+        "Status": "Scheduled"
+    },
+    {
+        "Week": 1,
+        "AwayTeam": "TEN",
+        "HomeTeam": "DEN",
+        "GlobalAwayTeamID": 34,
+        "GlobalHomeTeamID": 10,
+        "Status": "Scheduled"
+    },
+    {
+        "Week": 2,
+        "AwayTeam": "CIN",
+        "HomeTeam": "CLE",
+        "GlobalAwayTeamID": 7,
+        "GlobalHomeTeamID": 8,
+        "Status": "Scheduled"
+    },
+    {
+        "Week": 2,
+        "AwayTeam": "NYG",
+        "HomeTeam": "CHI",
+        "GlobalAwayTeamID": 23,
+        "GlobalHomeTeamID": 6,
+        "Status": "Scheduled"
+    },
+    {
+        "Week": 2,
+        "AwayTeam": "ATL",
+        "HomeTeam": "DAL",
+        "GlobalAwayTeamID": 2,
+        "GlobalHomeTeamID": 9,
+        "Status": "Scheduled"
+    },
+    {
+        "Week": 2,
+        "AwayTeam": "DET",
+        "HomeTeam": "GB",
+        "GlobalAwayTeamID": 11,
+        "GlobalHomeTeamID": 12,
+        "Status": "Scheduled"
+    },
+    {
+        "Week": 2,
+        "AwayTeam": "MIN",
+        "HomeTeam": "IND",
+        "GlobalAwayTeamID": 20,
+        "GlobalHomeTeamID": 14,
+        "Status": "Scheduled"
+    },
+    {
+        "Week": 2,
+        "AwayTeam": "BUF",
+        "HomeTeam": "MIA",
+        "GlobalAwayTeamID": 4,
+        "GlobalHomeTeamID": 19,
+        "Status": "Scheduled"
+    },
+    {
+        "Week": 2,
+        "AwayTeam": "SF",
+        "HomeTeam": "NYJ",
+        "GlobalAwayTeamID": 31,
+        "GlobalHomeTeamID": 24,
+        "Status": "Scheduled"
+    },
+    {
+        "Week": 2,
+        "AwayTeam": "LAR",
+        "HomeTeam": "PHI",
+        "GlobalAwayTeamID": 32,
+        "GlobalHomeTeamID": 26,
+        "Status": "Scheduled"
+    },
+    {
+        "Week": 2,
+        "AwayTeam": "DEN",
+        "HomeTeam": "PIT",
+        "GlobalAwayTeamID": 10,
+        "GlobalHomeTeamID": 28,
+        "Status": "Scheduled"
+    },
+    {
+        "Week": 2,
+        "AwayTeam": "CAR",
+        "HomeTeam": "TB",
+        "GlobalAwayTeamID": 5,
+        "GlobalHomeTeamID": 33,
+        "Status": "Scheduled"
+    },
+    {
+        "Week": 2,
+        "AwayTeam": "JAX",
+        "HomeTeam": "TEN",
+        "GlobalAwayTeamID": 15,
+        "GlobalHomeTeamID": 34,
+        "Status": "Scheduled"
+    },
+    {
+        "Week": 2,
+        "AwayTeam": "WAS",
+        "HomeTeam": "ARI",
+        "GlobalAwayTeamID": 35,
+        "GlobalHomeTeamID": 1,
+        "Status": "Scheduled"
+    },
+    {
+        "Week": 2,
+        "AwayTeam": "BAL",
+        "HomeTeam": "HOU",
+        "GlobalAwayTeamID": 3,
+        "GlobalHomeTeamID": 13,
+        "Status": "Scheduled"
+    },
+    {
+        "Week": 2,
+        "AwayTeam": "KC",
+        "HomeTeam": "LAC",
+        "GlobalAwayTeamID": 16,
+        "GlobalHomeTeamID": 29,
+        "Status": "Scheduled"
+    },
+    {
+        "Week": 2,
+        "AwayTeam": "NE",
+        "HomeTeam": "SEA",
+        "GlobalAwayTeamID": 21,
+        "GlobalHomeTeamID": 30,
+        "Status": "Scheduled"
+    },
+    {
+        "Week": 2,
+        "AwayTeam": "NO",
+        "HomeTeam": "LV",
+        "GlobalAwayTeamID": 22,
+        "GlobalHomeTeamID": 25,
+        "Status": "Scheduled"
+    },
+    {
+        "Week": 3,
+        "AwayTeam": "MIA",
+        "HomeTeam": "JAX",
+        "GlobalAwayTeamID": 19,
+        "GlobalHomeTeamID": 15,
+        "Status": "Scheduled"
+    },
+    {
+        "Week": 3,
+        "AwayTeam": "CHI",
+        "HomeTeam": "ATL",
+        "GlobalAwayTeamID": 6,
+        "GlobalHomeTeamID": 2,
+        "Status": "Scheduled"
+    },
+    {
+        "Week": 3,
+        "AwayTeam": "LAR",
+        "HomeTeam": "BUF",
+        "GlobalAwayTeamID": 32,
+        "GlobalHomeTeamID": 4,
+        "Status": "Scheduled"
+    },
+    {
+        "Week": 3,
+        "AwayTeam": "WAS",
+        "HomeTeam": "CLE",
+        "GlobalAwayTeamID": 35,
+        "GlobalHomeTeamID": 8,
+        "Status": "Scheduled"
+    },
+    {
+        "Week": 3,
+        "AwayTeam": "TEN",
+        "HomeTeam": "MIN",
+        "GlobalAwayTeamID": 34,
+        "GlobalHomeTeamID": 20,
+        "Status": "Scheduled"
+    },
+    {
+        "Week": 3,
+        "AwayTeam": "LV",
+        "HomeTeam": "NE",
+        "GlobalAwayTeamID": 25,
+        "GlobalHomeTeamID": 21,
+        "Status": "Scheduled"
+    },
+    {
+        "Week": 3,
+        "AwayTeam": "SF",
+        "HomeTeam": "NYG",
+        "GlobalAwayTeamID": 31,
+        "GlobalHomeTeamID": 23,
+        "Status": "Scheduled"
+    },
+    {
+        "Week": 3,
+        "AwayTeam": "CIN",
+        "HomeTeam": "PHI",
+        "GlobalAwayTeamID": 7,
+        "GlobalHomeTeamID": 26,
+        "Status": "Scheduled"
+    },
+    {
+        "Week": 3,
+        "AwayTeam": "HOU",
+        "HomeTeam": "PIT",
+        "GlobalAwayTeamID": 13,
+        "GlobalHomeTeamID": 28,
+        "Status": "Scheduled"
+    },
+    {
+        "Week": 3,
+        "AwayTeam": "NYJ",
+        "HomeTeam": "IND",
+        "GlobalAwayTeamID": 24,
+        "GlobalHomeTeamID": 14,
+        "Status": "Scheduled"
+    },
+    {
+        "Week": 3,
+        "AwayTeam": "CAR",
+        "HomeTeam": "LAC",
+        "GlobalAwayTeamID": 5,
+        "GlobalHomeTeamID": 29,
+        "Status": "Scheduled"
+    },
+    {
+        "Week": 3,
+        "AwayTeam": "DET",
+        "HomeTeam": "ARI",
+        "GlobalAwayTeamID": 11,
+        "GlobalHomeTeamID": 1,
+        "Status": "Scheduled"
+    },
+    {
+        "Week": 3,
+        "AwayTeam": "TB",
+        "HomeTeam": "DEN",
+        "GlobalAwayTeamID": 33,
+        "GlobalHomeTeamID": 10,
+        "Status": "Scheduled"
+    },
+    {
+        "Week": 3,
+        "AwayTeam": "DAL",
+        "HomeTeam": "SEA",
+        "GlobalAwayTeamID": 9,
+        "GlobalHomeTeamID": 30,
+        "Status": "Scheduled"
+    },
+    {
+        "Week": 3,
+        "AwayTeam": "GB",
+        "HomeTeam": "NO",
+        "GlobalAwayTeamID": 12,
+        "GlobalHomeTeamID": 22,
+        "Status": "Scheduled"
+    },
+    {
+        "Week": 3,
+        "AwayTeam": "KC",
+        "HomeTeam": "BAL",
+        "GlobalAwayTeamID": 16,
+        "GlobalHomeTeamID": 3,
+        "Status": "Scheduled"
+    },
+    {
+        "Week": 4,
+        "AwayTeam": "DEN",
+        "HomeTeam": "NYJ",
+        "GlobalAwayTeamID": 10,
+        "GlobalHomeTeamID": 24,
+        "Status": "Scheduled"
+    },
+    {
+        "Week": 4,
+        "AwayTeam": "ARI",
+        "HomeTeam": "CAR",
+        "GlobalAwayTeamID": 1,
+        "GlobalHomeTeamID": 5,
+        "Status": "Scheduled"
+    },
+    {
+        "Week": 4,
+        "AwayTeam": "IND",
+        "HomeTeam": "CHI",
+        "GlobalAwayTeamID": 14,
+        "GlobalHomeTeamID": 6,
+        "Status": "Scheduled"
+    },
+    {
+        "Week": 4,
+        "AwayTeam": "JAX",
+        "HomeTeam": "CIN",
+        "GlobalAwayTeamID": 15,
+        "GlobalHomeTeamID": 7,
+        "Status": "Scheduled"
+    },
+    {
+        "Week": 4,
+        "AwayTeam": "CLE",
+        "HomeTeam": "DAL",
+        "GlobalAwayTeamID": 8,
+        "GlobalHomeTeamID": 9,
+        "Status": "Scheduled"
+    },
+    {
+        "Week": 4,
+        "AwayTeam": "NO",
+        "HomeTeam": "DET",
+        "GlobalAwayTeamID": 22,
+        "GlobalHomeTeamID": 11,
+        "Status": "Scheduled"
+    },
+    {
+        "Week": 4,
+        "AwayTeam": "MIN",
+        "HomeTeam": "HOU",
+        "GlobalAwayTeamID": 20,
+        "GlobalHomeTeamID": 13,
+        "Status": "Scheduled"
+    },
+    {
+        "Week": 4,
+        "AwayTeam": "SEA",
+        "HomeTeam": "MIA",
+        "GlobalAwayTeamID": 30,
+        "GlobalHomeTeamID": 19,
+        "Status": "Scheduled"
+    },
+    {
+        "Week": 4,
+        "AwayTeam": "LAC",
+        "HomeTeam": "TB",
+        "GlobalAwayTeamID": 29,
+        "GlobalHomeTeamID": 33,
+        "Status": "Scheduled"
+    },
+    {
+        "Week": 4,
+        "AwayTeam": "PIT",
+        "HomeTeam": "TEN",
+        "GlobalAwayTeamID": 28,
+        "GlobalHomeTeamID": 34,
+        "Status": "Scheduled"
+    },
+    {
+        "Week": 4,
+        "AwayTeam": "BAL",
+        "HomeTeam": "WAS",
+        "GlobalAwayTeamID": 3,
+        "GlobalHomeTeamID": 35,
+        "Status": "Scheduled"
+    },
+    {
+        "Week": 4,
+        "AwayTeam": "NYG",
+        "HomeTeam": "LAR",
+        "GlobalAwayTeamID": 23,
+        "GlobalHomeTeamID": 32,
+        "Status": "Scheduled"
+    },
+    {
+        "Week": 4,
+        "AwayTeam": "NE",
+        "HomeTeam": "KC",
+        "GlobalAwayTeamID": 21,
+        "GlobalHomeTeamID": 16,
+        "Status": "Scheduled"
+    },
+    {
+        "Week": 4,
+        "AwayTeam": "BUF",
+        "HomeTeam": "LV",
+        "GlobalAwayTeamID": 4,
+        "GlobalHomeTeamID": 25,
+        "Status": "Scheduled"
+    },
+    {
+        "Week": 4,
+        "AwayTeam": "PHI",
+        "HomeTeam": "SF",
+        "GlobalAwayTeamID": 26,
+        "GlobalHomeTeamID": 31,
+        "Status": "Scheduled"
+    },
+    {
+        "Week": 4,
+        "AwayTeam": "ATL",
+        "HomeTeam": "GB",
+        "GlobalAwayTeamID": 2,
+        "GlobalHomeTeamID": 12,
+        "Status": "Scheduled"
+    },
+    {
+        "Week": 5,
+        "AwayTeam": "BYE",
+        "HomeTeam": "DET",
+        "GlobalHomeTeamID": 11,
+        "Status": null
+    },
+    {
+        "Week": 5,
+        "AwayTeam": "BYE",
+        "HomeTeam": "GB",
+        "GlobalHomeTeamID": 12,
+        "Status": null
+    },
+    {
+        "Week": 5,
+        "AwayTeam": "TB",
+        "HomeTeam": "CHI",
+        "GlobalAwayTeamID": 33,
+        "GlobalHomeTeamID": 6,
+        "Status": "Scheduled"
+    },
+    {
+        "Week": 5,
+        "AwayTeam": "CAR",
+        "HomeTeam": "ATL",
+        "GlobalAwayTeamID": 5,
+        "GlobalHomeTeamID": 2,
+        "Status": "Scheduled"
+    },
+    {
+        "Week": 5,
+        "AwayTeam": "CIN",
+        "HomeTeam": "BAL",
+        "GlobalAwayTeamID": 7,
+        "GlobalHomeTeamID": 3,
+        "Status": "Scheduled"
+    },
+    {
+        "Week": 5,
+        "AwayTeam": "JAX",
+        "HomeTeam": "HOU",
+        "GlobalAwayTeamID": 15,
+        "GlobalHomeTeamID": 13,
+        "Status": "Scheduled"
+    },
+    {
+        "Week": 5,
+        "AwayTeam": "LV",
+        "HomeTeam": "KC",
+        "GlobalAwayTeamID": 25,
+        "GlobalHomeTeamID": 16,
+        "Status": "Scheduled"
+    },
+    {
+        "Week": 5,
+        "AwayTeam": "DEN",
+        "HomeTeam": "NE",
+        "GlobalAwayTeamID": 10,
+        "GlobalHomeTeamID": 21,
+        "Status": "Scheduled"
+    },
+    {
+        "Week": 5,
+        "AwayTeam": "ARI",
+        "HomeTeam": "NYJ",
+        "GlobalAwayTeamID": 1,
+        "GlobalHomeTeamID": 24,
+        "Status": "Scheduled"
+    },
+    {
+        "Week": 5,
+        "AwayTeam": "PHI",
+        "HomeTeam": "PIT",
+        "GlobalAwayTeamID": 26,
+        "GlobalHomeTeamID": 28,
+        "Status": "Scheduled"
+    },
+    {
+        "Week": 5,
+        "AwayTeam": "BUF",
+        "HomeTeam": "TEN",
+        "GlobalAwayTeamID": 4,
+        "GlobalHomeTeamID": 34,
+        "Status": "Scheduled"
+    },
+    {
+        "Week": 5,
+        "AwayTeam": "LAR",
+        "HomeTeam": "WAS",
+        "GlobalAwayTeamID": 32,
+        "GlobalHomeTeamID": 35,
+        "Status": "Scheduled"
+    },
+    {
+        "Week": 5,
+        "AwayTeam": "MIA",
+        "HomeTeam": "SF",
+        "GlobalAwayTeamID": 19,
+        "GlobalHomeTeamID": 31,
+        "Status": "Scheduled"
+    },
+    {
+        "Week": 5,
+        "AwayTeam": "IND",
+        "HomeTeam": "CLE",
+        "GlobalAwayTeamID": 14,
+        "GlobalHomeTeamID": 8,
+        "Status": "Scheduled"
+    },
+    {
+        "Week": 5,
+        "AwayTeam": "NYG",
+        "HomeTeam": "DAL",
+        "GlobalAwayTeamID": 23,
+        "GlobalHomeTeamID": 9,
+        "Status": "Scheduled"
+    },
+    {
+        "Week": 5,
+        "AwayTeam": "MIN",
+        "HomeTeam": "SEA",
+        "GlobalAwayTeamID": 20,
+        "GlobalHomeTeamID": 30,
+        "Status": "Scheduled"
+    },
+    {
+        "Week": 5,
+        "AwayTeam": "LAC",
+        "HomeTeam": "NO",
+        "GlobalAwayTeamID": 29,
+        "GlobalHomeTeamID": 22,
+        "Status": "Scheduled"
+    },
+    {
+        "Week": 6,
+        "AwayTeam": "BYE",
+        "HomeTeam": "LV",
+        "GlobalHomeTeamID": 25,
+        "Status": null
+    },
+    {
+        "Week": 6,
+        "AwayTeam": "BYE",
+        "HomeTeam": "NE",
+        "GlobalHomeTeamID": 21,
+        "Status": null
+    },
+    {
+        "Week": 6,
+        "AwayTeam": "BYE",
+        "HomeTeam": "NO",
+        "GlobalHomeTeamID": 22,
+        "Status": null
+    },
+    {
+        "Week": 6,
+        "AwayTeam": "BYE",
+        "HomeTeam": "SEA",
+        "GlobalHomeTeamID": 30,
+        "Status": null
+    },
+    {
+        "Week": 6,
+        "AwayTeam": "KC",
+        "HomeTeam": "BUF",
+        "GlobalAwayTeamID": 16,
+        "GlobalHomeTeamID": 4,
+        "Status": "Scheduled"
+    },
+    {
+        "Week": 6,
+        "AwayTeam": "CHI",
+        "HomeTeam": "CAR",
+        "GlobalAwayTeamID": 6,
+        "GlobalHomeTeamID": 5,
+        "Status": "Scheduled"
+    },
+    {
+        "Week": 6,
+        "AwayTeam": "CIN",
+        "HomeTeam": "IND",
+        "GlobalAwayTeamID": 7,
+        "GlobalHomeTeamID": 14,
+        "Status": "Scheduled"
+    },
+    {
+        "Week": 6,
+        "AwayTeam": "DET",
+        "HomeTeam": "JAX",
+        "GlobalAwayTeamID": 11,
+        "GlobalHomeTeamID": 15,
+        "Status": "Scheduled"
+    },
+    {
+        "Week": 6,
+        "AwayTeam": "ATL",
+        "HomeTeam": "MIN",
+        "GlobalAwayTeamID": 2,
+        "GlobalHomeTeamID": 20,
+        "Status": "Scheduled"
+    },
+    {
+        "Week": 6,
+        "AwayTeam": "WAS",
+        "HomeTeam": "NYG",
+        "GlobalAwayTeamID": 35,
+        "GlobalHomeTeamID": 23,
+        "Status": "Scheduled"
+    },
+    {
+        "Week": 6,
+        "AwayTeam": "BAL",
+        "HomeTeam": "PHI",
+        "GlobalAwayTeamID": 3,
+        "GlobalHomeTeamID": 26,
+        "Status": "Scheduled"
+    },
+    {
+        "Week": 6,
+        "AwayTeam": "CLE",
+        "HomeTeam": "PIT",
+        "GlobalAwayTeamID": 8,
+        "GlobalHomeTeamID": 28,
+        "Status": "Scheduled"
+    },
+    {
+        "Week": 6,
+        "AwayTeam": "HOU",
+        "HomeTeam": "TEN",
+        "GlobalAwayTeamID": 13,
+        "GlobalHomeTeamID": 34,
+        "Status": "Scheduled"
+    },
+    {
+        "Week": 6,
+        "AwayTeam": "MIA",
+        "HomeTeam": "DEN",
+        "GlobalAwayTeamID": 19,
+        "GlobalHomeTeamID": 10,
+        "Status": "Scheduled"
+    },
+    {
+        "Week": 6,
+        "AwayTeam": "NYJ",
+        "HomeTeam": "LAC",
+        "GlobalAwayTeamID": 24,
+        "GlobalHomeTeamID": 29,
+        "Status": "Scheduled"
+    },
+    {
+        "Week": 6,
+        "AwayTeam": "GB",
+        "HomeTeam": "TB",
+        "GlobalAwayTeamID": 12,
+        "GlobalHomeTeamID": 33,
+        "Status": "Scheduled"
+    },
+    {
+        "Week": 6,
+        "AwayTeam": "LAR",
+        "HomeTeam": "SF",
+        "GlobalAwayTeamID": 32,
+        "GlobalHomeTeamID": 31,
+        "Status": "Scheduled"
+    },
+    {
+        "Week": 6,
+        "AwayTeam": "ARI",
+        "HomeTeam": "DAL",
+        "GlobalAwayTeamID": 1,
+        "GlobalHomeTeamID": 9,
+        "Status": "Scheduled"
+    },
+    {
+        "Week": 7,
+        "AwayTeam": "BYE",
+        "HomeTeam": "IND",
+        "GlobalHomeTeamID": 14,
+        "Status": null
+    },
+    {
+        "Week": 7,
+        "AwayTeam": "BYE",
+        "HomeTeam": "JAX",
+        "GlobalHomeTeamID": 15,
+        "Status": null
+    },
+    {
+        "Week": 7,
+        "AwayTeam": "BYE",
+        "HomeTeam": "MIN",
+        "GlobalHomeTeamID": 20,
+        "Status": null
+    },
+    {
+        "Week": 7,
+        "AwayTeam": "BYE",
+        "HomeTeam": "TEN",
+        "GlobalHomeTeamID": 34,
+        "Status": null
+    },
+    {
+        "Week": 7,
+        "AwayTeam": "NYG",
+        "HomeTeam": "PHI",
+        "GlobalAwayTeamID": 23,
+        "GlobalHomeTeamID": 26,
+        "Status": "Scheduled"
+    },
+    {
+        "Week": 7,
+        "AwayTeam": "DET",
+        "HomeTeam": "ATL",
+        "GlobalAwayTeamID": 11,
+        "GlobalHomeTeamID": 2,
+        "Status": "Scheduled"
+    },
+    {
+        "Week": 7,
+        "AwayTeam": "PIT",
+        "HomeTeam": "BAL",
+        "GlobalAwayTeamID": 28,
+        "GlobalHomeTeamID": 3,
+        "Status": "Scheduled"
+    },
+    {
+        "Week": 7,
+        "AwayTeam": "CLE",
+        "HomeTeam": "CIN",
+        "GlobalAwayTeamID": 8,
+        "GlobalHomeTeamID": 7,
+        "Status": "Scheduled"
+    },
+    {
+        "Week": 7,
+        "AwayTeam": "GB",
+        "HomeTeam": "HOU",
+        "GlobalAwayTeamID": 12,
+        "GlobalHomeTeamID": 13,
+        "Status": "Scheduled"
+    },
+    {
+        "Week": 7,
+        "AwayTeam": "LAC",
+        "HomeTeam": "MIA",
+        "GlobalAwayTeamID": 29,
+        "GlobalHomeTeamID": 19,
+        "Status": "Scheduled"
+    },
+    {
+        "Week": 7,
+        "AwayTeam": "CAR",
+        "HomeTeam": "NO",
+        "GlobalAwayTeamID": 5,
+        "GlobalHomeTeamID": 22,
+        "Status": "Scheduled"
+    },
+    {
+        "Week": 7,
+        "AwayTeam": "BUF",
+        "HomeTeam": "NYJ",
+        "GlobalAwayTeamID": 4,
+        "GlobalHomeTeamID": 24,
+        "Status": "Scheduled"
+    },
+    {
+        "Week": 7,
+        "AwayTeam": "DAL",
+        "HomeTeam": "WAS",
+        "GlobalAwayTeamID": 9,
+        "GlobalHomeTeamID": 35,
+        "Status": "Scheduled"
+    },
+    {
+        "Week": 7,
+        "AwayTeam": "SEA",
+        "HomeTeam": "ARI",
+        "GlobalAwayTeamID": 30,
+        "GlobalHomeTeamID": 1,
+        "Status": "Scheduled"
+    },
+    {
+        "Week": 7,
+        "AwayTeam": "KC",
+        "HomeTeam": "DEN",
+        "GlobalAwayTeamID": 16,
+        "GlobalHomeTeamID": 10,
+        "Status": "Scheduled"
+    },
+    {
+        "Week": 7,
+        "AwayTeam": "SF",
+        "HomeTeam": "NE",
+        "GlobalAwayTeamID": 31,
+        "GlobalHomeTeamID": 21,
+        "Status": "Scheduled"
+    },
+    {
+        "Week": 7,
+        "AwayTeam": "TB",
+        "HomeTeam": "LV",
+        "GlobalAwayTeamID": 33,
+        "GlobalHomeTeamID": 25,
+        "Status": "Scheduled"
+    },
+    {
+        "Week": 7,
+        "AwayTeam": "CHI",
+        "HomeTeam": "LAR",
+        "GlobalAwayTeamID": 6,
+        "GlobalHomeTeamID": 32,
+        "Status": "Scheduled"
+    },
+    {
+        "Week": 8,
+        "AwayTeam": "BYE",
+        "HomeTeam": "ARI",
+        "GlobalHomeTeamID": 1,
+        "Status": null
+    },
+    {
+        "Week": 8,
+        "AwayTeam": "BYE",
+        "HomeTeam": "BAL",
+        "GlobalHomeTeamID": 3,
+        "Status": null
+    },
+    {
+        "Week": 8,
+        "AwayTeam": "BYE",
+        "HomeTeam": "DEN",
+        "GlobalHomeTeamID": 10,
+        "Status": null
+    },
+    {
+        "Week": 8,
+        "AwayTeam": "BYE",
+        "HomeTeam": "HOU",
+        "GlobalHomeTeamID": 13,
+        "Status": null
+    },
+    {
+        "Week": 8,
+        "AwayTeam": "BYE",
+        "HomeTeam": "PIT",
+        "GlobalHomeTeamID": 28,
+        "Status": null
+    },
+    {
+        "Week": 8,
+        "AwayTeam": "BYE",
+        "HomeTeam": "WAS",
+        "GlobalHomeTeamID": 35,
+        "Status": null
+    },
+    {
+        "Week": 8,
+        "AwayTeam": "ATL",
+        "HomeTeam": "CAR",
+        "GlobalAwayTeamID": 2,
+        "GlobalHomeTeamID": 5,
+        "Status": "Scheduled"
+    },
+    {
+        "Week": 8,
+        "AwayTeam": "NE",
+        "HomeTeam": "BUF",
+        "GlobalAwayTeamID": 21,
+        "GlobalHomeTeamID": 4,
+        "Status": "Scheduled"
+    },
+    {
+        "Week": 8,
+        "AwayTeam": "TEN",
+        "HomeTeam": "CIN",
+        "GlobalAwayTeamID": 34,
+        "GlobalHomeTeamID": 7,
+        "Status": "Scheduled"
+    },
+    {
+        "Week": 8,
+        "AwayTeam": "LV",
+        "HomeTeam": "CLE",
+        "GlobalAwayTeamID": 25,
+        "GlobalHomeTeamID": 8,
+        "Status": "Scheduled"
+    },
+    {
+        "Week": 8,
+        "AwayTeam": "IND",
+        "HomeTeam": "DET",
+        "GlobalAwayTeamID": 14,
+        "GlobalHomeTeamID": 11,
+        "Status": "Scheduled"
+    },
+    {
+        "Week": 8,
+        "AwayTeam": "MIN",
+        "HomeTeam": "GB",
+        "GlobalAwayTeamID": 20,
+        "GlobalHomeTeamID": 12,
+        "Status": "Scheduled"
+    },
+    {
+        "Week": 8,
+        "AwayTeam": "NYJ",
+        "HomeTeam": "KC",
+        "GlobalAwayTeamID": 24,
+        "GlobalHomeTeamID": 16,
+        "Status": "Scheduled"
+    },
+    {
+        "Week": 8,
+        "AwayTeam": "LAR",
+        "HomeTeam": "MIA",
+        "GlobalAwayTeamID": 32,
+        "GlobalHomeTeamID": 19,
+        "Status": "Scheduled"
+    },
+    {
+        "Week": 8,
+        "AwayTeam": "JAX",
+        "HomeTeam": "LAC",
+        "GlobalAwayTeamID": 15,
+        "GlobalHomeTeamID": 29,
+        "Status": "Scheduled"
+    },
+    {
+        "Week": 8,
+        "AwayTeam": "NO",
+        "HomeTeam": "CHI",
+        "GlobalAwayTeamID": 22,
+        "GlobalHomeTeamID": 6,
+        "Status": "Scheduled"
+    },
+    {
+        "Week": 8,
+        "AwayTeam": "SF",
+        "HomeTeam": "SEA",
+        "GlobalAwayTeamID": 31,
+        "GlobalHomeTeamID": 30,
+        "Status": "Scheduled"
+    },
+    {
+        "Week": 8,
+        "AwayTeam": "DAL",
+        "HomeTeam": "PHI",
+        "GlobalAwayTeamID": 9,
+        "GlobalHomeTeamID": 26,
+        "Status": "Scheduled"
+    },
+    {
+        "Week": 8,
+        "AwayTeam": "TB",
+        "HomeTeam": "NYG",
+        "GlobalAwayTeamID": 33,
+        "GlobalHomeTeamID": 23,
+        "Status": "Scheduled"
+    },
+    {
+        "Week": 9,
+        "AwayTeam": "BYE",
+        "HomeTeam": "CIN",
+        "GlobalHomeTeamID": 7,
+        "Status": null
+    },
+    {
+        "Week": 9,
+        "AwayTeam": "BYE",
+        "HomeTeam": "CLE",
+        "GlobalHomeTeamID": 8,
+        "Status": null
+    },
+    {
+        "Week": 9,
+        "AwayTeam": "BYE",
+        "HomeTeam": "LAR",
+        "GlobalHomeTeamID": 32,
+        "Status": null
+    },
+    {
+        "Week": 9,
+        "AwayTeam": "BYE",
+        "HomeTeam": "PHI",
+        "GlobalHomeTeamID": 26,
+        "Status": null
+    },
+    {
+        "Week": 9,
+        "AwayTeam": "GB",
+        "HomeTeam": "SF",
+        "GlobalAwayTeamID": 12,
+        "GlobalHomeTeamID": 31,
+        "Status": "Scheduled"
+    },
+    {
+        "Week": 9,
+        "AwayTeam": "DEN",
+        "HomeTeam": "ATL",
+        "GlobalAwayTeamID": 10,
+        "GlobalHomeTeamID": 2,
+        "Status": "Scheduled"
+    },
+    {
+        "Week": 9,
+        "AwayTeam": "SEA",
+        "HomeTeam": "BUF",
+        "GlobalAwayTeamID": 30,
+        "GlobalHomeTeamID": 4,
+        "Status": "Scheduled"
+    },
+    {
+        "Week": 9,
+        "AwayTeam": "BAL",
+        "HomeTeam": "IND",
+        "GlobalAwayTeamID": 3,
+        "GlobalHomeTeamID": 14,
+        "Status": "Scheduled"
+    },
+    {
+        "Week": 9,
+        "AwayTeam": "HOU",
+        "HomeTeam": "JAX",
+        "GlobalAwayTeamID": 13,
+        "GlobalHomeTeamID": 15,
+        "Status": "Scheduled"
+    },
+    {
+        "Week": 9,
+        "AwayTeam": "CAR",
+        "HomeTeam": "KC",
+        "GlobalAwayTeamID": 5,
+        "GlobalHomeTeamID": 16,
+        "Status": "Scheduled"
+    },
+    {
+        "Week": 9,
+        "AwayTeam": "DET",
+        "HomeTeam": "MIN",
+        "GlobalAwayTeamID": 11,
+        "GlobalHomeTeamID": 20,
+        "Status": "Scheduled"
+    },
+    {
+        "Week": 9,
+        "AwayTeam": "CHI",
+        "HomeTeam": "TEN",
+        "GlobalAwayTeamID": 6,
+        "GlobalHomeTeamID": 34,
+        "Status": "Scheduled"
+    },
+    {
+        "Week": 9,
+        "AwayTeam": "NYG",
+        "HomeTeam": "WAS",
+        "GlobalAwayTeamID": 23,
+        "GlobalHomeTeamID": 35,
+        "Status": "Scheduled"
+    },
+    {
+        "Week": 9,
+        "AwayTeam": "LV",
+        "HomeTeam": "LAC",
+        "GlobalAwayTeamID": 25,
+        "GlobalHomeTeamID": 29,
+        "Status": "Scheduled"
+    },
+    {
+        "Week": 9,
+        "AwayTeam": "MIA",
+        "HomeTeam": "ARI",
+        "GlobalAwayTeamID": 19,
+        "GlobalHomeTeamID": 1,
+        "Status": "Scheduled"
+    },
+    {
+        "Week": 9,
+        "AwayTeam": "PIT",
+        "HomeTeam": "DAL",
+        "GlobalAwayTeamID": 28,
+        "GlobalHomeTeamID": 9,
+        "Status": "Scheduled"
+    },
+    {
+        "Week": 9,
+        "AwayTeam": "NO",
+        "HomeTeam": "TB",
+        "GlobalAwayTeamID": 22,
+        "GlobalHomeTeamID": 33,
+        "Status": "Scheduled"
+    },
+    {
+        "Week": 9,
+        "AwayTeam": "NE",
+        "HomeTeam": "NYJ",
+        "GlobalAwayTeamID": 21,
+        "GlobalHomeTeamID": 24,
+        "Status": "Scheduled"
+    },
+    {
+        "Week": 10,
+        "AwayTeam": "BYE",
+        "HomeTeam": "ATL",
+        "GlobalHomeTeamID": 2,
+        "Status": null
+    },
+    {
+        "Week": 10,
+        "AwayTeam": "BYE",
+        "HomeTeam": "DAL",
+        "GlobalHomeTeamID": 9,
+        "Status": null
+    },
+    {
+        "Week": 10,
+        "AwayTeam": "BYE",
+        "HomeTeam": "KC",
+        "GlobalHomeTeamID": 16,
+        "Status": null
+    },
+    {
+        "Week": 10,
+        "AwayTeam": "BYE",
+        "HomeTeam": "LAC",
+        "GlobalHomeTeamID": 29,
+        "Status": null
+    },
+    {
+        "Week": 10,
+        "AwayTeam": "IND",
+        "HomeTeam": "TEN",
+        "GlobalAwayTeamID": 14,
+        "GlobalHomeTeamID": 34,
+        "Status": "Scheduled"
+    },
+    {
+        "Week": 10,
+        "AwayTeam": "TB",
+        "HomeTeam": "CAR",
+        "GlobalAwayTeamID": 33,
+        "GlobalHomeTeamID": 5,
+        "Status": "Scheduled"
+    },
+    {
+        "Week": 10,
+        "AwayTeam": "HOU",
+        "HomeTeam": "CLE",
+        "GlobalAwayTeamID": 13,
+        "GlobalHomeTeamID": 8,
+        "Status": "Scheduled"
+    },
+    {
+        "Week": 10,
+        "AwayTeam": "WAS",
+        "HomeTeam": "DET",
+        "GlobalAwayTeamID": 35,
+        "GlobalHomeTeamID": 11,
+        "Status": "Scheduled"
+    },
+    {
+        "Week": 10,
+        "AwayTeam": "JAX",
+        "HomeTeam": "GB",
+        "GlobalAwayTeamID": 15,
+        "GlobalHomeTeamID": 12,
+        "Status": "Scheduled"
+    },
+    {
+        "Week": 10,
+        "AwayTeam": "PHI",
+        "HomeTeam": "NYG",
+        "GlobalAwayTeamID": 26,
+        "GlobalHomeTeamID": 23,
+        "Status": "Scheduled"
+    },
+    {
+        "Week": 10,
+        "AwayTeam": "CIN",
+        "HomeTeam": "PIT",
+        "GlobalAwayTeamID": 7,
+        "GlobalHomeTeamID": 28,
+        "Status": "Scheduled"
+    },
+    {
+        "Week": 10,
+        "AwayTeam": "BUF",
+        "HomeTeam": "ARI",
+        "GlobalAwayTeamID": 4,
+        "GlobalHomeTeamID": 1,
+        "Status": "Scheduled"
+    },
+    {
+        "Week": 10,
+        "AwayTeam": "DEN",
+        "HomeTeam": "LV",
+        "GlobalAwayTeamID": 10,
+        "GlobalHomeTeamID": 25,
+        "Status": "Scheduled"
+    },
+    {
+        "Week": 10,
+        "AwayTeam": "NYJ",
+        "HomeTeam": "MIA",
+        "GlobalAwayTeamID": 24,
+        "GlobalHomeTeamID": 19,
+        "Status": "Scheduled"
+    },
+    {
+        "Week": 10,
+        "AwayTeam": "SEA",
+        "HomeTeam": "LAR",
+        "GlobalAwayTeamID": 30,
+        "GlobalHomeTeamID": 32,
+        "Status": "Scheduled"
+    },
+    {
+        "Week": 10,
+        "AwayTeam": "SF",
+        "HomeTeam": "NO",
+        "GlobalAwayTeamID": 31,
+        "GlobalHomeTeamID": 22,
+        "Status": "Scheduled"
+    },
+    {
+        "Week": 10,
+        "AwayTeam": "BAL",
+        "HomeTeam": "NE",
+        "GlobalAwayTeamID": 3,
+        "GlobalHomeTeamID": 21,
+        "Status": "Scheduled"
+    },
+    {
+        "Week": 10,
+        "AwayTeam": "MIN",
+        "HomeTeam": "CHI",
+        "GlobalAwayTeamID": 20,
+        "GlobalHomeTeamID": 6,
+        "Status": "Scheduled"
+    },
+    {
+        "Week": 11,
+        "AwayTeam": "BYE",
+        "HomeTeam": "BUF",
+        "GlobalHomeTeamID": 4,
+        "Status": null
+    },
+    {
+        "Week": 11,
+        "AwayTeam": "BYE",
+        "HomeTeam": "CHI",
+        "GlobalHomeTeamID": 6,
+        "Status": null
+    },
+    {
+        "Week": 11,
+        "AwayTeam": "BYE",
+        "HomeTeam": "MIA",
+        "GlobalHomeTeamID": 19,
+        "Status": null
+    },
+    {
+        "Week": 11,
+        "AwayTeam": "BYE",
+        "HomeTeam": "NYG",
+        "GlobalHomeTeamID": 23,
+        "Status": null
+    },
+    {
+        "Week": 11,
+        "AwayTeam": "BYE",
+        "HomeTeam": "NYJ",
+        "GlobalHomeTeamID": 24,
+        "Status": null
+    },
+    {
+        "Week": 11,
+        "AwayTeam": "BYE",
+        "HomeTeam": "SF",
+        "GlobalHomeTeamID": 31,
+        "Status": null
+    },
+    {
+        "Week": 11,
+        "AwayTeam": "ARI",
+        "HomeTeam": "SEA",
+        "GlobalAwayTeamID": 1,
+        "GlobalHomeTeamID": 30,
+        "Status": "Scheduled"
+    },
+    {
+        "Week": 11,
+        "AwayTeam": "TEN",
+        "HomeTeam": "BAL",
+        "GlobalAwayTeamID": 34,
+        "GlobalHomeTeamID": 3,
+        "Status": "Scheduled"
+    },
+    {
+        "Week": 11,
+        "AwayTeam": "DET",
+        "HomeTeam": "CAR",
+        "GlobalAwayTeamID": 11,
+        "GlobalHomeTeamID": 5,
+        "Status": "Scheduled"
+    },
+    {
+        "Week": 11,
+        "AwayTeam": "PHI",
+        "HomeTeam": "CLE",
+        "GlobalAwayTeamID": 26,
+        "GlobalHomeTeamID": 8,
+        "Status": "Scheduled"
+    },
+    {
+        "Week": 11,
+        "AwayTeam": "NE",
+        "HomeTeam": "HOU",
+        "GlobalAwayTeamID": 21,
+        "GlobalHomeTeamID": 13,
+        "Status": "Scheduled"
+    },
+    {
+        "Week": 11,
+        "AwayTeam": "GB",
+        "HomeTeam": "IND",
+        "GlobalAwayTeamID": 12,
+        "GlobalHomeTeamID": 14,
+        "Status": "Scheduled"
+    },
+    {
+        "Week": 11,
+        "AwayTeam": "PIT",
+        "HomeTeam": "JAX",
+        "GlobalAwayTeamID": 28,
+        "GlobalHomeTeamID": 15,
+        "Status": "Scheduled"
+    },
+    {
+        "Week": 11,
+        "AwayTeam": "ATL",
+        "HomeTeam": "NO",
+        "GlobalAwayTeamID": 2,
+        "GlobalHomeTeamID": 22,
+        "Status": "Scheduled"
+    },
+    {
+        "Week": 11,
+        "AwayTeam": "CIN",
+        "HomeTeam": "WAS",
+        "GlobalAwayTeamID": 7,
+        "GlobalHomeTeamID": 35,
+        "Status": "Scheduled"
+    },
+    {
+        "Week": 11,
+        "AwayTeam": "LAC",
+        "HomeTeam": "DEN",
+        "GlobalAwayTeamID": 29,
+        "GlobalHomeTeamID": 10,
+        "Status": "Scheduled"
+    },
+    {
+        "Week": 11,
+        "AwayTeam": "DAL",
+        "HomeTeam": "MIN",
+        "GlobalAwayTeamID": 9,
+        "GlobalHomeTeamID": 20,
+        "Status": "Scheduled"
+    },
+    {
+        "Week": 11,
+        "AwayTeam": "KC",
+        "HomeTeam": "LV",
+        "GlobalAwayTeamID": 16,
+        "GlobalHomeTeamID": 25,
+        "Status": "Scheduled"
+    },
+    {
+        "Week": 11,
+        "AwayTeam": "LAR",
+        "HomeTeam": "TB",
+        "GlobalAwayTeamID": 32,
+        "GlobalHomeTeamID": 33,
+        "Status": "Scheduled"
+    },
+    {
+        "Week": 12,
+        "AwayTeam": "HOU",
+        "HomeTeam": "DET",
+        "GlobalAwayTeamID": 13,
+        "GlobalHomeTeamID": 11,
+        "Status": "Scheduled"
+    },
+    {
+        "Week": 12,
+        "AwayTeam": "WAS",
+        "HomeTeam": "DAL",
+        "GlobalAwayTeamID": 35,
+        "GlobalHomeTeamID": 9,
+        "Status": "Scheduled"
+    },
+    {
+        "Week": 12,
+        "AwayTeam": "BAL",
+        "HomeTeam": "PIT",
+        "GlobalAwayTeamID": 3,
+        "GlobalHomeTeamID": 28,
+        "Status": "Scheduled"
+    },
+    {
+        "Week": 12,
+        "AwayTeam": "LV",
+        "HomeTeam": "ATL",
+        "GlobalAwayTeamID": 25,
+        "GlobalHomeTeamID": 2,
+        "Status": "Scheduled"
+    },
+    {
+        "Week": 12,
+        "AwayTeam": "LAC",
+        "HomeTeam": "BUF",
+        "GlobalAwayTeamID": 29,
+        "GlobalHomeTeamID": 4,
+        "Status": "Scheduled"
+    },
+    {
+        "Week": 12,
+        "AwayTeam": "NYG",
+        "HomeTeam": "CIN",
+        "GlobalAwayTeamID": 23,
+        "GlobalHomeTeamID": 7,
+        "Status": "Scheduled"
+    },
+    {
+        "Week": 12,
+        "AwayTeam": "TEN",
+        "HomeTeam": "IND",
+        "GlobalAwayTeamID": 34,
+        "GlobalHomeTeamID": 14,
+        "Status": "Scheduled"
+    },
+    {
+        "Week": 12,
+        "AwayTeam": "CLE",
+        "HomeTeam": "JAX",
+        "GlobalAwayTeamID": 8,
+        "GlobalHomeTeamID": 15,
+        "Status": "Scheduled"
+    },
+    {
+        "Week": 12,
+        "AwayTeam": "CAR",
+        "HomeTeam": "MIN",
+        "GlobalAwayTeamID": 5,
+        "GlobalHomeTeamID": 20,
+        "Status": "Scheduled"
+    },
+    {
+        "Week": 12,
+        "AwayTeam": "ARI",
+        "HomeTeam": "NE",
+        "GlobalAwayTeamID": 1,
+        "GlobalHomeTeamID": 21,
+        "Status": "Scheduled"
+    },
+    {
+        "Week": 12,
+        "AwayTeam": "MIA",
+        "HomeTeam": "NYJ",
+        "GlobalAwayTeamID": 19,
+        "GlobalHomeTeamID": 24,
+        "Status": "Scheduled"
+    },
+    {
+        "Week": 12,
+        "AwayTeam": "NO",
+        "HomeTeam": "DEN",
+        "GlobalAwayTeamID": 22,
+        "GlobalHomeTeamID": 10,
+        "Status": "Scheduled"
+    },
+    {
+        "Week": 12,
+        "AwayTeam": "SF",
+        "HomeTeam": "LAR",
+        "GlobalAwayTeamID": 31,
+        "GlobalHomeTeamID": 32,
+        "Status": "Scheduled"
+    },
+    {
+        "Week": 12,
+        "AwayTeam": "KC",
+        "HomeTeam": "TB",
+        "GlobalAwayTeamID": 16,
+        "GlobalHomeTeamID": 33,
+        "Status": "Scheduled"
+    },
+    {
+        "Week": 12,
+        "AwayTeam": "CHI",
+        "HomeTeam": "GB",
+        "GlobalAwayTeamID": 6,
+        "GlobalHomeTeamID": 12,
+        "Status": "Scheduled"
+    },
+    {
+        "Week": 12,
+        "AwayTeam": "SEA",
+        "HomeTeam": "PHI",
+        "GlobalAwayTeamID": 30,
+        "GlobalHomeTeamID": 26,
+        "Status": "Scheduled"
+    },
+    {
+        "Week": 13,
+        "AwayTeam": "BYE",
+        "HomeTeam": "CAR",
+        "GlobalHomeTeamID": 5,
+        "Status": null
+    },
+    {
+        "Week": 13,
+        "AwayTeam": "BYE",
+        "HomeTeam": "TB",
+        "GlobalHomeTeamID": 33,
+        "Status": null
+    },
+    {
+        "Week": 13,
+        "AwayTeam": "DAL",
+        "HomeTeam": "BAL",
+        "GlobalAwayTeamID": 9,
+        "GlobalHomeTeamID": 3,
+        "Status": "Scheduled"
+    },
+    {
+        "Week": 13,
+        "AwayTeam": "NO",
+        "HomeTeam": "ATL",
+        "GlobalAwayTeamID": 22,
+        "GlobalHomeTeamID": 2,
+        "Status": "Scheduled"
+    },
+    {
+        "Week": 13,
+        "AwayTeam": "DET",
+        "HomeTeam": "CHI",
+        "GlobalAwayTeamID": 11,
+        "GlobalHomeTeamID": 6,
+        "Status": "Scheduled"
+    },
+    {
+        "Week": 13,
+        "AwayTeam": "IND",
+        "HomeTeam": "HOU",
+        "GlobalAwayTeamID": 14,
+        "GlobalHomeTeamID": 13,
+        "Status": "Scheduled"
+    },
+    {
+        "Week": 13,
+        "AwayTeam": "CIN",
+        "HomeTeam": "MIA",
+        "GlobalAwayTeamID": 7,
+        "GlobalHomeTeamID": 19,
+        "Status": "Scheduled"
+    },
+    {
+        "Week": 13,
+        "AwayTeam": "JAX",
+        "HomeTeam": "MIN",
+        "GlobalAwayTeamID": 15,
+        "GlobalHomeTeamID": 20,
+        "Status": "Scheduled"
+    },
+    {
+        "Week": 13,
+        "AwayTeam": "LV",
+        "HomeTeam": "NYJ",
+        "GlobalAwayTeamID": 25,
+        "GlobalHomeTeamID": 24,
+        "Status": "Scheduled"
+    },
+    {
+        "Week": 13,
+        "AwayTeam": "WAS",
+        "HomeTeam": "PIT",
+        "GlobalAwayTeamID": 35,
+        "GlobalHomeTeamID": 28,
+        "Status": "Scheduled"
+    },
+    {
+        "Week": 13,
+        "AwayTeam": "CLE",
+        "HomeTeam": "TEN",
+        "GlobalAwayTeamID": 8,
+        "GlobalHomeTeamID": 34,
+        "Status": "Scheduled"
+    },
+    {
+        "Week": 13,
+        "AwayTeam": "LAR",
+        "HomeTeam": "ARI",
+        "GlobalAwayTeamID": 32,
+        "GlobalHomeTeamID": 1,
+        "Status": "Scheduled"
+    },
+    {
+        "Week": 13,
+        "AwayTeam": "NYG",
+        "HomeTeam": "SEA",
+        "GlobalAwayTeamID": 23,
+        "GlobalHomeTeamID": 30,
+        "Status": "Scheduled"
+    },
+    {
+        "Week": 13,
+        "AwayTeam": "PHI",
+        "HomeTeam": "GB",
+        "GlobalAwayTeamID": 26,
+        "GlobalHomeTeamID": 12,
+        "Status": "Scheduled"
+    },
+    {
+        "Week": 13,
+        "AwayTeam": "NE",
+        "HomeTeam": "LAC",
+        "GlobalAwayTeamID": 21,
+        "GlobalHomeTeamID": 29,
+        "Status": "Scheduled"
+    },
+    {
+        "Week": 13,
+        "AwayTeam": "DEN",
+        "HomeTeam": "KC",
+        "GlobalAwayTeamID": 10,
+        "GlobalHomeTeamID": 16,
+        "Status": "Scheduled"
+    },
+    {
+        "Week": 13,
+        "AwayTeam": "BUF",
+        "HomeTeam": "SF",
+        "GlobalAwayTeamID": 4,
+        "GlobalHomeTeamID": 31,
+        "Status": "Scheduled"
+    },
+    {
+        "Week": 14,
+        "AwayTeam": "NE",
+        "HomeTeam": "LAR",
+        "GlobalAwayTeamID": 21,
+        "GlobalHomeTeamID": 32,
+        "Status": "Scheduled"
+    },
+    {
+        "Week": 14,
+        "AwayTeam": "DEN",
+        "HomeTeam": "CAR",
+        "GlobalAwayTeamID": 10,
+        "GlobalHomeTeamID": 5,
+        "Status": "Scheduled"
+    },
+    {
+        "Week": 14,
+        "AwayTeam": "HOU",
+        "HomeTeam": "CHI",
+        "GlobalAwayTeamID": 13,
+        "GlobalHomeTeamID": 6,
+        "Status": "Scheduled"
+    },
+    {
+        "Week": 14,
+        "AwayTeam": "DAL",
+        "HomeTeam": "CIN",
+        "GlobalAwayTeamID": 9,
+        "GlobalHomeTeamID": 7,
+        "Status": "Scheduled"
+    },
+    {
+        "Week": 14,
+        "AwayTeam": "GB",
+        "HomeTeam": "DET",
+        "GlobalAwayTeamID": 12,
+        "GlobalHomeTeamID": 11,
+        "Status": "Scheduled"
+    },
+    {
+        "Week": 14,
+        "AwayTeam": "TEN",
+        "HomeTeam": "JAX",
+        "GlobalAwayTeamID": 34,
+        "GlobalHomeTeamID": 15,
+        "Status": "Scheduled"
+    },
+    {
+        "Week": 14,
+        "AwayTeam": "KC",
+        "HomeTeam": "MIA",
+        "GlobalAwayTeamID": 16,
+        "GlobalHomeTeamID": 19,
+        "Status": "Scheduled"
+    },
+    {
+        "Week": 14,
+        "AwayTeam": "ARI",
+        "HomeTeam": "NYG",
+        "GlobalAwayTeamID": 1,
+        "GlobalHomeTeamID": 23,
+        "Status": "Scheduled"
+    },
+    {
+        "Week": 14,
+        "AwayTeam": "MIN",
+        "HomeTeam": "TB",
+        "GlobalAwayTeamID": 20,
+        "GlobalHomeTeamID": 33,
+        "Status": "Scheduled"
+    },
+    {
+        "Week": 14,
+        "AwayTeam": "IND",
+        "HomeTeam": "LV",
+        "GlobalAwayTeamID": 14,
+        "GlobalHomeTeamID": 25,
+        "Status": "Scheduled"
+    },
+    {
+        "Week": 14,
+        "AwayTeam": "NYJ",
+        "HomeTeam": "SEA",
+        "GlobalAwayTeamID": 24,
+        "GlobalHomeTeamID": 30,
+        "Status": "Scheduled"
+    },
+    {
+        "Week": 14,
+        "AwayTeam": "ATL",
+        "HomeTeam": "LAC",
+        "GlobalAwayTeamID": 2,
+        "GlobalHomeTeamID": 29,
+        "Status": "Scheduled"
+    },
+    {
+        "Week": 14,
+        "AwayTeam": "NO",
+        "HomeTeam": "PHI",
+        "GlobalAwayTeamID": 22,
+        "GlobalHomeTeamID": 26,
+        "Status": "Scheduled"
+    },
+    {
+        "Week": 14,
+        "AwayTeam": "WAS",
+        "HomeTeam": "SF",
+        "GlobalAwayTeamID": 35,
+        "GlobalHomeTeamID": 31,
+        "Status": "Scheduled"
+    },
+    {
+        "Week": 14,
+        "AwayTeam": "PIT",
+        "HomeTeam": "BUF",
+        "GlobalAwayTeamID": 28,
+        "GlobalHomeTeamID": 4,
+        "Status": "Scheduled"
+    },
+    {
+        "Week": 14,
+        "AwayTeam": "BAL",
+        "HomeTeam": "CLE",
+        "GlobalAwayTeamID": 3,
+        "GlobalHomeTeamID": 8,
+        "Status": "Scheduled"
+    },
+    {
+        "Week": 15,
+        "AwayTeam": "LAC",
+        "HomeTeam": "LV",
+        "GlobalAwayTeamID": 29,
+        "GlobalHomeTeamID": 25,
+        "Status": "Scheduled"
+    },
+    {
+        "Week": 15,
+        "AwayTeam": "BUF",
+        "HomeTeam": "DEN",
+        "GlobalAwayTeamID": 4,
+        "GlobalHomeTeamID": 10,
+        "Status": "Scheduled"
+    },   
+    {
+        "Week": 15,
+        "AwayTeam": "CAR",
+        "HomeTeam": "GB",
+        "GlobalAwayTeamID": 5,
+        "GlobalHomeTeamID": 12,
+        "Status": "Scheduled"
+    }, 
+    {
+        "Week": 15,
+        "AwayTeam": "HOU",
+        "HomeTeam": "IND",
+        "GlobalAwayTeamID": 13,
+        "GlobalHomeTeamID": 14,
+        "Status": "Scheduled"
+    }, 
+    {
+        "Week": 15,
+        "AwayTeam": "NYJ",
+        "HomeTeam": "LAR",
+        "GlobalAwayTeamID": 24,
+        "GlobalHomeTeamID": 32,
+        "Status": "Scheduled"
+    }, 
+    {
+        "Week": 15,
+        "AwayTeam": "DET",
+        "HomeTeam": "TEN",
+        "GlobalHomeTeamID": 34,
+        "Status": "Scheduled"
+    },  
+    {
+        "Week": 15,
+        "AwayTeam": "TB",
+        "HomeTeam": "ATL",
+        "GlobalAwayTeamID": 33,
+        "GlobalHomeTeamID": 2,
+        "Status": "Scheduled"
+    },
+    {
+        "Week": 15,
+        "AwayTeam": "JAX",
+        "HomeTeam": "BAL",
+        "GlobalAwayTeamID": 15,
+        "GlobalHomeTeamID": 3,
+        "Status": "Scheduled"
+    },
+    {
+        "Week": 15,
+        "AwayTeam": "NE",
+        "HomeTeam": "MIA",
+        "GlobalAwayTeamID": 21,
+        "GlobalHomeTeamID": 19,
+        "Status": "Scheduled"
+    },
+    {
+        "Week": 15,
+        "AwayTeam": "CHI",
+        "HomeTeam": "MIN",
+        "GlobalAwayTeamID": 6,
+        "GlobalHomeTeamID": 20,
+        "Status": "Scheduled"
+    },
+    {
+        "Week": 15,
+        "AwayTeam": "CLE",
+        "HomeTeam": "NYG",
+        "GlobalAwayTeamID": 8,
+        "GlobalHomeTeamID": 23,
+        "Status": "Scheduled"
+    },
+    {
+        "Week": 15,
+        "AwayTeam": "SEA",
+        "HomeTeam": "WAS",
+        "GlobalAwayTeamID": 30,
+        "GlobalHomeTeamID": 35,
+        "Status": "Scheduled"
+    },
+    {
+        "Week": 15,
+        "AwayTeam": "PHI",
+        "HomeTeam": "ARI",
+        "GlobalAwayTeamID": 26,
+        "GlobalHomeTeamID": 1,
+        "Status": "Scheduled"
+    },
+    {
+        "Week": 15,
+        "AwayTeam": "KC",
+        "HomeTeam": "NO",
+        "GlobalAwayTeamID": 16,
+        "GlobalHomeTeamID": 22,
+        "Status": "Scheduled"
+    },
+    {
+        "Week": 15,
+        "AwayTeam": "SF",
+        "HomeTeam": "DAL",
+        "GlobalAwayTeamID": 31,
+        "GlobalHomeTeamID": 9,
+        "Status": "Scheduled"
+    },
+    {
+        "Week": 15,
+        "AwayTeam": "PIT",
+        "HomeTeam": "CIN",
+        "GlobalAwayTeamID": 28,
+        "GlobalHomeTeamID": 7,
+        "Status": "Scheduled"
+    },
+    {
+        "Week": 16,
+        "AwayTeam": "MIN",
+        "HomeTeam": "NO",
+        "GlobalAwayTeamID": 20,
+        "GlobalHomeTeamID": 22,
+        "Status": "Scheduled"
+    },
+    {
+        "Week": 16,
+        "AwayTeam": "SF",
+        "HomeTeam": "ARI",
+        "GlobalHomeTeamID": 1,
+        "Status": "Scheduled"
+    },  
+    {
+        "Week": 16,
+        "AwayTeam": "TB",
+        "HomeTeam": "DET",
+        "GlobalAwayTeamID": 33,
+        "GlobalHomeTeamID": 11,
+        "Status": "Scheduled"
+    },
+            {
+        "Week": 16,
+        "AwayTeam": "DEN",
+        "HomeTeam": "LAC",
+        "GlobalAwayTeamID": 10,
+        "GlobalHomeTeamID": 29,
+        "Status": "Scheduled"
+    },   
+    {
+        "Week": 16,
+        "AwayTeam": "MIA",
+        "HomeTeam": "LV",
+        "GlobalAwayTeamID": 19,
+        "GlobalHomeTeamID": 25,
+        "Status": "Scheduled"
+    },   
+    {
+        "Week": 16,
+        "AwayTeam": "CLE",
+        "HomeTeam": "NYJ",
+        "GlobalAwayTeamID": 8,
+        "GlobalHomeTeamID": 24,
+        "Status": "Scheduled"
+    },   
+    {
+        "Week": 16,
+        "AwayTeam": "NYG",
+        "HomeTeam": "BAL",
+        "GlobalAwayTeamID": 23,
+        "GlobalHomeTeamID": 3,
+        "Status": "Scheduled"
+    },
+    {
+        "Week": 16,
+        "AwayTeam": "CIN",
+        "HomeTeam": "HOU",
+        "GlobalAwayTeamID": 7,
+        "GlobalHomeTeamID": 13,
+        "Status": "Scheduled"
+    },
+    {
+        "Week": 16,
+        "AwayTeam": "CHI",
+        "HomeTeam": "JAX",
+        "GlobalAwayTeamID": 6,
+        "GlobalHomeTeamID": 15,
+        "Status": "Scheduled"
+    },
+    {
+        "Week": 16,
+        "AwayTeam": "ATL",
+        "HomeTeam": "KC",
+        "GlobalAwayTeamID": 2,
+        "GlobalHomeTeamID": 16,
+        "Status": "Scheduled"
+    },
+    {
+        "Week": 16,
+        "AwayTeam": "IND",
+        "HomeTeam": "PIT",
+        "GlobalAwayTeamID": 14,
+        "GlobalHomeTeamID": 28,
+        "Status": "Scheduled"
+    },
+    {
+        "Week": 16,
+        "AwayTeam": "CAR",
+        "HomeTeam": "WAS",
+        "GlobalAwayTeamID": 5,
+        "GlobalHomeTeamID": 35,
+        "Status": "Scheduled"
+    },
+    {
+        "Week": 16,
+        "AwayTeam": "LAR",
+        "HomeTeam": "SEA",
+        "GlobalAwayTeamID": 32,
+        "GlobalHomeTeamID": 30,
+        "Status": "Scheduled"
+    },
+    {
+        "Week": 16,
+        "AwayTeam": "PHI",
+        "HomeTeam": "DAL",
+        "GlobalAwayTeamID": 26,
+        "GlobalHomeTeamID": 9,
+        "Status": "Scheduled"
+    },
+    {
+        "Week": 16,
+        "AwayTeam": "TEN",
+        "HomeTeam": "GB",
+        "GlobalAwayTeamID": 34,
+        "GlobalHomeTeamID": 12,
+        "Status": "Scheduled"
+    },
+    {
+        "Week": 16,
+        "AwayTeam": "BUF",
+        "HomeTeam": "NE",
+        "GlobalAwayTeamID": 4,
+        "GlobalHomeTeamID": 21,
+        "Status": "Scheduled"
+    },
+    {
+        "Week": 17,
+        "AwayTeam": "MIA",
+        "HomeTeam": "BUF",
+        "GlobalAwayTeamID": 19,
+        "GlobalHomeTeamID": 4,
+        "Status": "Scheduled"
+    },
+    {
+        "Week": 17,
+        "AwayTeam": "NO",
+        "HomeTeam": "CAR",
+        "GlobalAwayTeamID": 22,
+        "GlobalHomeTeamID": 5,
+        "Status": "Scheduled"
+    },
+    {
+        "Week": 17,
+        "AwayTeam": "GB",
+        "HomeTeam": "CHI",
+        "GlobalAwayTeamID": 12,
+        "GlobalHomeTeamID": 6,
+        "Status": "Scheduled"
+    },
+    {
+        "Week": 17,
+        "AwayTeam": "BAL",
+        "HomeTeam": "CIN",
+        "GlobalAwayTeamID": 3,
+        "GlobalHomeTeamID": 7,
+        "Status": "Scheduled"
+    },
+    {
+        "Week": 17,
+        "AwayTeam": "PIT",
+        "HomeTeam": "CLE",
+        "GlobalAwayTeamID": 28,
+        "GlobalHomeTeamID": 8,
+        "Status": "Scheduled"
+    },
+    {
+        "Week": 17,
+        "AwayTeam": "MIN",
+        "HomeTeam": "DET",
+        "GlobalAwayTeamID": 20,
+        "GlobalHomeTeamID": 11,
+        "Status": "Scheduled"
+    },
+    {
+        "Week": 17,
+        "AwayTeam": "TEN",
+        "HomeTeam": "HOU",
+        "GlobalAwayTeamID": 34,
+        "GlobalHomeTeamID": 13,
+        "Status": "Scheduled"
+    },
+    {
+        "Week": 17,
+        "AwayTeam": "JAX",
+        "HomeTeam": "IND",
+        "GlobalAwayTeamID": 15,
+        "GlobalHomeTeamID": 14,
+        "Status": "Scheduled"
+    },
+    {
+        "Week": 17,
+        "AwayTeam": "LAC",
+        "HomeTeam": "KC",
+        "GlobalAwayTeamID": 29,
+        "GlobalHomeTeamID": 16,
+        "Status": "Scheduled"
+    },
+    {
+        "Week": 17,
+        "AwayTeam": "NYJ",
+        "HomeTeam": "NE",
+        "GlobalAwayTeamID": 24,
+        "GlobalHomeTeamID": 21,
+        "Status": "Scheduled"
+    },
+    {
+        "Week": 17,
+        "AwayTeam": "DAL",
+        "HomeTeam": "NYG",
+        "GlobalAwayTeamID": 9,
+        "GlobalHomeTeamID": 23,
+        "Status": "Scheduled"
+    },
+    {
+        "Week": 17,
+        "AwayTeam": "WAS",
+        "HomeTeam": "PHI",
+        "GlobalAwayTeamID": 35,
+        "GlobalHomeTeamID": 26,
+        "Status": "Scheduled"
+    },
+    {
+        "Week": 17,
+        "AwayTeam": "ATL",
+        "HomeTeam": "TB",
+        "GlobalAwayTeamID": 2,
+        "GlobalHomeTeamID": 33,
+        "Status": "Scheduled"
+    },
+    {
+        "Week": 17,
+        "AwayTeam": "LV",
+        "HomeTeam": "DEN",
+        "GlobalAwayTeamID": 25,
+        "GlobalHomeTeamID": 10,
+        "Status": "Scheduled"
+    },
+    {
+        "Week": 17,
+        "AwayTeam": "ARI",
+        "HomeTeam": "LAR",
+        "GlobalAwayTeamID": 1,
+        "GlobalHomeTeamID": 32,
+        "Status": "Scheduled"
+    },
+    {
+        "Week": 17,
+        "AwayTeam": "SEA",
+        "HomeTeam": "SF",
+        "GlobalAwayTeamID": 30,
+        "GlobalHomeTeamID": 31,
+        "Status": "Scheduled"
+    }
+]
