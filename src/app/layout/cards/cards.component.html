@@ -1,0 +1,36 @@
+<!-- <mat-card class="kep-cards_mat">
+  <img mat-card-image src="{{image}}" width="50%" alt="Photo of a Shiba Inu">
+  <mat-card-header>
+    <mat-card-title>{{name}}</mat-card-title>
+  </mat-card-header>
+  <mat-card-content>
+    <p>
+      {{description}}
+    </p>
+    <p>
+      {{cost | currency}}
+    </p>
+  </mat-card-content>
+  <mat-card-actions>
+    <button mat-button>VER</button>
+  </mat-card-actions>
+</mat-card> -->
+
+<div class="second hero">
+  <img class="hero-profile-img" src="{{image}}" alt="">
+  <div class="hero-description-bk"></div>
+  <div class="hero-logo">
+    <h2>{{name}}</h2>
+  </div>
+  <div class="hero-description">
+    <p>
+      {{description}}
+    </p>
+  </div>
+  <div  class="hero-date">
+    <p>{{cost | currency}}</p>
+  </div>
+  <div class="hero-btn">
+    <button (click)="openDetail(id)"></button>
+  </div>
+</div>

@@ -1,25 +1,24 @@
 <div class="kep-content">
+  <app-header title="Inicio"></app-header>
   <div class="kep-menu">
     <app-menu></app-menu>
   </div>
   <div class="kep-section">
-    <app-header title="Inicio"></app-header>
     <div class="kep-subsection">
       <app-slide img="{{img}}"></app-slide>
     <div class="kep-informative-section">
       <h2>Sección informativa</h2>
-      <ul>
-        <li>
-          <img src="../assets/image/star/12.jpeg" alt="">
-          <h3> Versión actual 1.0.2 </h3>
-          <p>Información de la versión</p>
-        </li>
-        <li>
-          <img src="../assets/image/star/10.jpeg" alt="">
-          <h3> Proxima actualización 1.0.3 </h3>
-          <p>Información de futuras actualizaciones</p>
-        </li>
-      </ul>
+      <div class="kep-cards">
+        <div class="kep-cards_item" *ngFor="let item of items">
+          <app-cards 
+          [name]="item.name"
+          [description]="item.description"
+          [image]="item.images[0].imageId"
+          [cost]="item.cost"
+          [id]="item.propertyId"
+          ></app-cards>
+        </div>
+      </div>
     </div>
   </div>
 </div>

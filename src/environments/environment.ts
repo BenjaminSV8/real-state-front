@@ -7,7 +7,8 @@ export const environment = {
   api: {
     urlJson: {
       urlSchedule: '../assets/json/schedule.json',
-      urlTeams: '../assets/json/teams.json'
+      urlTeams: '../assets/json/teams.json',
+      urlHouses: '../assets/json/deptos.json'
     },
     urlMiddleware: {
       middleware: 'http://localhost:3977/api/'

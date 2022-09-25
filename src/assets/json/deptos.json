@@ -1,0 +1,313 @@
+{
+    "properties": [
+        {
+            "propertyId": "1",
+            "name": "La casota",
+            "cost": 5000000,
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+            "location": "Test",
+            "features": [
+                {
+                    "feature": "Test"
+                },
+                {
+                    "feature": "Test1"
+                }
+            ],
+            "extras": [
+                {
+                    "extra": "Test"
+                },
+                {
+                    "extra": "Test"
+                }
+            ],
+            "propertyType": "House",
+            "status": "Inactive",
+            "images": [
+                {
+                    "imageId": "../../../assets/image/star/2.jpeg"
+                },
+                {
+                    "imageId": "../../../assets/image/star/2.jpeg"
+                },
+                {
+                    "imageId": "../../../assets/image/star/2.jpeg"
+                }
+            ],
+            "contacts": [
+                {
+                    "name": "Juanito Perez Perez",
+                    "mail": "mail@mail.com",
+                    "phoneNumber": "5522489412",
+                    "contactType": "Seller"
+                }
+            ]
+        },
+        {
+            "propertyId": "2",
+            "name": "La casa de los abuelos",
+            "cost": 1000000,
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+            "location": "Test",
+            "features": [
+                {
+                    "feature": "Test"
+                },
+                {
+                    "feature": "Test1"
+                }
+            ],
+            "extras": [
+                {
+                    "extra": "Test"
+                },
+                {
+                    "extra": "Test"
+                }
+            ],
+            "propertyType": "House",
+            "status": "Active",
+            "images": [
+                {
+                    "imageId": "../../../assets/image/star/3.png"
+                },
+                {
+                    "imageId": "../../../assets/image/star/2.jpeg"
+                },
+                {
+                    "imageId": "../../../assets/image/star/2.jpeg"
+                }
+            ],
+            "contacts": [
+                {
+                    "name": "Juanito Perez Perez",
+                    "mail": "mail@mail.com",
+                    "phoneNumber": "5522489412",
+                    "contactType": "Seller"
+                }
+            ]
+        }
+        ,
+        {
+            "propertyId": "3",
+            "name": "La casa de toño",
+            "cost": 5000000,
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+            "location": "Test",
+            "features": [
+                {
+                    "feature": "Test"
+                },
+                {
+                    "feature": "Test1"
+                }
+            ],
+            "extras": [
+                {
+                    "extra": "Test"
+                },
+                {
+                    "extra": "Test"
+                }
+            ],
+            "propertyType": "House",
+            "status": "Active",
+            "images": [
+                {
+                    "imageId": "../../../assets/image/star/4.jpeg"
+                },
+                {
+                    "imageId": "../../../assets/image/star/2.jpeg"
+                },
+                {
+                    "imageId": "../../../assets/image/star/2.jpeg"
+                }
+            ],
+            "contacts": [
+                {
+                    "name": "Juanito Perez Perez",
+                    "mail": "mail@mail.com",
+                    "phoneNumber": "5522489412",
+                    "contactType": "Seller"
+                }
+            ]
+        },
+        {
+            "propertyId": "4",
+            "name": "La casa de toño",
+            "cost": 5000000,
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+            "location": "Test",
+            "features": [
+                {
+                    "feature": "Test"
+                },
+                {
+                    "feature": "Test1"
+                }
+            ],
+            "extras": [
+                {
+                    "extra": "Test"
+                },
+                {
+                    "extra": "Test"
+                }
+            ],
+            "propertyType": "House",
+            "status": "Active",
+            "images": [
+                {
+                    "imageId": "../../../assets/image/star/5.png"
+                },
+                {
+                    "imageId": "../../../assets/image/star/2.jpeg"
+                },
+                {
+                    "imageId": "../../../assets/image/star/2.jpeg"
+                }
+            ],
+            "contacts": [
+                {
+                    "name": "Juanito Perez Perez",
+                    "mail": "mail@mail.com",
+                    "phoneNumber": "5522489412",
+                    "contactType": "Seller"
+                }
+            ]
+        },
+        {
+            "propertyId": "5",
+            "name": "La casa de toño",
+            "cost": 5000000,
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+            "location": "Test",
+            "features": [
+                {
+                    "feature": "Test"
+                },
+                {
+                    "feature": "Test1"
+                }
+            ],
+            "extras": [
+                {
+                    "extra": "Test"
+                },
+                {
+                    "extra": "Test"
+                }
+            ],
+            "propertyType": "House",
+            "status": "Active",
+            "images": [
+                {
+                    "imageId": "../../../assets/image/star/6.jpeg"
+                },
+                {
+                    "imageId": "../../../assets/image/star/2.jpeg"
+                },
+                {
+                    "imageId": "../../../assets/image/star/2.jpeg"
+                }
+            ],
+            "contacts": [
+                {
+                    "name": "Juanito Perez Perez",
+                    "mail": "mail@mail.com",
+                    "phoneNumber": "5522489412",
+                    "contactType": "Seller"
+                }
+            ]
+        },
+        {
+            "propertyId": "8",
+            "name": "La casa de toño",
+            "cost": 5000000,
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+            "location": "Test",
+            "features": [
+                {
+                    "feature": "Test"
+                },
+                {
+                    "feature": "Test1"
+                }
+            ],
+            "extras": [
+                {
+                    "extra": "Test"
+                },
+                {
+                    "extra": "Test"
+                }
+            ],
+            "propertyType": "House",
+            "status": "Active",
+            "images": [
+                {
+                    "imageId": "../../../assets/image/star/7.png"
+                },
+                {
+                    "imageId": "../../../assets/image/star/2.jpeg"
+                },
+                {
+                    "imageId": "../../../assets/image/star/2.jpeg"
+                }
+            ],
+            "contacts": [
+                {
+                    "name": "Juanito Perez Perez",
+                    "mail": "mail@mail.com",
+                    "phoneNumber": "5522489412",
+                    "contactType": "Seller"
+                }
+            ]
+        },
+        {
+            "propertyId": "9",
+            "name": "La casa de toño",
+            "cost": 5000000,
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+            "location": "Test",
+            "features": [
+                {
+                    "feature": "Test"
+                },
+                {
+                    "feature": "Test1"
+                }
+            ],
+            "extras": [
+                {
+                    "extra": "Test"
+                },
+                {
+                    "extra": "Test"
+                }
+            ],
+            "propertyType": "House",
+            "status": "Active",
+            "images": [
+                {
+                    "imageId": "../../../assets/image/star/8.jpeg"
+                },
+                {
+                    "imageId": "../../../assets/image/star/2.jpeg"
+                },
+                {
+                    "imageId": "../../../assets/image/star/2.jpeg"
+                }
+            ],
+            "contacts": [
+                {
+                    "name": "Juanito Perez Perez",
+                    "mail": "mail@mail.com",
+                    "phoneNumber": "5522489412",
+                    "contactType": "Seller"
+                }
+            ]
+        }
+    ]
+}

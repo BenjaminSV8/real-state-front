@@ -9,10 +9,9 @@ import { GuideComponent } from '../app/views/infoComponent/guide/guide.component
 import { ContactComponent } from '../app/views/infoComponent/contact/contact.component';
 
 const routes: Routes = [
-  { path: '', component: LoginComponent },
-  { path: 'home', component: HomeComponent },
+  { path: 'login', component: LoginComponent },
+  { path: '', component: HomeComponent },
   { path: 'games', component: GamesComponent },
-  { path: 'team', component: TeamComponent },
   { path: 'about', component: AboutUsComponent },
   { path: 'guide', component: GuideComponent },
   { path: 'contact', component: ContactComponent }

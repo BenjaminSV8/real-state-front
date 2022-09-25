@@ -1,7 +1,7 @@
 /* You can add global styles to this file, and also import other style files */
-@import url('//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css');
 @import './assets/scss/settings/config.scss';
 @import './assets/scss/atoms/text.scss';
+@import url('//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css');
 
 * {
     margin: 0;
@@ -17,6 +17,89 @@ body {
     margin: 0;
     background: var(--color_zafiro);
     z-index: 0;
+}
+
+nav a{
+    text-align: center;
+	display:block;
+	text-decoration: none;
+	padding: 10px;
+	color: var( --color_cardsFont);
+	border-bottom: 1px solid rgba(255,255,255,0.2);
+	transition: all ease 0.25s;
+    padding-top: 10px;
+}
+ 
+nav a:hover{
+	color: var( --color_cardsFont);
+	border-bottom-color:rgba(255,255,255,0.4);
+}
+
+//Menu
+nav{
+	position: fixed;
+	top: 0;
+	bottom: 0;
+	left:-300px; /* Escondemos nuestro menú con un valor negativo */ 
+	width: 300px;
+	z-index: 1;
+	padding: 90px 30px 30px;
+	background: #dbc8d9;
+	opacity: 0;
+	transition: all 0.75s ease;
+	font-size: 1.2em;
+	overflow-y: auto;
+
+    li {
+        margin-bottom: 25px;
+    }
+}
+.visible_menu nav{
+	left: 0;
+	opacity: 1;
+}
+.visible_menu #content{
+    transform: translateX(260px);
+}
+
+#menu_on{
+	display: inline-block;
+	width:30px;
+	height: 20px;
+	position: relative;
+	z-index: 2;
+    left: 45%;
+}
+ 
+#menu_on span{
+	width: 100%;
+	height: 4px;
+	border-radius: 4px;
+	display: block;
+	position: absolute;
+	background: rgb(0, 0, 0);
+	transition: all 0.25s ease; /* Propiedades a animar | Tiempo | Tipo animación*/
+	transform-origin : 0px 100%;
+}
+ 
+#menu_on span:nth-child(2){
+	top: calc(50% - 2px);
+}
+ 
+#menu_on span:nth-child(3){
+bottom: 0;
+}
+
+.visible_menu .hamburger-line_one{
+	transform: rotate(45deg) translate(-2px,1px); 
+}
+ 
+.visible_menu .hamburger-line_two{
+	opacity: 0;
+}
+ 
+.visible_menu .hamburger-line_three{
+	transform: rotate(-45deg) translate(-3px,3px); 
 }
 
 // Login
@@ -66,8 +149,9 @@ body {
 
 /* Header */
 .kep-header {
-    background: var(--color_zafiroNegro);
-    color: var(--color_keplerAqua);
+    position: absolute;
+    padding-left: 20px;    
+    background: none;
     padding-top: 22px;
 }
 
@@ -107,7 +191,6 @@ body {
 .kep-section {
     order: 1;
     width: 100%;
-    padding-left: 20px;
 }
 
 .kep-subsection {
@@ -124,7 +207,7 @@ body {
 
 /* Informative-section */
 .kep-informative-section {
-    color: white;
+    color: var(--color_cardsFont);
     text-align: center;
     line-height: 20px;
 }
@@ -133,11 +216,43 @@ body {
     margin-bottom: 16px;
 }
 
-.kep-informative-section li {
-    margin-bottom: 40px;
+.kep-informative-section .kep-cards {
+    justify-content: space-around;
+    display: flex;
+    flex-wrap: wrap;
 }
 
+.kep-cards_item {
+    list-style: none;
+    flex: 0 0 calc(33.333333% - 5em);
+}
 
+.kep-informative-section .kep-cards_mat {
+    margin-bottom: 40px;
+    max-height: 55vh;
+}
+
+.kep-informative-section .kep-cards_mat img{
+    height: 22vh;
+    width: 33vh;
+}
+
+.mat-card-content {
+    margin-bottom: 0px !important;
+    text-align: left;
+}
+
+.mat-card-header-text {
+    margin: 0px !important;
+}
+
+.mat-card-header .mat-card-title {
+    margin-bottom: 0px !important;
+}
+
+.mat-typography p {
+    margin: 0px 0 0px !important;
+}
 /* List-games */
 .kep-list-games {
     color: white;
@@ -403,108 +518,13 @@ a:hover {
   background: var(--color_zafiro);
 }
 
-// sidenav
-
-.fa-2x {
-    font-size: 2em;
-}
-
-.fa {
-    width: 60px;
-    height: 36px;
-    margin-top: 15px;
-    font-size: 20px;
-}
-
-.main-menu:hover, nav.main-menu.expanded {
-    width: 250px;
-    position: fixed;
-    overflow: visible;
-}
-
-.main-menu {
-    position: fixed;
-    background: var(--color_zafiroAzul);
-    height: 100%;
-    padding-left: 5px;
-    width: 25px;
-    overflow: hidden;
-    -webkit-transition: width 0.05s linear;
-    transition: width 0.05s linear;
-    -webkit-transform: translateZ(0) scale(1, 1);
-    z-index: 1000;
-}
-
-.main-menu>ul {
-    margin: 0px 0;
-}
-
-.main-menu li {
-    position: relative;
-    display: block;
-    width: 250px;
-    height: 50px;
-    padding: 5px 0;
-    top: 10px;
-}
-
-.main-menu li>a {
-    display: table;
-    border-collapse: collapse;
-    border-spacing: 0;
-    color: var(--color_keplerAqua);
-    font-family: arial;
-    font-size: 14px;
-    text-decoration: none;
-    -webkit-transform: translateZ(0) scale(1, 1);
-    -webkit-transition: all 0.1s linear;
-    transition: all 0.1s linear;
-}
-
-.main-menu .nav-icon {
-    position: relative;
-    display: table-cell;
-    width: 60px;
-    height: 36px;
-    text-align: center;
-    vertical-align: middle;
-    font-size: 18px;
-}
-
-.main-menu .nav-text {
-    vertical-align: middle;
-    display: table-cell;
-    width: 190px;
-    font-family: 'Titillium Web', sans-serif;
-}
-
-.main-menu>ul.logout {
-    position: absolute;
-    bottom: 0;
-}
-
-.no-touch .scrollable.hover {
-    overflow-y: hidden;
-}
-
-.no-touch .scrollable.hover:hover {
-    overflow-y: auto;
-    overflow: visible;
-}
-
-a:hover, a:focus {
-    text-decoration: none;
-    background:  var(--color_keplerAqua);
-}
-
-.main-menu li:hover>a, nav.main-menu li.active>a, .dropdown-menu>li>a:hover, .dropdown-menu>li>a:focus, .dropdown-menu>.active>a, .dropdown-menu>.active>a:hover, .dropdown-menu>.active>a:focus, .no-touch .dashboard-page nav.dashboard-menu ul li:hover a, .dashboard-page nav.dashboard-menu ul li.active a {
-    color:  var(--color_keplerAqua);
-    background-color: var(--color_zafiro);
-}
-
 // Media querie
 
 @media screen and (min-width: 765px) {
+    #menu_on{
+        left: 95%;
+    }
+
     body {
 		font-size:140%;
 		/* ampliamos más aún los textos si mide más de 1200px */
@@ -552,12 +572,11 @@ a:hover, a:focus {
     .kep-section {
         order: 1;
         width: 100%;
-        margin-left: 20px;
     }
 
     .kep-content-presentation-slide .img {
-        height: 628px;
-    }
+        height: 280px;
+        }
 
     .kep-informative-section {
         line-height: 40px;
@@ -577,7 +596,7 @@ a:hover, a:focus {
 
     .main-menu {
         padding-left: 14px;
-        width: 40px;
+        width: 80px;
     }
     
     .main-menu .nav-icon {
@@ -611,3 +630,6 @@ a:hover, a:focus {
         width: 250px;
     }
 }
+
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }

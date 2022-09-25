@@ -16,6 +16,11 @@ import { TeamComponent } from './views/nflComponent/team/team.component';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { OrchestationComponent } from './layout/orchestation/orchestation.component';
 import { NavHeaderComponent } from './layout/nav/nav-header/nav-header.component';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { MatSliderModule } from '@angular/material/slider';
+import {MatCardModule} from '@angular/material/card';
+import { CardsComponent } from './layout/cards/cards.component'
+import { HamburgerComponent } from './layout/hamburger/hamburger.component'
 
 @NgModule({
   declarations: [
@@ -31,7 +36,9 @@ import { NavHeaderComponent } from './layout/nav/nav-header/nav-header.component
     SlideComponent,
     TeamComponent,
     OrchestationComponent,
-    NavHeaderComponent
+    NavHeaderComponent,
+    CardsComponent,
+    HamburgerComponent
   ],
   imports: [
     BrowserModule,
@@ -39,6 +46,9 @@ import { NavHeaderComponent } from './layout/nav/nav-header/nav-header.component
     AppRoutingModule,
     FormsModule,
     ReactiveFormsModule,
+    BrowserAnimationsModule,
+    MatSliderModule,
+    MatCardModule
   ],
   providers: [],
   bootstrap: [AppComponent]
