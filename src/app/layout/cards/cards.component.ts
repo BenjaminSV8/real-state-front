@@ -11,10 +11,11 @@ export class CardsComponent implements OnInit {
   @Input() cost = '';
   @Input() image = '';
   @Input() id = ''; 
-
+  descriptionSub = '';
   constructor() { }
 
   ngOnInit(): void {
+    this.descriptionSub = this.description.substring(0, 60) + "...";
   }
 
   openDetail(id: any){

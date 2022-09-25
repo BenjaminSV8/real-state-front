@@ -26,13 +26,13 @@
             "status": "Inactive",
             "images": [
                 {
-                    "imageId": "../../../assets/image/star/2.jpeg"
+                    "imageId": "../../../assets/image/homes/home-1.jpg"
                 },
                 {
-                    "imageId": "../../../assets/image/star/2.jpeg"
+                    "imageId": "../../../assets/image/homes/home-2.jpg"
                 },
                 {
-                    "imageId": "../../../assets/image/star/2.jpeg"
+                    "imageId": "../../../assets/image/homes/home-3.jpg"
                 }
             ],
             "contacts": [
@@ -48,7 +48,7 @@
             "propertyId": "2",
             "name": "La casa de los abuelos",
             "cost": 1000000,
-            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
             "location": "Test",
             "features": [
                 {
@@ -70,13 +70,13 @@
             "status": "Active",
             "images": [
                 {
-                    "imageId": "../../../assets/image/star/3.png"
+                    "imageId": "../../../assets/image/homes/home-3.jpg"
                 },
                 {
-                    "imageId": "../../../assets/image/star/2.jpeg"
+                    "imageId": "../../../assets/image/homes/home-2.jpg"
                 },
                 {
-                    "imageId": "../../../assets/image/star/2.jpeg"
+                    "imageId": "../../../assets/image/homes/home-1.jpg"
                 }
             ],
             "contacts": [
@@ -115,13 +115,13 @@
             "status": "Active",
             "images": [
                 {
-                    "imageId": "../../../assets/image/star/4.jpeg"
+                    "imageId": "../../../assets/image/homes/home-4.jpg"
                 },
                 {
-                    "imageId": "../../../assets/image/star/2.jpeg"
+                    "imageId": "../../../assets/image/homes/home-2.jpg"
                 },
                 {
-                    "imageId": "../../../assets/image/star/2.jpeg"
+                    "imageId": "../../../assets/image/homes/home-5.jpg"
                 }
             ],
             "contacts": [
@@ -159,13 +159,13 @@
             "status": "Active",
             "images": [
                 {
-                    "imageId": "../../../assets/image/star/5.png"
+                    "imageId": "../../../assets/image/homes/home-5.jpg"
                 },
                 {
-                    "imageId": "../../../assets/image/star/2.jpeg"
+                    "imageId": "../../../assets/image/homes/home-2.jpg"
                 },
                 {
-                    "imageId": "../../../assets/image/star/2.jpeg"
+                    "imageId": "../../../assets/image/homes/home-4.jpg"
                 }
             ],
             "contacts": [
@@ -203,13 +203,13 @@
             "status": "Active",
             "images": [
                 {
-                    "imageId": "../../../assets/image/star/6.jpeg"
+                    "imageId": "../../../assets/image/homes/home-6.jpg"
                 },
                 {
-                    "imageId": "../../../assets/image/star/2.jpeg"
+                    "imageId": "../../../assets/image/homes/home-2.jpg"
                 },
                 {
-                    "imageId": "../../../assets/image/star/2.jpeg"
+                    "imageId": "../../../assets/image/homes/home-1.jpg"
                 }
             ],
             "contacts": [
@@ -247,57 +247,13 @@
             "status": "Active",
             "images": [
                 {
-                    "imageId": "../../../assets/image/star/7.png"
+                    "imageId": "../../../assets/image/homes/home-1.jpg"
                 },
                 {
-                    "imageId": "../../../assets/image/star/2.jpeg"
+                    "imageId": "../../../assets/image/homes/home-3.jpg"
                 },
                 {
-                    "imageId": "../../../assets/image/star/2.jpeg"
-                }
-            ],
-            "contacts": [
-                {
-                    "name": "Juanito Perez Perez",
-                    "mail": "mail@mail.com",
-                    "phoneNumber": "5522489412",
-                    "contactType": "Seller"
-                }
-            ]
-        },
-        {
-            "propertyId": "9",
-            "name": "La casa de toño",
-            "cost": 5000000,
-            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-            "location": "Test",
-            "features": [
-                {
-                    "feature": "Test"
-                },
-                {
-                    "feature": "Test1"
-                }
-            ],
-            "extras": [
-                {
-                    "extra": "Test"
-                },
-                {
-                    "extra": "Test"
-                }
-            ],
-            "propertyType": "House",
-            "status": "Active",
-            "images": [
-                {
-                    "imageId": "../../../assets/image/star/8.jpeg"
-                },
-                {
-                    "imageId": "../../../assets/image/star/2.jpeg"
-                },
-                {
-                    "imageId": "../../../assets/image/star/2.jpeg"
+                    "imageId": "../../../assets/image/homes/home-2.jpg"
                 }
             ],
             "contacts": [

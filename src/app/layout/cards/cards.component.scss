@@ -9,6 +9,10 @@
     overflow:hidden;
     box-shadow: 5px 5px 30px var(--color_cardsBorder);
     margin: 30px;
+
+    img {
+      width: 100%;
+    }
   }
   
   .hero-description-bk {

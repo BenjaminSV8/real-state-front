@@ -32,7 +32,6 @@ nav a{
 }
  
 nav a:hover{
-	color: var( --color_cardsFont);
 	border-bottom-color:rgba(255,255,255,0.4);
 }
 
@@ -67,9 +66,9 @@ nav{
 	display: inline-block;
 	width:30px;
 	height: 20px;
-	position: relative;
+	position: fixed;
 	z-index: 2;
-    left: 45%;
+    left: 4%;
 }
  
 #menu_on span{
@@ -78,7 +77,7 @@ nav{
 	border-radius: 4px;
 	display: block;
 	position: absolute;
-	background: rgb(0, 0, 0);
+	background: var(--color_cardsFont);
 	transition: all 0.25s ease; /* Propiedades a animar | Tiempo | Tipo animación*/
 	transform-origin : 0px 100%;
 }
@@ -523,7 +522,7 @@ a:hover {
 
 @media screen and (min-width: 765px) {
     #menu_on{
-        left: 95%;
+        left: 4%;
     }
 
     body {

@@ -7,7 +7,7 @@ import { HousesService } from '../../../service/houses';
   styleUrls: ['./home.component.scss']
 })
 export class HomeComponent implements OnInit {
-  img = '../../assets/image/img/houses-2.jpg';
+  img = '../../assets/image/homes/house-10.jpg';
   items = [];
   constructor(
     private housesService: HousesService
