@@ -8,7 +8,7 @@ import { HousesService } from '../../../service/houses';
 })
 export class HomeComponent implements OnInit {
   img = '../../assets/image/img/houses-2.jpg';
-  items = {};
+  items = [];
   constructor(
     private housesService: HousesService
     ) { }
@@ -21,10 +21,9 @@ export class HomeComponent implements OnInit {
     let houses = [];
     this.housesService.getHouses().subscribe(
       (data: any) => {
-        const dat = data.properties;
-        console.log(dat);
+        const dat = data?.properties;
         dat.forEach(element => {
-          if (element.status === 'Active') {
+          if (element?.status === 'Active') {
             houses.push(element);
           }
       })
