@@ -1,20 +1,15 @@
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
 import { HomeComponent } from '../app/views/infoComponent/home/home.component';
-import { GamesComponent } from '../app/views/nflComponent/games/games.component';
-import { TeamComponent } from '../app/views/nflComponent/team/team.component';
-import { LoginComponent } from '../app/views/login/login.component';
-import { AboutUsComponent } from '../app/views/infoComponent/about-us/about-us.component';
-import { GuideComponent } from '../app/views/infoComponent/guide/guide.component';
-import { ContactComponent } from '../app/views/infoComponent/contact/contact.component';
+import { DetailComponent } from '../app/views/infoComponent/detail/detail.component';
+import { AboutUsComponent } from '../app/views/company/about-us/about-us.component';
+import { ContactComponent } from '../app/views/company/contact/contact.component';
 
 const routes: Routes = [
-  { path: 'login', component: LoginComponent },
   { path: '', component: HomeComponent },
-  { path: 'games', component: GamesComponent },
   { path: 'about', component: AboutUsComponent },
-  { path: 'guide', component: GuideComponent },
-  { path: 'contact', component: ContactComponent }
+  { path: 'contact', component: ContactComponent },
+  { path: 'detail', component: DetailComponent }
 ];
 
 @NgModule({

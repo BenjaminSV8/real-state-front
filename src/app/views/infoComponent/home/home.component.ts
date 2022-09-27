@@ -21,7 +21,8 @@ export class HomeComponent implements OnInit {
     let houses = [];
     this.housesService.getHouses().subscribe(
       (data: any) => {
-        const dat = data?.properties;
+        const dat = data?.data.propertyList;
+        console.log(dat)
         dat.forEach(element => {
           if (element?.status === 'Active') {
             houses.push(element);

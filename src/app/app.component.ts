@@ -1,5 +1,4 @@
 import { Component } from '@angular/core';
-import { GamesService } from './service/games.service';
 
 @Component({
   selector: 'app-root',
@@ -9,6 +8,5 @@ import { GamesService } from './service/games.service';
 export class AppComponent {
   title = 'Cms';
   constructor(
-    private games: GamesService
   ) { }
 }

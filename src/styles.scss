@@ -102,10 +102,6 @@ bottom: 0;
 	transform: rotate(-45deg) translate(-3px,3px); 
 }
 
-// Login
-.kep-login-content {
-}
-
 // Logo
 .kep-login-content-image {
     margin-top: 0;
@@ -193,9 +189,6 @@ bottom: 0;
     width: 100%;
 }
 
-.kep-subsection {
-}
-
 .kep-content-presentation-slide {
     .img {
         height: 240px;
@@ -217,7 +210,6 @@ bottom: 0;
 }
 
 .kep-informative-section .kep-cards {
-    justify-content: space-around;
     display: flex;
     flex-wrap: wrap;
 }
@@ -500,17 +492,9 @@ section#login form button#log {
 }
 
 /* -- Footer -- */
-footer {
-    margin-top: 711px;
+.kep-footer {
     margin: auto;
-    width: 105%;
-    height: 62px;
-    text-align: center;
-    color: var( --color_cardsFont);
-    line-height: 62px;
-    font-size: 18px;
-    background: var(--color_zafiro);
-    bottom: 0;
+    width: 100%;
 }
 
 a:hover {
@@ -518,7 +502,54 @@ a:hover {
   background: var(--color_zafiro);
 }
 
+
+
 // Media querie
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .kep-content-presentation-slide .img {
+        height: 200px;
+        }
+  }
+  
+  /* Small devices (portrait tablets and large phones, 600px and up) */
+  @media only screen and (min-width: 600px) {
+    .kep-content-presentation-slide .img {
+        height: 200px;
+        }
+  }
+  
+  /* Medium devices (landscape tablets, 768px and up) */
+  @media only screen and (min-width: 768px) {
+    .kep-informative-section .kep-cards {
+        margin-left: 4%;
+    }
+    .kep-content-presentation-slide .img {
+        height: 200px;
+        }
+  } 
+  
+  /* Large devices (laptops/desktops, 992px and up) */
+  @media only screen and (min-width: 992px) {
+    .kep-informative-section .kep-cards {
+        margin-left: 10%;
+    }
+    .kep-content-presentation-slide .img {
+        height: 340px;
+        }
+  } 
+  
+  /* Extra large devices (large laptops and desktops, 1200px and up) */
+  @media only screen and (min-width: 1200px) {
+    .kep-informative-section .kep-cards {
+        margin-left: 10%;
+    }
+    .kep-content-presentation-slide .img {
+        height: 380px;
+        }
+  }
+
 
 @media screen and (min-width: 765px) {
     #menu_on{
@@ -574,9 +605,7 @@ a:hover {
         width: 100%;
     }
 
-    .kep-content-presentation-slide .img {
-        height: 280px;
-        }
+
 
     .kep-informative-section {
         line-height: 40px;

@@ -1,0 +1,46 @@
+{
+    "status": "200 OK",
+    "data": {
+        "propertyId": "1",
+        "name": "Casa1",
+        "cost": 1800000,
+        "description": "Casa chica",
+        "location": {
+            "country": "Mexico",
+            "state": "Mexico",
+            "city": "Naucalpan",
+            "complement": "123"
+        },
+        "features": [
+            {
+                "feature": "sala"
+            },
+            {
+                "feature": "comedor"
+            },
+            {
+                "feature": "jarding"
+            }
+        ],
+        "extras": [
+            {
+                "extra": "Extra"
+            }
+        ],
+        "propertyType": "House",
+        "status": "Inactive",
+        "images": [
+            {
+                "imagePath": "/home/images"
+            }
+        ],
+        "contacts": [
+            {
+                "name": "Ana",
+                "mail": "ana@mail.com",
+                "phoneNumber": "3334445556",
+                "contactType": "Principal"
+            }
+        ]
+    }
+}

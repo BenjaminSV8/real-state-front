@@ -6,19 +6,27 @@ import { environment } from 'src/environments/environment';
   providedIn: 'root'
 })
 export class HousesService {
-  public urlJson = environment.api.urlJson;
-  public urlMiddleware = environment.api.urlMiddleware.middleware;
-
+  public url
   constructor(
     private http: HttpClient
   ) {
-
+    if (environment.mock) {
+      this.url = environment.api.urlJson;
+    } else {
+      this.url = environment.api.urlMiddleware;
+    }
   }
 
     
   // Data Houses
   public getHouses(): any {
-    return this.http.get(this.urlJson.urlHouses);
+    return this.http.get(this.url.urlProperties);
   }
 
+    // Data House selected
+    public getHouse(id: any): any {
+
+      return this.http.get(this.url.urlPropertiesId);
+    }
+  
 }

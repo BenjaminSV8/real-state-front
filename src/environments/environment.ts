@@ -4,13 +4,15 @@
 
 export const environment = {
   production: false,
+  mock: true,
   api: {
     urlJson: {
-      urlSchedule: '../assets/json/schedule.json',
-      urlTeams: '../assets/json/teams.json',
-      urlHouses: '../assets/json/deptos.json'
+      urlProperties: '../assets/json/deptos.json',
+      urlPropertiesId: '../assets/json/1.json'
     },
     urlMiddleware: {
+      urlProperties: 'https://b01989a6-6072-4f23-8664-42c97dc42f54.mock.pstmn.io/v1/real-state/properties',
+      urlPropertiesId: 'https://b01989a6-6072-4f23-8664-42c97dc42f54.mock.pstmn.io/v1/real-state/properties',
       middleware: 'http://localhost:3977/api/'
     }
   }

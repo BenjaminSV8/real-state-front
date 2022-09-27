@@ -1,4 +1,5 @@
 import { Component, OnInit, Input } from '@angular/core';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-cards',
@@ -12,14 +13,15 @@ export class CardsComponent implements OnInit {
   @Input() image = '';
   @Input() id = ''; 
   descriptionSub = '';
-  constructor() { }
+  constructor(public router : Router) { }
 
   ngOnInit(): void {
     this.descriptionSub = this.description.substring(0, 60) + "...";
   }
 
   openDetail(id: any){
-    console.log(id)
+    localStorage.setItem('id', id);
+    this.router.navigate(['detail']);
   }
 
 }
