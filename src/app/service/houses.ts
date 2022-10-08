@@ -26,7 +26,7 @@ export class HousesService {
     // Data House selected
     public getHouse(id: any): any {
 
-      return this.http.get(this.url.urlPropertiesId);
+      return this.http.get(this.url.urlPropertiesId + id + '.json');
     }
   
 }

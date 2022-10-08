@@ -1,0 +1,14 @@
+<div class="kep-content-features">
+    <div class="kep-content-section-features">
+        <h2>CARACTERISTICAS</h2>
+        <ul>
+            <li *ngFor="let item of features">{{item.feature | uppercase}}</li>
+        </ul>
+    </div>
+    <div class="kep-content-section-extras">
+        <h2>ADICIONALES</h2>
+        <ul>
+            <li *ngFor="let item of extras">{{item.extra | uppercase}}</li>
+        </ul>
+    </div>
+</div>

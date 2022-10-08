@@ -1,5 +1,10 @@
 <div class="kep-content-section-description">
-    <h2>{{name}}</h2>
-    <h3>{{cost | currency}}</h3>
-    <p>{{description}}</p>
+    <div class="kep-content-description-div">
+        <h2>{{name}}</h2>
+        <h3>{{cost | currency}}</h3>
+        <p *ngIf="description !== 'Campo vacio'">{{description}}</p>
+    </div>
+    <div class="kep-content-maps-div">
+        <app-maps></app-maps>
+    </div>
 </div>

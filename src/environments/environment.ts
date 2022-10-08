@@ -8,7 +8,7 @@ export const environment = {
   api: {
     urlJson: {
       urlProperties: '../assets/json/deptos.json',
-      urlPropertiesId: '../assets/json/1.json'
+      urlPropertiesId: '../assets/json/'
     },
     urlMiddleware: {
       urlProperties: 'https://b01989a6-6072-4f23-8664-42c97dc42f54.mock.pstmn.io/v1/real-state/properties',

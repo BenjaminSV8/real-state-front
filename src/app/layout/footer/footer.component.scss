@@ -3,7 +3,7 @@
     width: 100%;
     position: relative;
     height: auto;
-    background-color: #0f096e;
+    background-color: var(--color_zafiroS);
   }
   .footer .col {
     width: 33%;
@@ -21,8 +21,8 @@
     font-size: 12px;
     line-height: 17px;
     padding: 20px 0px 5px 0px;
-    color: rgba(255,255,255,0.2);
-    font-weight: normal;
+    color: var(--color_cardsFont);
+    font-weight: bold;
     text-transform: uppercase;
     letter-spacing: 0.250em;
   }
@@ -32,10 +32,10 @@
     padding: 0;
   }
   .footer .col ul li {
-    color: #999999;
+    color: var(--color_cardsFont);
     font-size: 14px;
     font-family: inherit;
-    font-weight: bold;
+    font-weight: normal;
     padding: 5px 0px 5px 0px;
     cursor: pointer;
     transition: .2s;
@@ -48,13 +48,38 @@
   }
   
   .footer .col ul li:hover {
-    color: #ffffff;
+    color: var(--color_cardsFont);
     transition: .1s;
     -webkit-transition: .1s;
     -moz-transition: .1s;
   }
   .clearfix {
     clear: both;
+  }
+
+  a {
+    color: var(--color_cardsFont);
+  }
+  
+  a:link {
+    color: var(--color_cardsFont);
+  }
+  
+  a:visited {
+    color: var(--color_cardsFont);
+  }
+  
+  a:focus {
+    color: var(--color_cardsFont);
+  }
+  
+  a:hover {
+    color: var(--color_cardsFont);
+    background: none;
+  }
+  
+  a:active {
+    color: var(--color_cardsFont);
   }
   @media only screen and (min-width: 1280px) {
     .contain {

@@ -6,7 +6,13 @@ import { Component, OnInit, Input } from '@angular/core';
   styleUrls: ['./slide.component.scss']
 })
 export class SlideComponent implements OnInit {
-
+  slides = [
+    {'image': 'https://gsr.dev/material2-carousel/assets/demo.png'}, 
+    {'image': 'https://gsr.dev/material2-carousel/assets/demo.png'},
+    {'image': 'https://gsr.dev/material2-carousel/assets/demo.png'}, 
+    {'image': 'https://gsr.dev/material2-carousel/assets/demo.png'}, 
+    {'image': 'https://gsr.dev/material2-carousel/assets/demo.png'}
+  ];
   @Input('img') public img: string;
 
   constructor() { }

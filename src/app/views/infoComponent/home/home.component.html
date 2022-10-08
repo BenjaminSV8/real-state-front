@@ -7,11 +7,11 @@
       <div class="kep-cards">
         <div class="kep-cards_item" *ngFor="let item of items ">
           <app-cards 
-          [name]="item?.name"
-          [description]="item?.description"
-          [image]="item?.image"
-          [cost]="item?.cost"
-          [id]="item?.propertyId"
+          [name]="item.name"
+          [description]="item.description"
+          [image]="item.image"
+          [cost]="item.cost"
+          [id]="item.propertyId"
           ></app-cards>
         </div>
       </div>

@@ -7,14 +7,17 @@
   <base href="/">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="icon" type="image/x-icon" href="./assets/image/icons/favicon.ico">
+  <!-- Browsers with ES module support load this file. -->
+  <!-- <script type="module" src="./assets/modules/main.mjs"></script> -->
+  <!-- Older browsers load this file (and module-supporting -->
+  <!-- browsers know *not* to load this file). -->
+  <!-- <script nomodule src="./assets/modules/main.es5.js"></script> -->
   <script src=https://cdn.jsdelivr.net/npm/jquery@3.6/dist/jquery.min.js></script>
   <link rel="preconnect" href="https://fonts.gstatic.com">
   <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-
-  <script src="http://code.jquery.com/jquery-3.2.1.slim.min.js"
-    integrity="sha256-k2WSCIexGzOj3Euiig+TlR8gA0EmPjuc79OEeY5L45g=" crossorigin="anonymous">
-    </script>
+  <!-- <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyD9FXrorIxQl78o2Wk7qVUPK6M-iqZ-yEU"> -->
+  <!-- </script> -->
 </head>
 
 <body class="mat-typography">

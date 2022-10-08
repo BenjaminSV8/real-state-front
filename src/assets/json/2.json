@@ -1,10 +1,10 @@
 {
     "status": "200 OK",
     "data": {
-        "propertyId": "1",
-        "name": "Casa1",
+        "propertyId": "2",
+        "name": "Casa2",
         "cost": 1800000,
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Proin fermentum leo vel orci porta non pulvinar. Egestas egestas fringilla phasellus faucibus. Sed faucibus turpis in eu. Amet consectetur adipiscing elit ut aliquam purus sit amet luctus. Commodo elit at imperdiet dui accumsan. Molestie ac feugiat sed lectus vestibulum mattis ullamcorper velit. Nec ultrices dui sapien eget mi proin sed libero.",
+        "description": "Campo vacio",
         "location": {
             "country": "Mexico",
             "state": "Mexico",
