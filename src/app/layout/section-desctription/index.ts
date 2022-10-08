@@ -1,0 +1,1 @@
+export { SectionDescriptionComponent } from './section-description.component';  

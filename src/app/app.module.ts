@@ -7,11 +7,14 @@ import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { LayoutModule } from './layout/layout.module';
 import { ViewsModule } from './views/views.module';
+import { OrchestationComponent } from './layout/orchestation';
+import { FooterComponent } from './layout/footer';
 
 @NgModule({
   declarations: [
     AppComponent,
-
+    OrchestationComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,
@@ -21,7 +24,7 @@ import { ViewsModule } from './views/views.module';
     ReactiveFormsModule,
     BrowserAnimationsModule,
     LayoutModule,
-    ViewsModule
+    ViewsModule,
   ],
   providers: [],
   bootstrap: [AppComponent]

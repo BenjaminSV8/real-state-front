@@ -1,20 +1,20 @@
 import { async, ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { SlideComponent } from './slide.component';
+import { SectionFilterComponent } from './section-filter.component';
 
-describe('SlideComponent', () => {
-  let component: SlideComponent;
-  let fixture: ComponentFixture<SlideComponent>;
+describe('SectionFilterComponent', () => {
+  let component: SectionFilterComponent;
+  let fixture: ComponentFixture<SectionFilterComponent>;
 
   beforeEach(async(() => {
     TestBed.configureTestingModule({
-      declarations: [ SlideComponent ]
+      declarations: [ SectionFilterComponent ]
     })
     .compileComponents();
   }));
 
   beforeEach(() => {
-    fixture = TestBed.createComponent(SlideComponent);
+    fixture = TestBed.createComponent(SectionFilterComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });

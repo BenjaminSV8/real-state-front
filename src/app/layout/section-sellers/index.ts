@@ -1,0 +1,1 @@
+export { SectionSellerComponent } from './section-seller.component';  
