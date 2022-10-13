@@ -1,7 +1,23 @@
-<div class="kep-content-presentation-slide">
-    <ul>
-        <li>
-            <img class="img" src="{{img}}" alt="Slide" width="100%">
-        </li>
-    </ul>
+<div class="seller-cards">
+    <img class="seller-img" src="../../../assets/image/homes/seller.webp" alt="seller">
+    <div class="seller-card-content">
+        <h2 class="title-seller">Información del vendedor</h2>
+        <div class="card">
+            <h1>{{contacts[0].name}}</h1>
+            <div class="mail-seller">
+                <img src="../../../assets/image/icons/email.png" alt="email">
+                <p class="title">{{contacts[0].mail}}</p>
+            </div>
+            <p>
+                <a href="tel:{{contacts[0].phoneNumber}}">
+                    <button>
+                        <img src="../../../assets/image/icons/phone.png" alt="phone">
+                        <p>
+                            Contactar
+                        </p>
+                    </button>
+                </a>
+            </p>
+        </div>
+    </div>
 </div>

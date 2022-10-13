@@ -1,20 +1,23 @@
 <div class="kep-content">
   <div class="kep-section">
     <div class="kep-subsection">
-      <app-slide img="{{img}}"></app-slide>
-    <div class="kep-informative-section">
-      <app-section-description
-          [name]="item.name"
-          [description]="item.description"
-          [cost]="item.cost"
-          [location]="item.location"
-      ></app-section-description>
+      <app-section-slide [img]="item.images"></app-section-slide>
+      <div class="kep-informative-section">
+        <app-section-description [name]="item.name" [description]="item.description" [cost]="item.cost"
+          [location]="item.location"></app-section-description>
+      </div>
+      <div class="kep-feature-section">
+        <app-section-features [features]="item.features" [extras]="item.extras"></app-section-features>
+      </div>
+      <div class="kep-contact-section">
+        <app-section-contact></app-section-contact>
+      </div>
+      <div class="kep-seller-section">
+        <app-section-seller [contacts] = "item.contacts"></app-section-seller>
+      </div>
+      <div class="kep-filter-section">
+        <app-section-filter></app-section-filter>
+      </div>
+      
     </div>
-    <div class="kep-feature-section">
-      <app-section-features
-        [features]="item.features"
-        [extras]="item.extras"
-      ></app-section-features>
-    </div>
-   </div>
-</div>
+  </div>

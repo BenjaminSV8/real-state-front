@@ -3,9 +3,15 @@ import { CommonModule } from '@angular/common';
 
 import { HomeComponent } from './home.component';
 import { HomeRoutingModule } from './home-routing.module';
+import { CardsComponent } from '../../../layout/cards';
+import { SlideComponent } from 'src/app/layout/slide';
 
 @NgModule({
-  declarations: [HomeComponent],
+  declarations: [
+    HomeComponent, 
+    CardsComponent,
+    SlideComponent
+  ],
   imports: [
     CommonModule,
     HomeRoutingModule,

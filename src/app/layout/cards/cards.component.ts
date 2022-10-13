@@ -21,7 +21,7 @@ export class CardsComponent implements OnInit {
 
   openDetail(id: any){
     localStorage.setItem('id', id);
-    this.router.navigate(['detail']);
+    this.router.navigate(['mi-futuro-hogar']);
   }
 
 }

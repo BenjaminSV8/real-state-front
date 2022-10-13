@@ -31,6 +31,66 @@
                 },
                 "propertyType": "House",
                 "status": "Active"
+            },
+            {
+                "propertyId": "3",
+                "name": "Casa4",
+                "cost": 1803000,
+                "description": "Casa test 3",
+                "image":"../../assets/image/homes/home-3.jpg",
+                "location": {
+                    "country": "Mexico",
+                    "state": "Mexico",
+                    "city": "Naucalpan",
+                    "complement": "123"
+                },
+                "propertyType": "House",
+                "status": "Active"
+            },
+            {
+                "propertyId": "4",
+                "name": "Casa test 4",
+                "cost": 3500000,
+                "description": "Casa mediana 4",
+                "image":"../../assets/image/homes/home-4.jpg",
+                "location": {
+                    "country": "Mexico",
+                    "state": "Mexico",
+                    "city": "Naucalpan",
+                    "complement": "1111"
+                },
+                "propertyType": "House",
+                "status": "Active"
+            },
+            {
+                "propertyId": "5",
+                "name": "Casa5",
+                "cost": 1800000,
+                "description": "Casa chica5",
+                "image":"../../assets/image/homes/home-5.jpg",
+                "location": {
+                    "country": "Mexico",
+                    "state": "Mexico",
+                    "city": "Naucalpan",
+                    "complement": "123"
+                },
+                "propertyType": "House",
+                "status": "Active"
+            },
+            {
+                "propertyId": "6",
+                "name": "Casa6",
+                "cost": 3500000,
+                "description": "Casa mediana6",
+                "image":"../../assets/image/homes/home-6.jpg",
+                "location": {
+                    "country": "Mexico",
+                    "state": "Mexico",
+                    "city": "Naucalpan",
+                    "complement": "1111"
+                },
+                "propertyType": "House",
+                "status": "Active"
             }
         ]
     }

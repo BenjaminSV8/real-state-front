@@ -1,1 +1,1 @@
-export { SlideComponent } from './slide.component';  
+export { SectionContactComponent } from './section-contact.component';

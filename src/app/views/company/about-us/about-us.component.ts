@@ -6,10 +6,11 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./about-us.component.scss']
 })
 export class AboutUsComponent implements OnInit {
-  img = '../../assets/image/img/houses-2.jpg';
+  img = '../../../../assets/image/homes/house-10.jpg';
   constructor() { }
 
   ngOnInit(): void {
+    console.log('about')
   }
 
 }

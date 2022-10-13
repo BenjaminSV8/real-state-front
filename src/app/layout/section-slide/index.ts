@@ -1,0 +1,1 @@
+export { SectionSlideComponent } from './section-slide.component';  

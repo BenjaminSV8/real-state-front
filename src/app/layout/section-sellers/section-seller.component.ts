@@ -7,7 +7,7 @@ import { Component, OnInit, Input } from '@angular/core';
 })
 export class SectionSellerComponent implements OnInit {
 
-  @Input('img') public img: string;
+  @Input() contacts = [];
 
   constructor() { }
 

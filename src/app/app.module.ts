@@ -5,16 +5,15 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
-import { LayoutModule } from './layout/layout.module';
-import { ViewsModule } from './views/views.module';
 import { OrchestationComponent } from './layout/orchestation';
 import { FooterComponent } from './layout/footer';
+import { GoogleMapsModule } from '@angular/google-maps';
 
 @NgModule({
   declarations: [
     AppComponent,
+    FooterComponent,
     OrchestationComponent,
-    FooterComponent
   ],
   imports: [
     BrowserModule,
@@ -23,8 +22,7 @@ import { FooterComponent } from './layout/footer';
     FormsModule,
     ReactiveFormsModule,
     BrowserAnimationsModule,
-    LayoutModule,
-    ViewsModule,
+    GoogleMapsModule,
   ],
   providers: [],
   bootstrap: [AppComponent]

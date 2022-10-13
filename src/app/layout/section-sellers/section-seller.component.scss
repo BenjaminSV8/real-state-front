@@ -1,0 +1,144 @@
+.title-seller {
+    text-align: center;
+    color: var(--color_cardsFont);
+}
+
+.seller-cards {
+    img.seller-img { 
+        display: none;
+    }
+}
+
+.seller-card-content {
+    align-self: center;
+}
+
+.card {
+    
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 300px;
+    margin: auto;
+    text-align: center;
+    font-family: arial;
+    margin-bottom: 2%;
+    color: var(--color_cardsFont);
+}
+
+.mail-seller {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+
+    img {
+        width: 8%;
+        margin-right: 3%;
+    }
+}
+
+.title {
+    color: var(--color_cardsFont);
+    font-size: 14px;
+}
+
+button {
+    border: none;
+    outline: 0;
+    display: flex;
+    padding: 8px;
+    color: white;
+    background-color: var(--color_button_form);
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 14px;
+    margin-top: 6%;
+    align-items: center;
+    justify-content: center;
+
+    img {
+        width: 8%;
+        margin-right: 3%;
+    }
+
+    p {
+        font-size: 14px;
+        color: var(--color_cardsFont);
+    }
+}
+
+a {
+    text-decoration: none;
+
+}
+
+a:link {
+    color: var(--color_cardsFont);
+}
+
+a:visited {
+    color: var(--color_cardsFont);
+}
+
+a:focus {
+    color: var(--color_cardsFont);
+}
+
+a:hover {
+    color: var(--color_cardsFont);
+    background: none;
+}
+
+a:active {
+    color: var(--color_cardsFont);
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 768px) {
+    .seller-cards {
+        display: flex;
+        img.seller-img { 
+            display: inherit;
+            width: 50%;
+    
+        }
+    }
+    
+    .seller-card-content {
+        align-self: center;
+        width: 50%;
+    }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    .seller-cards {
+        display: flex;
+        img.seller-img { 
+            display: inherit;
+            width: 50%;
+    
+        }
+    }
+    
+    .seller-card-content {
+        align-self: center;
+        width: 50%;
+    }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+    .seller-cards {
+        display: flex;
+        img.seller-img { 
+            display: inherit;
+            width: 50%;
+    
+        }
+    }
+    
+    .seller-card-content {
+        align-self: center;
+        width: 50%;
+    }
+}

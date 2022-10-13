@@ -13,22 +13,28 @@
         },
         "features": [
             {
-                "feature": "sala"
+                "feature": "living-room",
+                "description":"Tiene una sala muy monita"
             },
             {
-                "feature": "comedor"
+                "feature": "dinning-table",
+                "description":"Tiene un comedor muy monita"
             },
             {
-                "feature": "jarding"
+                "feature": "gardening",
+                "description":"jardin grande"
             },
             {
-                "feature": "sala"
+                "feature": "pawprint",
+                "description":"Se aceptan mascotas"
             },
             {
-                "feature": "comedor"
+                "feature": "parking",
+                "description":"cuenta con dos lugares"
             },
             {
-                "feature": "jarding"
+                "feature": "ruler",
+                "description":"20 mtrs cuadrados"
             }
         ],
         "extras": [
@@ -46,12 +52,21 @@
         "status": "Inactive",
         "images": [
             {
-                "imagePath": "/home/images"
+                "imagePath": "../../../assets/image/homes/home-1.jpg"
+            },
+            {
+                "imagePath": "../../../assets/image/homes/home-2.jpg"
+            },
+            {
+                "imagePath": "../../../assets/image/homes/home-3.jpg"
+            },
+            {
+                "imagePath": "../../../assets/image/homes/home-4.jpg"
             }
         ],
         "contacts": [
             {
-                "name": "Ana",
+                "name": "Ana Perez Perez",
                 "mail": "ana@mail.com",
                 "phoneNumber": "3334445556",
                 "contactType": "Principal"
