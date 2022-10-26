@@ -1,4 +1,5 @@
 import { Component, OnInit, Input } from '@angular/core';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-section-slide',
@@ -15,8 +16,13 @@ export class SectionSlideComponent implements OnInit {
     "autoplay":true,
     "arrows":false,
   };
+  constructor( public router : Router ) {}
 
   ngOnInit(): void {
+  }
+
+  back() {
+    this.router.navigate(['']);
   }
 
 }

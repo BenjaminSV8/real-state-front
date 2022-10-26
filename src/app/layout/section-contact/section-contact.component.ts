@@ -1,17 +1,17 @@
-import { Component, OnInit, Input } from '@angular/core';
+import { Component, OnInit, Input } from "@angular/core";
 
 @Component({
-  selector: 'app-section-contact',
-  templateUrl: './section-contact.component.html',
-  styleUrls: ['./section-contact.component.scss']
+  selector: "app-section-contact",
+  templateUrl: "./section-contact.component.html",
+  styleUrls: ["./section-contact.component.scss"],
 })
 export class SectionContactComponent implements OnInit {
+  @Input() name = '';
+  @Input() cost = '';
+  @Input() id = ''; 
 
-  @Input('img') public img: string;
-
-  constructor() { }
+  constructor() {}
 
   ngOnInit(): void {
   }
-
 }

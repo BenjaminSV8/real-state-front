@@ -1,9 +1,15 @@
 <section id="contactenos">
-    <form>
-      <input type="text" placeholder="Nombre" id="nombre">
-      <input type="email" placeholder="Email" id="email">
-      <input type="number" placeholder="Telefono" id="telefono">
+  <h2>Haznos llegar tu información</h2>
+    <form action="https://formsubmit.co/glonuu88@hotmail.com" method="POST">
+      <input type="text" placeholder="Nombre" id="nombre" name="name" minlength="2" maxlength="40">
+      <input type="email" placeholder="Email" id="email" name="email">
+      <input type="number" placeholder="Telefono" id="telefono" name="number" maxlength="10" minlength="10">
       <input type="submit" id="enviar" value="Enviar">
+      <input type="hidden" name="content" value = "El cliente esta interesado en la casa/depto {{id}}: {{name}} con coste de {{cost}}">
+      <input type="hidden" name="_next" value="http://localhost:4200/mi-futuro-hogar">
+      <input type="hidden" name="_subject" value="New submission!">
+      <input type="hidden" name="_captcha" value="false">
+      <input type="hidden" name="_template" value="table">
     </form>
     <div>
         <img src="../../../assets/image/img/correo.webp" alt="contacto">

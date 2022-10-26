@@ -39,6 +39,43 @@
             ]
           },
           "configurations": {
+            "dev": {
+              "optimization": true,
+              "outputHashing": "all",
+              "sourceMap": false,
+              "extractCss": true,
+              "namedChunks": false,
+              "aot": true,
+              "extractLicenses": true,
+              "vendorChunk": false,
+              "buildOptimizer": true,
+              "fileReplacements": [
+                {
+                  "replace": "src/environments/environment.ts",
+                  "with": "src/environments/environment.dev.ts"
+                }
+              ]
+            },
+            "development": {
+              "optimization": false,
+              "sourceMap": true,
+              "namedChunks": true,
+              "extractLicenses": true,
+              "vendorChunk": true,
+              "buildOptimizer": false,
+              "budgets": [
+                {
+                  "type": "initial",
+                  "maximumWarning": "2mb",
+                  "maximumError": "6mb"
+                },
+                {
+                  "type": "anyComponentStyle",
+                  "maximumWarning": "6kb",
+                  "maximumError": "10kb"
+                }
+              ]
+            },
             "production": {
               "fileReplacements": [
                 {
@@ -75,8 +112,8 @@
             "browserTarget": "nflStatistics:build"
           },
           "configurations": {
-            "production": {
-              "browserTarget": "nflStatistics:build:production"
+            "development": {
+              "browserTarget": "nflStatistics:build:development"
             }
           }
         },
@@ -124,6 +161,9 @@
             "devServerTarget": "nflStatistics:serve"
           },
           "configurations": {
+            "development": {
+              "browserTarget": "nflStatistics:build:development"
+            },
             "production": {
               "devServerTarget": "nflStatistics:serve:production"
             }

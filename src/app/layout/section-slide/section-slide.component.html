@@ -1,7 +1,13 @@
 <div class="slick-wrapper">
-  <ngx-slick-carousel class="carousel" #slickModal="slick-carousel" [config]="slideConfig">
+  <ngx-slick-carousel
+    class="carousel"
+    #slickModal="slick-carousel"
+    [config]="slideConfig"
+  >
     <div ngxSlickItem *ngFor="let slide of img" class="slide">
-      <img src="{{slide.imagePath}}" alt="" width="100%">
+      <img src="{{ slide.imagePath }}" alt="" width="100%" />
+
     </div>
   </ngx-slick-carousel>
+  <button id="boton" (click)="back()"><img src="../../../assets/image/icons/arrow.webp" alt=""></button>
 </div>

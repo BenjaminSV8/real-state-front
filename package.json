@@ -1,13 +1,14 @@
 {
   "name": "Kepler",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "scripts": {
     "ng": "ng",
-    "start": "ng serve --port 4202 --o",
+    "start": "ng serve --port 4200 --o",
     "build": "ng build",
     "test": "ng test",
     "lint": "ng lint",
-    "e2e": "ng e2e"
+    "e2e": "ng e2e",
+    "start:dev": "ng serve -c development"
   },
   "private": true,
   "dependencies": {
@@ -16,7 +17,9 @@
     "@angular/cdk": "^14.2.2",
     "@angular/common": "^14.2.1",
     "@angular/compiler": "~14.2.1",
-    "@angular/core": "^14.2.1",
+    "@types/mapbox-gl": "^2.6.2",
+    "core-js": "^3.21.1",
+    "mapbox-gl": "^2.7.0",
     "@angular/forms": "^14.2.1",
     "@angular/google-maps": "^14.2.2",
     "@angular/localize": "^14.2.6",

@@ -18,7 +18,7 @@
                 "status": "Active"
             },
             {
-                "propertyId": "2",
+                "propertyId": "1",
                 "name": "Casa2",
                 "cost": 3500000,
                 "description": "Casa mediana",
@@ -33,7 +33,7 @@
                 "status": "Active"
             },
             {
-                "propertyId": "3",
+                "propertyId": "1",
                 "name": "Casa4",
                 "cost": 1803000,
                 "description": "Casa test 3",
@@ -48,7 +48,7 @@
                 "status": "Active"
             },
             {
-                "propertyId": "4",
+                "propertyId": "1",
                 "name": "Casa test 4",
                 "cost": 3500000,
                 "description": "Casa mediana 4",
@@ -63,7 +63,7 @@
                 "status": "Active"
             },
             {
-                "propertyId": "5",
+                "propertyId": "1",
                 "name": "Casa5",
                 "cost": 1800000,
                 "description": "Casa chica5",
@@ -78,7 +78,7 @@
                 "status": "Active"
             },
             {
-                "propertyId": "6",
+                "propertyId": "1",
                 "name": "Casa6",
                 "cost": 3500000,
                 "description": "Casa mediana6",

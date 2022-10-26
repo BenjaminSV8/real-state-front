@@ -20,7 +20,6 @@ body {
     z-index: 0;
 }
 
-
 // Logo
 .kep-login-content-image {
     margin-top: 0;
@@ -132,7 +131,7 @@ body {
 }
 
 .kep-informative-section .kep-cards {
-    display: flex;
+    width: 100%;
     flex-wrap: wrap;
 }
 
@@ -204,11 +203,17 @@ section#quienesSomos p {
 section#contactenos {
     position: relative;
     margin: auto;
-    height: 299px;
+    height: 330px;
     background: var(--color_green_olive);
 
     img {
         display: none;
+    }
+
+    h2 {
+        margin-bottom: initial;
+        padding-top: 10px;
+        text-align: center;
     }
 }
 
@@ -363,6 +368,7 @@ a:hover {
                 flex-wrap: wrap;
 
                 li {
+                    margin-bottom: 6%;
                     flex: 50%;
                 }
             }
@@ -395,6 +401,7 @@ a:hover {
     }
 }
 
+
 // Media querie
 
 /* Extra small devices (phones, 600px and down) */
@@ -405,6 +412,14 @@ a:hover {
 
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 768px) {
+    .kep-informative-section .kep-cards {
+        display: flex;
+    }
+    
+    .kep-cards_item {
+        flex: 0 0 calc(25.333333% - 5em);
+    }
+
     .kep-informative-section .kep-cards {
         margin-left: 4%;
     }
@@ -504,6 +519,14 @@ a:hover {
 
 /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (min-width: 992px) {
+    .kep-informative-section .kep-cards {
+        display: flex;
+    }
+
+    .kep-cards_item {
+        flex: 0 0 calc(25.333333% - 5em);
+    }
+
     .kep-informative-section .kep-cards {
         margin-left: 10%;
     }
@@ -607,6 +630,14 @@ a:hover {
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 @media only screen and (min-width: 1200px) {
+    .kep-informative-section .kep-cards {
+        display: flex;
+    }
+
+    .kep-cards_item {
+        flex: 0 0 calc(25.333333% - 5em);
+    }
+
     .kep-informative-section .kep-cards {
         margin-left: 10%;
     }

@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
-import { HousesService } from '../../../service/houses';
+import { HousesService } from '../../../service/houses.service';
+import { SpinnerOverlayService } from '../../../service/spinner.service';
 
 @Component({
   selector: 'app-home',
@@ -10,7 +11,8 @@ export class HomeComponent implements OnInit {
   img = '../../assets/image/homes/house-10.jpg';
   items = [];
   constructor(
-    private housesService: HousesService
+    private housesService: HousesService,
+    private spinnerService: SpinnerOverlayService
     ) { }
 
   ngOnInit(): void {
@@ -31,6 +33,7 @@ export class HomeComponent implements OnInit {
       console.log(houses);
       this.items = houses;
     })
+    
   }
 
 }

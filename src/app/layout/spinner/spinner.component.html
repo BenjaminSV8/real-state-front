@@ -1,0 +1,19 @@
+<div *ngIf="this.spinner.getLoading()" class="container-spinner">
+  <div class="row-spinner">
+    <div id="loader">
+      <div class="dot"></div>
+      <div class="dot"></div>
+      <div class="dot"></div>
+      <div class="dot"></div>
+      <div class="dot"></div>
+      <div class="dot"></div>
+      <div class="dot"></div>
+      <div class="dot"></div>
+      <div class="loading"></div>
+    </div>
+
+    <p class="spinner-message" *ngIf="message && message !== ''">
+      {{message}}
+    </p>
+  </div>
+</div>

@@ -1,112 +1,163 @@
 .hero {
-    background-color: var(--color_cardsSecond);
-    display: inline-block;
-    position: relative;
-    width: 300px;
-    min-width: 300px;
-    height: 300px;
-    border-radius: 30px;
-    overflow:hidden;
-    box-shadow: 5px 5px 30px var(--color_cardsBorder);
-    margin: 30px;
+  background-color: var(--color_cardsSecond);
+  display: inline-block;
+  position: relative;
+  width: 300px;
+  min-width: 300px;
+  height: 300px;
+  border-radius: 30px;
+  overflow: hidden;
+  box-shadow: 5px 5px 30px var(--color_cardsBorder);
+  margin: 30px;
 
-    img {
-      width: 100%;
-      height: 65%;
-    }
-  }
-  
-  .hero-description-bk {
-    background-image: linear-gradient(to right , var(--color_cardsOne),  var(--color_cardsSecond));
-    border-radius: 30px;
-    position: absolute;
-    top: 55%;
-    left: -5px;
+  img {
+    width: 100%;
     height: 65%;
-    width: 108%;
-    transform: skew(19deg, -9deg);
   }
-  
-  .hero-logo {
-    height: 80px;
+}
+
+.hero-description-bk {
+  background-image: linear-gradient(
+    to right,
+    var(--color_cardsOne),
+    var(--color_cardsSecond)
+  );
+  border-radius: 30px;
+  position: absolute;
+  top: 55%;
+  left: -5px;
+  height: 65%;
+  width: 124%;
+  transform: skew(19deg, -9deg);
+}
+
+.hero-logo {
+  height: 80px;
+  position: absolute;
+  bottom: 15%;
+  width: 20vh;
+}
+
+.hero-description {
+  position: absolute;
+  color: var(--color_cardsFont);
+  left: 140px;
+  bottom: 25%;
+
+  p {
+    font-size: 0.8em !important;
+  }
+}
+
+.hero-btn {
+  position: absolute;
+  color: var(--color_cardsFont);
+  right: 5%;
+  bottom: 2%;
+  padding: 45%;
+  border-radius: 7px;
+
+  button {
+    padding: inherit;
     position: absolute;
-    bottom: 15%;
-    width: 20vh;
+    left: 0%;
+    bottom: 0%;
+    border: none;
+    background: none;
   }
-  
+}
+
+.hero-btn a {
+  color: var(--color_cardsFont);
+}
+
+.hero-date {
+  position: absolute;
+  color: var(--color_cardsFont);
+  left: 30px;
+  bottom: 10%;
+}
+/* END CARD DESIGN */
+
+body {
+  font-family: "Open Sans", sans-serif;
+  margin: 0;
+  background-color: #eee;
+  min-height: 100vh;
+}
+.btn i:before {
+  width: 14px;
+  height: 14px;
+  position: fixed;
+  color: var(--color_cardsFont);
+  background: #0077b5;
+  padding: 10px;
+  border-radius: 50%;
+  top: 5px;
+  right: 5px;
+}
+.kep-informative-section h2 {
+  padding-left: 25px !important;
+}
+
+@media screen and (min-width: 765px) {
+  .hero h2 {
+    padding-left: 5px !important;
+    margin-bottom: 86px !important;
+    margin-top: 8px !important;
+    font-size: medium !important;
+    line-height: initial !important;
+  }
+
   .hero-description {
-    position: absolute;
-    color: var(--color_cardsFont);
-    left: 140px;
-    bottom: 25%;
-    
-    p {
-        font-size: 0.8em !important;
-    }
+    line-height: normal;
   }
-  
+
   .hero-btn {
-    position: absolute;
-    color: var(--color_cardsFont);
-    right: 30px;
+    right: 0%;
     bottom: 2%;
-    padding: 59px 125px;
-    /* border: 1px solid var(--color_cardsFont); */
-    border-radius: 7px;
+    padding: 50%;
+  }
+}
 
-    button {
-        padding: inherit;
-        position: absolute;
-        left: 0%;
-        bottom: 0%;
-        border: none;
-        background: none;
-    }
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 768px) {
+  .hero {
+    width: 200px;
+    min-width: 200px;
+    height: 250px;
   }
-  
-  .hero-btn a {
-    color: var(--color_cardsFont);
+  .hero-btn {
+    right: 0%;
+    bottom: 2%;
+    padding: 50%;
   }
-  
-  .hero-date {
-    position: absolute;
-    color: var(--color_cardsFont);
-    left: 30px;
-    bottom: 10%;
-  }
-  /* END CARD DESIGN */
-  
-  body {
-    font-family: 'Open Sans', sans-serif;
-    margin: 0;
-    background-color: #eee;
-    min-height: 100vh;
-  }
-  .btn i:before {
-    width: 14px;
-    height: 14px;
-    position: fixed;
-    color: var(--color_cardsFont);
-    background: #0077B5;
-    padding: 10px;
-    border-radius: 50%;
-    top:5px;
-    right:5px;
-  }
-  .kep-informative-section h2 {
-    padding-left: 25px !important;
-  }
+}
 
-  @media screen and (min-width: 765px) {
-    .hero h2 {
-        padding-left: 5px !important;
-        margin-bottom: 86px !important;
-        margin-top: 8px !important;
-        font-size: medium !important;
-        line-height: initial !important;
-    }
-
-    .hero-description {
-        line-height: normal;
-    }
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  .hero {
+    width: 200px;
+    min-width: 200px;
+    height: 250px;
   }
+  .hero-btn {
+    right: 0%;
+    bottom: 2%;
+    padding: 50%;
+  }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+  .hero {
+    width: 200px;
+    min-width: 200px;
+    height: 250px;
+  }
+  .hero-btn {
+    right: 0%;
+    bottom: 2%;
+    padding: 50%;
+  }
+}

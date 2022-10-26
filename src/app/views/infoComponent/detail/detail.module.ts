@@ -12,6 +12,7 @@ import { SectionFilterComponent } from 'src/app/layout/section-filters';
 import { SectionContactComponent } from 'src/app/layout/section-contact';
 import { SlickCarouselModule } from 'ngx-slick-carousel';
 import { SectionSlideComponent } from 'src/app/layout/section-slide';
+import { MapsComponent } from 'src/app/layout/maps';
 
 
 @NgModule({
@@ -22,7 +23,8 @@ import { SectionSlideComponent } from 'src/app/layout/section-slide';
     SectionContactComponent,
     SectionFilterComponent,
     SectionDescriptionComponent,
-    SectionSlideComponent
+    SectionSlideComponent,
+    MapsComponent
   ],
   imports: [
     CommonModule,

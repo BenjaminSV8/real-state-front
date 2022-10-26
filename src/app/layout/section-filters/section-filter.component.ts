@@ -1,5 +1,6 @@
 import { Component } from '@angular/core';
-import { HousesService } from '../../service/houses';
+import { Router } from '@angular/router';
+import { HousesService } from '../../service/houses.service';
 
 @Component({
   selector: 'app-section-filter',
@@ -9,7 +10,6 @@ import { HousesService } from '../../service/houses';
 export class SectionFilterComponent {
   title = 'ngSlick';
   items = [];
-  slides = [342, 453, 846, 855, 234, 564, 744, 243];
   slideConfig = {
     "slidesToShow": 2,
     "slidesToScroll": 1,
@@ -56,34 +56,10 @@ export class SectionFilterComponent {
     ]
   };
 
-  constructor (private housesService: HousesService) {}
+  constructor (private housesService: HousesService, public router : Router) {}
   
   ngOnInit(): void {
     this._requestGetHouses();
-  }
-
-  addSlide() {
-    this.slides.push(488)
-  }
-
-  removeSlide() {
-    this.slides.length = this.slides.length - 1;
-  }
-
-  slickInit(e: any) {
-    console.log('slick initialized');
-  }
-
-  breakpoint(e: any) {
-    console.log('breakpoint');
-  }
-
-  afterChange(e: any) {
-    console.log('afterChange');
-  }
-
-  beforeChange(e: any) {
-    console.log('beforeChange');
   }
 
   private _requestGetHouses() {
@@ -100,5 +76,10 @@ export class SectionFilterComponent {
       console.log(houses);
       this.items = houses;
     })
+  }
+
+  openDetail(id: any){
+    localStorage.setItem('id', id);
+    this.router.navigate(['']);
   }
 }

@@ -1,0 +1,1 @@
+export { SectionContactComponent } from './filter-cards.component';

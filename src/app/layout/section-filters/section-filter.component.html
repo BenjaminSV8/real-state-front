@@ -1,10 +1,10 @@
 <div class="slick-wrapper">
   <h2>También te puede interesar</h2>
   <!-- You can now use your library component in app.component.html -->
-  <ngx-slick-carousel class="carousel" #slickModal="slick-carousel" [config]="slideConfig" (init)="slickInit($event)"
-    (breakpoint)="breakpoint($event)" (afterChange)="afterChange($event)" (beforeChange)="beforeChange($event)">
+  <ngx-slick-carousel class="carousel" #slickModal="slick-carousel" [config]="slideConfig">
     <div ngxSlickItem *ngFor="let slide of items" class="slide">
       <img src="{{slide.image}}" alt="" width="100%">
+      <button id="boton" (click)="openDetail(slide.propertyId)">Ver</button>
     </div>
   </ngx-slick-carousel>
 </div>
