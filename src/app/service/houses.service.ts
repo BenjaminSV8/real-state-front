@@ -20,6 +20,12 @@ export class HousesService {
     return this.http.get(this.url.urlProperties);
   }
 
+    // Data Houses
+    public getHousesFilter(id: string): any {
+      return this.http.get(this.url.urlPropertiesId + id + ".json");
+    }
+
+    
   // Data House selected
   public getHouse(id: any): any {
     return this.http.get(this.url.urlPropertiesId + id + ".json");

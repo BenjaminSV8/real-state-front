@@ -3,8 +3,11 @@
     <div class="kep-subsection">
       <app-slide [img]="images"></app-slide>
       <div class="kep-informative-section">
-        <app-filter-cards></app-filter-cards>
+        <app-filter-cards (filter)="submitFilter($event)" (deleteFilter)="deleteFilter()"></app-filter-cards>
         <h2>Encuentra tu hogar</h2>
+        <div class="error" *ngIf="error">
+          <p>Lo sentimos no se encontró coincidencia con los parámetros de búsqueda, vuelva a intentar con otros datos</p>
+        </div>
         <div class="kep-cards">
           <div
             class="kep-cards_item"
@@ -28,7 +31,7 @@
             ></app-cards>
 
           </div>
-          <div class="col-md-12">
+          <div class="col-md-12" *ngIf="!error">
             <pagination-controls
               previousLabel="Anterior"
               nextLabel="Siguiente"

@@ -1,63 +1,67 @@
-.slick-wrapper{
+.slick-wrapper {
+  width: 100%;
+  margin-top: 20px;
+  text-align: center;
+  background: var(--color_green_olive);
+  padding-bottom: 30px;
+  h2 {
+    color: var(--color_cardsFont);
+    padding-top: 2%;
+  }
+  img {
+    height: 300px;
     width: 100%;
-    margin-top: 20px;
-    text-align: center;
-    background: var(--color_green_olive);
-    h2 {
-        color: var(--color_cardsFont);
-        padding-top: 2%;
-    }
-    img {
-        height: 300px;
-        width: 100%;
-    }
+  }
+}
+.carousel slick-initialized slick-slider {
+  padding-bottom: 37px;
 }
 
-.slick-prev:before, .slick-next:before {
-    color: black!important;
+.slick-prev:before,
+.slick-next:before {
+  color: black !important;
 }
 /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (min-width: 768px) {
-    .slick-wrapper{   
-        margin-top: inherit;
-        text-align: left;
-        h2 {
-            margin-left: 4%;
-        }
+  .slick-wrapper {
+    margin-top: inherit;
+    text-align: left;
+    h2 {
+      margin-left: 4%;
     }
+  }
 }
 
 /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (min-width: 992px) {
-    .slick-wrapper{   
-        margin-top: inherit;
-        text-align: left;
-        h2 {
-            margin-left: 4%;
-        }
+  .slick-wrapper {
+    margin-top: inherit;
+    text-align: left;
+    h2 {
+      margin-left: 4%;
     }
+  }
 }
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 @media only screen and (min-width: 1200px) {
-    .slick-wrapper{   
-        margin-top: inherit;
-        text-align: left;
-        h2 {
-            margin-left: 4%;
-        }
+  .slick-wrapper {
+    margin-top: inherit;
+    text-align: left;
+    h2 {
+      margin-left: 4%;
     }
+  }
 }
 
 #boton {
-    float: left;
-    position: absolute;
-    margin-top: -41px;
-    margin-left: 80px;
-    border-radius: 7px;
-    width: 71px;
-    height: 31px;
-    border: none;
-    background: darkolivegreen;
-  }
-  
+  float: left;
+  position: absolute;
+  margin-top: -41px;
+  margin-left: 80px;
+  border-radius: 7px;
+  width: 71px;
+  height: 31px;
+  border: none;
+  background: darkolivegreen;
+}

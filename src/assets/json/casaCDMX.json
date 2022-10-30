@@ -1,0 +1,38 @@
+{
+    "status": "200 OK",
+    "data": {
+        "propertyList": [
+            {
+                "propertyId": "1",
+                "name": "Casa en cdmx",
+                "cost": 1800000,
+                "description": "Casa chica",
+                "image":"../../assets/image/homes/home-1.jpg",
+                "location": {
+                    "country": "Mexico",
+                    "state": "Mexico",
+                    "city": "Naucalpan",
+                    "complement": "123"
+                },
+                "propertyType": "House",
+                "status": "Active"
+            },
+            {
+                "propertyId": "1",
+                "name": "Casa grande en cdmx",
+                "cost": 3500000,
+                "description": "Casa mediana",
+                "image":"../../assets/image/homes/home-2.jpg",
+                "location": {
+                    "country": "Mexico",
+                    "state": "Mexico",
+                    "city": "Naucalpan",
+                    "complement": "1111"
+                },
+                "propertyType": "House",
+                "status": "Active"
+            }
+           
+        ]
+    }
+}

@@ -1,0 +1,52 @@
+{
+    "status": "200 OK",
+    "data": {
+        "propertyList": [
+            {
+                "propertyId": "1",
+                "name": "Depto chico en chiapas",
+                "cost": 3500000,
+                "description": "Casa mediana 4",
+                "image":"../../assets/image/homes/home-4.jpg",
+                "location": {
+                    "country": "Mexico",
+                    "state": "Mexico",
+                    "city": "Naucalpan",
+                    "complement": "1111"
+                },
+                "propertyType": "House",
+                "status": "Active"
+            },
+            {
+                "propertyId": "1",
+                "name": "Depto en chiapas",
+                "cost": 1800000,
+                "description": "Casa chica5",
+                "image":"../../assets/image/homes/home-5.jpg",
+                "location": {
+                    "country": "Mexico",
+                    "state": "Mexico",
+                    "city": "Naucalpan",
+                    "complement": "123"
+                },
+                "propertyType": "House",
+                "status": "Active"
+            },
+            {
+                "propertyId": "1",
+                "name": "Depto grade en chiapas",
+                "cost": 3500000,
+                "description": "Casa mediana6",
+                "image":"../../assets/image/homes/home-6.jpg",
+                "location": {
+                    "country": "Mexico",
+                    "state": "Mexico",
+                    "city": "Naucalpan",
+                    "complement": "1111"
+                },
+                "propertyType": "House",
+                "status": "Active"
+            }
+        ]
+    }
+}

@@ -1,0 +1,68 @@
+{
+    "status": "200 OK",
+    "data": {
+        "propertyList": [
+            
+            {
+                "propertyId": "1",
+                "name": "Casa elegante en chiapas",
+                "cost": 1803000,
+                "description": "Casa test 3",
+                "image":"../../assets/image/homes/home-3.jpg",
+                "location": {
+                    "country": "Mexico",
+                    "state": "Mexico",
+                    "city": "Naucalpan",
+                    "complement": "123"
+                },
+                "propertyType": "House",
+                "status": "Active"
+            },
+            {
+                "propertyId": "1",
+                "name": "Casa mediana en chiapas",
+                "cost": 3500000,
+                "description": "Casa mediana 4",
+                "image":"../../assets/image/homes/home-4.jpg",
+                "location": {
+                    "country": "Mexico",
+                    "state": "Mexico",
+                    "city": "Naucalpan",
+                    "complement": "1111"
+                },
+                "propertyType": "House",
+                "status": "Active"
+            },
+            {
+                "propertyId": "1",
+                "name": "Casa grande en chiapas",
+                "cost": 3500000,
+                "description": "Casa grande en chiapas",
+                "image":"../../assets/image/homes/home-6.jpg",
+                "location": {
+                    "country": "Mexico",
+                    "state": "Mexico",
+                    "city": "Naucalpan",
+                    "complement": "1111"
+                },
+                "propertyType": "House",
+                "status": "Active"
+            },
+            {
+                "propertyId": "1",
+                "name": "Casa chica en chiapas",
+                "cost": 1800000,
+                "description": "Casa chica",
+                "image":"../../assets/image/homes/home-1.jpg",
+                "location": {
+                    "country": "Mexico",
+                    "state": "Mexico",
+                    "city": "Naucalpan",
+                    "complement": "123"
+                },
+                "propertyType": "House",
+                "status": "Active"
+            }
+        ]
+    }
+}

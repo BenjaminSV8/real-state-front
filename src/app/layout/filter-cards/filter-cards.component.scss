@@ -35,14 +35,20 @@
   h2 {
     flex: 100%;
   }
-  button {
-    margin: 15px 139px;
-    border-radius: 6px;
-    width: 100px;
-    height: 45px;
-    font-size: large;
-  }
 }
+.btn {
+  margin: 15px 40px;
+  border-radius: 6px;
+  width: 100px;
+  height: 45px;
+  font-size: large;
+}
+
+.btn.btn-secondary {
+  position: absolute;
+    top: 526px;
+}
+
 .filter-visibility {
   float: right;
   padding-right: 10px;

@@ -1,0 +1,30 @@
+<div class="kep-content">
+  <div class="kep-section">
+    <div class="kep-subsection">
+      <div class="kep-content-presentation-slide">
+        <ul>
+          <li>
+            <img class="img" src="{{ img }}" alt="Slide" width="100%" />
+          </li>
+        </ul>
+        <button id="boton" (click)="back()">
+          <img src="../../../assets/image/icons/arrow.webp" alt="" />
+        </button>
+      </div>
+      <div class="seller-cards">
+        <div class="seller-card-content">
+          <h2 class="title-seller">Ingrese su queja o sugerencia</h2>
+          <section id="contactenos">
+            <form>
+              <input type="text" placeholder="Nombre" id="nombre">
+              <input type="text" placeholder="Asunto" id="asunto">
+              <textarea class="message" name="mensaje" id="mensaje" placeholder="Mensaje" rows="6" id="mensaje" required></textarea>
+              <input type="submit" id="enviar" value="Enviar" (click)="back()">
+            </form>
+          </section>
+        </div>
+
+      </div>
+    </div>
+  </div>
+</div>

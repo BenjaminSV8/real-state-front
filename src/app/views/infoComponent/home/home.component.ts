@@ -12,29 +12,28 @@ export class HomeComponent implements OnInit {
   currentTutorial = null;
   currentIndex = -1;
   title = "";
-
+  error = false;
   page = 1;
   count = 0;
   pageSize = 12;
   pageSizes = [3, 6, 9];
-  images = 
-  [
+  images = [
     {
-      "imagePath": "../../assets/image/homes/house-10.jpg"
-  },
-    {
-        "imagePath": "../../assets/image/homes/home-1.jpg"
+      imagePath: "../../assets/image/homes/house-10.jpg",
     },
     {
-        "imagePath": "../../assets/image/homes/home-2.jpg"
+      imagePath: "../../assets/image/homes/home-1.jpg",
     },
     {
-        "imagePath": "../../assets/image/homes/home-3.jpg"
+      imagePath: "../../assets/image/homes/home-2.jpg",
     },
     {
-        "imagePath": "../../assets/image/homes/home-4.jpg"
-    }
-];
+      imagePath: "../../assets/image/homes/home-3.jpg",
+    },
+    {
+      imagePath: "../../assets/image/homes/home-4.jpg",
+    },
+  ];
   items = [];
   constructor(
     private housesService: HousesService,
@@ -45,34 +44,49 @@ export class HomeComponent implements OnInit {
     this._requestGetHouses();
   }
 
-  getRequestParams(searchTitle, page, pageSize): any {
-    // tslint:disable-next-line:prefer-const
-    let params = {};
-
-    if (searchTitle) {
-      params[`title`] = searchTitle;
-    }
-
-    if (page) {
-      params[`page`] = page - 1;
-    }
-
-    if (pageSize) {
-      params[`size`] = pageSize;
-    }
-
-    return params;
-  }
-
   handlePageChange(event): void {
     this.page = event;
     this._requestGetHouses();
   }
 
-  handlePageSizeChange(event): void {
-    this.pageSize = event.target.value;
-    this.page = 1;
+  submitFilter(event) {
+    console.log(event);
+    this.error = false;
+    this._requestGetHousesFilter(event);
+  }
+
+  deleteFilter (){
+    this.error = false;
     this._requestGetHouses();
+  }
+
+  private _requestGetHousesFilter(filterValues) {
+    let houses = [];
+    const url = filterValues.type + filterValues.country;
+    this.housesService.getHousesFilter(url).subscribe(
+      (data: any) => {
+        try {
+          const dat = data?.data.propertyList;
+          console.log(dat);
+          dat.forEach((element) => {
+            if (element?.status === "Active") {
+              houses.push(element);
+            }
+          });
+          console.log(houses);
+
+          this.items = houses;
+        } catch (error) {
+          this.items = [];
+          this.error = true;
+        }
+      },
+      (err) => {
+        this.error = true;
+        this.items = [];
+        console.log(err);
+      }
+    );
   }
 
   private _requestGetHouses() {

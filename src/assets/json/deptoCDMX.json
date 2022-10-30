@@ -1,0 +1,52 @@
+{
+    "status": "200 OK",
+    "data": {
+        "propertyList": [
+            {
+                "propertyId": "1",
+                "name": "Departamento chico en cdmx",
+                "cost": 1800000,
+                "description": "Casa chica",
+                "image":"../../assets/image/homes/home-1.jpg",
+                "location": {
+                    "country": "Mexico",
+                    "state": "Mexico",
+                    "city": "Naucalpan",
+                    "complement": "123"
+                },
+                "propertyType": "House",
+                "status": "Active"
+            },
+            {
+                "propertyId": "1",
+                "name": "Departamento en cdmx",
+                "cost": 3500000,
+                "description": "Departamento en cdmx",
+                "image":"../../assets/image/homes/home-2.jpg",
+                "location": {
+                    "country": "Mexico",
+                    "state": "Mexico",
+                    "city": "Naucalpan",
+                    "complement": "1111"
+                },
+                "propertyType": "House",
+                "status": "Active"
+            },
+            {
+                "propertyId": "1",
+                "name": "Departamento grande en cdmx",
+                "cost": 1803000,
+                "description": "Casa test 3",
+                "image":"../../assets/image/homes/home-3.jpg",
+                "location": {
+                    "country": "Mexico",
+                    "state": "Mexico",
+                    "city": "Naucalpan",
+                    "complement": "123"
+                },
+                "propertyType": "House",
+                "status": "Active"
+            }
+        ]
+    }
+}

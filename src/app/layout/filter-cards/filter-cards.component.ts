@@ -1,14 +1,12 @@
 import { CurrencyPipe } from "@angular/common";
-import { Component, OnInit, Input } from "@angular/core";
+import { Component, OnInit, Input, Output, EventEmitter } from "@angular/core";
 import {
   FormBuilder,
   FormGroup,
-  Validators,
   FormControl,
 } from "@angular/forms";
 import {
   style,
-  state,
   animate,
   transition,
   trigger,
@@ -33,9 +31,15 @@ import {
 export class FilterCardsComponent {
   form: FormGroup;
 
+  @Output() filter = new EventEmitter<Object>();
+  @Output() deleteFilter = new EventEmitter();
+
   constructor(private fb: FormBuilder) {
     this.form = this.fb.group({
       // DON'T FORGET THE FORM INITIALISATION
+      type: new FormControl(''),
+      country: new FormControl(''),
+      range: new FormControl('')
     });
   }
 
@@ -44,11 +48,11 @@ export class FilterCardsComponent {
     "Baja California",
     "Baja California Sur",
     "Campeche",
+    "CDMX",
     "Chiapas",
     "Chihuahua",
     "Coahuila",
     "Colima",
-    "Distrito Federal",
     "Durango",
     "Guanajuato",
     "Guerrero",
@@ -86,10 +90,16 @@ export class FilterCardsComponent {
 
   submit() {
     console.log(this.form.value);
+    this.filter.emit(this.form.value)
   }
 
   changeRange(value: string) {
     this.test = value;
+  }
+
+  delete(){
+    console.log("eliminar")
+    this.deleteFilter.emit()
   }
 
   visibilidad() {
