@@ -91,6 +91,186 @@
                 },
                 "propertyType": "House",
                 "status": "Active"
+            },
+            {
+                "propertyId": "1",
+                "name": "Casa1",
+                "cost": 1800000,
+                "description": "Casa chica",
+                "image":"../../assets/image/homes/home-1.jpg",
+                "location": {
+                    "country": "Mexico",
+                    "state": "Mexico",
+                    "city": "Naucalpan",
+                    "complement": "123"
+                },
+                "propertyType": "House",
+                "status": "Active"
+            },
+            {
+                "propertyId": "1",
+                "name": "Casa2",
+                "cost": 3500000,
+                "description": "Casa mediana",
+                "image":"../../assets/image/homes/home-2.jpg",
+                "location": {
+                    "country": "Mexico",
+                    "state": "Mexico",
+                    "city": "Naucalpan",
+                    "complement": "1111"
+                },
+                "propertyType": "House",
+                "status": "Active"
+            },
+            {
+                "propertyId": "1",
+                "name": "Casa4",
+                "cost": 1803000,
+                "description": "Casa test 3",
+                "image":"../../assets/image/homes/home-3.jpg",
+                "location": {
+                    "country": "Mexico",
+                    "state": "Mexico",
+                    "city": "Naucalpan",
+                    "complement": "123"
+                },
+                "propertyType": "House",
+                "status": "Active"
+            },
+            {
+                "propertyId": "1",
+                "name": "Casa test 4",
+                "cost": 3500000,
+                "description": "Casa mediana 4",
+                "image":"../../assets/image/homes/home-4.jpg",
+                "location": {
+                    "country": "Mexico",
+                    "state": "Mexico",
+                    "city": "Naucalpan",
+                    "complement": "1111"
+                },
+                "propertyType": "House",
+                "status": "Active"
+            },
+            {
+                "propertyId": "1",
+                "name": "Casa5",
+                "cost": 1800000,
+                "description": "Casa chica5",
+                "image":"../../assets/image/homes/home-5.jpg",
+                "location": {
+                    "country": "Mexico",
+                    "state": "Mexico",
+                    "city": "Naucalpan",
+                    "complement": "123"
+                },
+                "propertyType": "House",
+                "status": "Active"
+            },
+            {
+                "propertyId": "1",
+                "name": "Casa6",
+                "cost": 3500000,
+                "description": "Casa mediana6",
+                "image":"../../assets/image/homes/home-6.jpg",
+                "location": {
+                    "country": "Mexico",
+                    "state": "Mexico",
+                    "city": "Naucalpan",
+                    "complement": "1111"
+                },
+                "propertyType": "House",
+                "status": "Active"
+            },
+            {
+                "propertyId": "1",
+                "name": "Casa1",
+                "cost": 1800000,
+                "description": "Casa chica",
+                "image":"../../assets/image/homes/home-1.jpg",
+                "location": {
+                    "country": "Mexico",
+                    "state": "Mexico",
+                    "city": "Naucalpan",
+                    "complement": "123"
+                },
+                "propertyType": "House",
+                "status": "Active"
+            },
+            {
+                "propertyId": "1",
+                "name": "Casa2",
+                "cost": 3500000,
+                "description": "Casa mediana",
+                "image":"../../assets/image/homes/home-2.jpg",
+                "location": {
+                    "country": "Mexico",
+                    "state": "Mexico",
+                    "city": "Naucalpan",
+                    "complement": "1111"
+                },
+                "propertyType": "House",
+                "status": "Active"
+            },
+            {
+                "propertyId": "1",
+                "name": "Casa4",
+                "cost": 1803000,
+                "description": "Casa test 3",
+                "image":"../../assets/image/homes/home-3.jpg",
+                "location": {
+                    "country": "Mexico",
+                    "state": "Mexico",
+                    "city": "Naucalpan",
+                    "complement": "123"
+                },
+                "propertyType": "House",
+                "status": "Active"
+            },
+            {
+                "propertyId": "1",
+                "name": "Casa test 4",
+                "cost": 3500000,
+                "description": "Casa mediana 4",
+                "image":"../../assets/image/homes/home-4.jpg",
+                "location": {
+                    "country": "Mexico",
+                    "state": "Mexico",
+                    "city": "Naucalpan",
+                    "complement": "1111"
+                },
+                "propertyType": "House",
+                "status": "Active"
+            },
+            {
+                "propertyId": "1",
+                "name": "Casa5",
+                "cost": 1800000,
+                "description": "Casa chica5",
+                "image":"../../assets/image/homes/home-5.jpg",
+                "location": {
+                    "country": "Mexico",
+                    "state": "Mexico",
+                    "city": "Naucalpan",
+                    "complement": "123"
+                },
+                "propertyType": "House",
+                "status": "Active"
+            },
+            {
+                "propertyId": "1",
+                "name": "Casa6",
+                "cost": 3500000,
+                "description": "Casa mediana6",
+                "image":"../../assets/image/homes/home-6.jpg",
+                "location": {
+                    "country": "Mexico",
+                    "state": "Mexico",
+                    "city": "Naucalpan",
+                    "complement": "1111"
+                },
+                "propertyType": "House",
+                "status": "Active"
             }
         ]
     }

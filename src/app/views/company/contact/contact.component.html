@@ -4,20 +4,35 @@
       <div class="kep-content-presentation-slide">
         <ul>
           <li>
-            <img class="img" src="{{img}}" alt="Slide" width="100%">
+            <img class="img" src="{{ img }}" alt="Slide" width="100%" />
           </li>
         </ul>
+        <button id="boton" (click)="back()">
+          <img src="../../../assets/image/icons/arrow.webp" alt="" />
+        </button>
       </div>
-      <div class="info">
-        <section id="contactenos">
-          <form>
-            <input type="text" placeholder="Nombre" id="nombre">
-            <input type="email" placeholder="Email" id="email">
-            <input type="text" placeholder="Asunto" id="asunto">
-            <textarea name="mensaje" id="mensaje" placeholder="Mensaje" rows="6" id="mensaje"></textarea>
-            <input type="submit" id="enviar" value="Enviar">
-          </form>
-        </section>
+      <div class="seller-cards">
+        <div class="seller-card-content">
+          <h2 class="title-seller">Información de la empresa</h2>
+          <div class="card">
+            <div class="mail-seller">
+              <img src="../../../assets/image/icons/email.webp" alt="email" />
+              <p class="title">mail@gmail.com</p>
+            </div>
+            <p>
+              <a href="tel:5533221177">
+                <button>
+                  <img
+                    src="../../../assets/image/icons/phone.webp"
+                    alt="phone"
+                  />
+                  <p>Contactar</p>
+                </button>
+              </a>
+            </p>
+          </div>
+        </div>
       </div>
     </div>
   </div>
+</div>

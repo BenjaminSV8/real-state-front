@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-about-us',
@@ -7,10 +8,14 @@ import { Component, OnInit } from '@angular/core';
 })
 export class AboutUsComponent implements OnInit {
   img = '../../../../assets/image/homes/house-10.jpg';
-  constructor() { }
+  constructor( public router : Router ) { }
 
   ngOnInit(): void {
     console.log('about')
+  }
+
+  back() {
+    this.router.navigate(['']);
   }
 
 }

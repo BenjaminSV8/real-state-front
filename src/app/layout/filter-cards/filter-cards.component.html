@@ -1,21 +1,43 @@
 <div class="filter-visibility">
   <button (click)="visibilidad()">
     <p>Filtrar</p>
-    <img *ngIf="test2"  src="../../../assets/image/icons/arrow-down.webp" alt="" />
-    <img *ngIf="!test2"  src="../../../assets/image/icons/arrow-up.webp" alt="" />
+    <img
+      *ngIf="test2"
+      src="../../../assets/image/icons/arrow-down.webp"
+      alt=""
+    />
+    <img
+      *ngIf="!test2"
+      src="../../../assets/image/icons/arrow-up.webp"
+      alt=""
+    />
   </button>
 </div>
 <div class="filter-container" *ngIf="!test2" [@fadeInOut]>
   <form class="form-filter" [formGroup]="form" (ngSubmit)="submit()">
     <h2>¿Que tipo de hogar buscas?</h2>
     <div class="custom-control custom-radio">
-      <input id="casa" type="radio" class="custom-control-input" value="casa" name="gender" ngModel>
+      <input
+        id="casa"
+        type="radio"
+        class="custom-control-input"
+        value="casa"
+        name="gender"
+        ngModel
+      />
       <label class="custom-control-label" for="casa">Casa</label>
-   </div>
-   <div class="custom-control custom-radio">
-      <input id="depto" type="radio" class="custom-control-input" value="depto" name="gender" ngModel>
+    </div>
+    <div class="custom-control custom-radio">
+      <input
+        id="depto"
+        type="radio"
+        class="custom-control-input"
+        value="depto"
+        name="gender"
+        ngModel
+      />
       <label class="custom-control-label" for="depto">Departamento</label>
-   </div>
+    </div>
     <!-- MY FORM CONTROLS ARE ALREADY HERE -->
     <select formControlName="website" class="select-filter">
       <option disabled selected="true">Selecciona un estado</option>

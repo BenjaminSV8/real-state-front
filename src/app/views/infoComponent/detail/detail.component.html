@@ -10,7 +10,7 @@
         <app-section-features [features]="item.features" [extras]="item.extras"></app-section-features>
       </div>
       <div class="kep-contact-section">
-        <app-section-contact [name]="item.name" [cost]="item.cost" [id]="item.propertyId"></app-section-contact>
+        <app-section-contact [name]="item.name" [cost]="item.cost" [id]="item.propertyId" [mail]="item.contacts[0].mail"></app-section-contact>
       </div>
       <div class="kep-seller-section">
         <app-section-seller [contacts] = "item.contacts"></app-section-seller>

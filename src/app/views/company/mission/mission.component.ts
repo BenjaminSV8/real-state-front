@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-mission',
@@ -7,9 +8,12 @@ import { Component, OnInit } from '@angular/core';
 })
 export class MissionComponent implements OnInit {
   img = '../../../../assets/image/homes/house-10.jpg';
-  constructor() { }
+  constructor( public router : Router ) { }
 
   ngOnInit(): void {
+  }
+  back() {
+    this.router.navigate(['']);
   }
 
 }

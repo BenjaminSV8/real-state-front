@@ -29,6 +29,9 @@
       height: 400px;
     }
   }
+  #boton {
+    margin-top: -380px;
+  }
 }
 
 /* Large devices (laptops/desktops, 992px and up) */
@@ -38,6 +41,9 @@
       height: 400px;
     }
   }
+  #boton {
+    margin-top: -380px;
+  }
 }
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
@@ -46,5 +52,8 @@
     img {
       height: 400px;
     }
+  }
+  #boton {
+    margin-top: -380px;
   }
 }

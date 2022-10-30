@@ -1,19 +1,42 @@
 <div class="kep-content">
   <div class="kep-section">
     <div class="kep-subsection">
-      <app-slide img="{{img}}"></app-slide>
-    <div class="kep-informative-section">
-      <app-filter-cards></app-filter-cards>
-      <h2>Encuentra tu hogar</h2>
-      <div class="kep-cards">
-        <div class="kep-cards_item" *ngFor="let item of items ">
-          <app-cards 
-          [name]="item.name"
-          [description]="item.description"
-          [image]="item.image"
-          [cost]="item.cost"
-          [id]="item.propertyId"
-          ></app-cards>
+      <app-slide [img]="images"></app-slide>
+      <div class="kep-informative-section">
+        <app-filter-cards></app-filter-cards>
+        <h2>Encuentra tu hogar</h2>
+        <div class="kep-cards">
+          <div
+            class="kep-cards_item"
+            *ngFor="
+              let item of items
+                | paginate
+                  : {
+                      itemsPerPage: pageSize,
+                      currentPage: page,
+                      totalItems: count
+                    };
+              let i = index
+            "
+          >
+            <app-cards
+              [name]="item.name"
+              [description]="item.description"
+              [image]="item.image"
+              [cost]="item.cost"
+              [id]="item.propertyId"
+            ></app-cards>
+
+          </div>
+          <div class="col-md-12">
+            <pagination-controls
+              previousLabel="Anterior"
+              nextLabel="Siguiente"
+              responsive="true"
+              (pageChange)="handlePageChange($event)"
+            ></pagination-controls>
+          </div>
+        
         </div>
       </div>
     </div>

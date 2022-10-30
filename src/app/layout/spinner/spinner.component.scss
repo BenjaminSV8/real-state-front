@@ -17,7 +17,7 @@
   top: 0;
   bottom: 0;
   z-index: 1002;
-  background-color: #b2b5aa;
+  background-color: #b4b9a7;
   width: 100%;
   height: 100%;
   
@@ -74,7 +74,7 @@
 
 #loader .dot:nth-child(7n + 1)::before {
   animation: 0.8s linear 0.1s normal none infinite running load;
-  background: #00ff80 none repeat scroll 0 0;
+  background: #203500 none repeat scroll 0 0;
 }
 
 #loader .dot:nth-child(7n + 2) {
@@ -83,7 +83,7 @@
 
 #loader .dot:nth-child(7n + 2)::before {
   animation: 0.8s linear 0.2s normal none infinite running load;
-  background: #00ffea none repeat scroll 0 0;
+  background: #283e06 none repeat scroll 0 0;
 }
 
 #loader .dot:nth-child(7n + 3) {
@@ -92,7 +92,7 @@
 
 #loader .dot:nth-child(7n + 3)::before {
   animation: 0.8s linear 0.3s normal none infinite running load;
-  background: #00aaff none repeat scroll 0 0;
+  background: #31470b none repeat scroll 0 0;
 }
 
 #loader .dot:nth-child(7n + 4) {
@@ -101,7 +101,7 @@
 
 #loader .dot:nth-child(7n + 4)::before {
   animation: 0.8s linear 0.4s normal none infinite running load;
-  background: #0040ff none repeat scroll 0 0;
+  background: #3b5110 none repeat scroll 0 0;
 }
 
 #loader .dot:nth-child(7n + 5) {
@@ -110,7 +110,7 @@
 
 #loader .dot:nth-child(7n + 5)::before {
   animation: 0.8s linear 0.5s normal none infinite running load;
-  background: #2a00ff none repeat scroll 0 0;
+  background: #445a14 none repeat scroll 0 0;
 }
 
 #loader .dot:nth-child(7n + 6) {
@@ -119,7 +119,7 @@
 
 #loader .dot:nth-child(7n + 6)::before {
   animation: 0.8s linear 0.6s normal none infinite running load;
-  background: #9500ff none repeat scroll 0 0;
+  background: #586e26 none repeat scroll 0 0;
 }
 
 #loader .dot:nth-child(7n + 7) {
@@ -128,7 +128,7 @@
 
 #loader .dot:nth-child(7n + 7)::before {
   animation: 0.8s linear 0.7s normal none infinite running load;
-  background: magenta none repeat scroll 0 0;
+  background: #778c43 none repeat scroll 0 0;
 }
 
 #loader .dot:nth-child(7n + 8) {
@@ -137,7 +137,7 @@
 
 #loader .dot:nth-child(7n + 8)::before {
   animation: 0.8s linear 0.8s normal none infinite running load;
-  background: #ff0095 none repeat scroll 0 0;
+  background: #96ac60 none repeat scroll 0 0;
 }
 
 #loader .loading {

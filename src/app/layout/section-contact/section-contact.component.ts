@@ -9,9 +9,12 @@ export class SectionContactComponent implements OnInit {
   @Input() name = '';
   @Input() cost = '';
   @Input() id = ''; 
+  @Input() mail = ''; 
 
   constructor() {}
 
   ngOnInit(): void {
+    this.mail = 'https://formsubmit.co/' + this.mail;
+    console.log(this.mail)
   }
 }

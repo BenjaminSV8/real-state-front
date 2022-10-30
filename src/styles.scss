@@ -1,836 +1,836 @@
 /* You can add global styles to this file, and also import other style files */
-@import './assets/scss/settings/config.scss';
-@import './assets/scss/atoms/text.scss';
-@import url('//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css');
+@import "./assets/scss/settings/config.scss";
+@import "./assets/scss/atoms/text.scss";
+@import url("//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css");
 
 * {
-    margin: 0;
-    padding: 0;
-    text-decoration: none;
-    list-style: none;
-    font-family: sans-serif;
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  list-style: none;
+  font-family: sans-serif;
 }
 
-
 body {
-    font-size: 80%;
-    width: 100%;
-    margin: 0;
-    background: var(--color_zafiro);
-    z-index: 0;
+  font-size: 80%;
+  width: 100%;
+  margin: 0;
+  background: var(--color_zafiro);
+  z-index: 0;
 }
 
 // Logo
 .kep-login-content-image {
-    margin-top: 0;
-    text-align: start;
+  margin-top: 0;
+  text-align: start;
 }
 
 .kep-login-content-image-big {
-    img {
-        width: 100%;
-        height: 100vh;
-    }
+  img {
+    width: 100%;
+    height: 100vh;
+  }
 
-    margin-bottom: 0;
+  margin-bottom: 0;
 }
 
 .kep-login-content-image-logo {
-    img {
-        width: 90%;
-    }
+  img {
+    width: 90%;
+  }
 
-    margin-bottom: 5px;
+  margin-bottom: 5px;
 }
 
 .kep-login-content-form {
-    text-align: center;
+  text-align: center;
 }
 
 // Input
 .kep-input {
-    height: 24px;
-    text-align: center;
-    margin-bottom: 24px;
-    border-radius: 5px;
+  height: 24px;
+  text-align: center;
+  margin-bottom: 24px;
+  border-radius: 5px;
 }
 
 .kep-btn {
-    height: 22px;
-    width: 35%;
-    border-radius: 7px;
-    background-color: var(--color_keplerAqua);
-    border: none;
+  height: 22px;
+  width: 35%;
+  border-radius: 7px;
+  background-color: var(--color_keplerAqua);
+  border: none;
 }
 
 /* Header */
 .kep-header {
-    position: absolute;
-    padding-left: 20px;
-    background: none;
-    padding-top: 22px;
+  position: absolute;
+  padding-left: 20px;
+  background: none;
+  padding-top: 22px;
 }
 
 .kep-header nav {
-    height: 45px;
+  height: 45px;
 }
 
 .kep-header nav ul {
-    margin-top: 16px;
-    height: 45px;
+  margin-top: 16px;
+  height: 45px;
 }
 
 .kep-header nav ul li {
-    float: left;
-    width: 72px;
-    line-height: 15px;
-    text-align: center;
-    color: var(--color_keplerAqua);
+  float: left;
+  width: 72px;
+  line-height: 15px;
+  text-align: center;
+  color: var(--color_keplerAqua);
 }
 
 .kep-header-title {
-    margin-left: 24px;
+  margin-left: 24px;
 }
 
 .kep-content {
-    width: 100%;
+  width: 100%;
 }
 
 .kep-menu {
-    background: white;
+  background: white;
 }
 
 .logo img {
-    height: 130px;
+  height: 130px;
 }
 
 .kep-section {
-    order: 1;
-    width: 100%;
+  order: 1;
+  width: 100%;
 }
 
 .kep-content-presentation-slide {
-    margin: auto;
-    width: 100%;
-    margin-bottom: 16px;
+  margin: auto;
+  width: 100%;
+  margin-bottom: 16px;
 }
 
 /* Informative-section */
 .kep-feature-section {
-    color: var(--color_cardsFont);
+  color: var(--color_cardsFont);
 }
 
 .kep-informative-section {
-    color: var(--color_cardsFont);
-    text-align: center;
-    line-height: 20px;
+  color: var(--color_cardsFont);
+  text-align: center;
+  line-height: 20px;
 }
 
 .kep-informative-section h2 {
-    margin-bottom: 16px;
+  margin-bottom: 16px;
 }
 
 .kep-informative-section .kep-cards {
-    width: 100%;
-    flex-wrap: wrap;
+  width: 100%;
+  flex-wrap: wrap;
 }
 
 .kep-cards_item {
-    list-style: none;
-    flex: 0 0 calc(33.333333% - 5em);
+  list-style: none;
+  flex: 0 0 calc(33.333333% - 5em);
 }
 
 .kep-informative-section .kep-cards_mat {
-    margin-bottom: 40px;
-    max-height: 55vh;
+  margin-bottom: 40px;
+  max-height: 55vh;
 }
 
 .kep-informative-section .kep-cards_mat img {
-    height: 22vh;
-    width: 33vh;
+  height: 22vh;
+  width: 33vh;
 }
 
 .mat-card-content {
-    margin-bottom: 0px !important;
-    text-align: left;
+  margin-bottom: 0px !important;
+  text-align: left;
 }
 
 .mat-card-header-text {
-    margin: 0px !important;
+  margin: 0px !important;
 }
 
 .mat-card-header .mat-card-title {
-    margin-bottom: 0px !important;
+  margin-bottom: 0px !important;
 }
 
 .mat-typography p {
-    margin: 0px 0 0px !important;
+  margin: 0px 0 0px !important;
 }
-
 
 /* Otro */
 
 section#quienesSomos {
-    display: flex;
-    flex-direction: column;
+  display: flex;
+  flex-direction: column;
 }
 
 section#quienesSomos h1 {
-    margin-left: 15px;
-    color: var(--color_cardsFont);
-    font-weight: 100;
+  margin-left: 15px;
+  color: var(--color_cardsFont);
+  font-weight: 100;
 }
 
 section#quienesSomos hr {
-    top: 20px;
-    width: 90%;
-    margin: auto;
-    border: 1px solid grey;
+  top: 20px;
+  width: 90%;
+  margin: auto;
+  border: 1px solid grey;
 }
 
 section#quienesSomos p {
-    padding-top: 2%;
-    padding-bottom: 5%;
-    width: 89%;
-    padding-left: 5%;
-    margin: auto;
-    color: var(--color_cardsFont);
-    text-align: justify;
+  padding-top: 2%;
+  padding-bottom: 5%;
+  width: 89%;
+  padding-left: 5%;
+  margin: auto;
+  color: var(--color_cardsFont);
+  text-align: justify;
 }
 
-
-
 section#contactenos {
-    position: relative;
-    margin: auto;
-    height: 330px;
-    background: var(--color_green_olive);
+  position: relative;
+  margin: auto;
+  height: 330px;
+  background: var(--color_green_olive);
 
-    img {
-        display: none;
-    }
+  img {
+    display: none;
+  }
 
-    h2 {
-        margin-bottom: initial;
-        padding-top: 10px;
-        text-align: center;
-    }
+  h2 {
+    margin-bottom: initial;
+    padding-top: 10px;
+    text-align: center;
+  }
 }
 
 section#contactenos form {
-    position: relative;
-    margin: auto;
-    top: 5%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+  position: relative;
+  margin: auto;
+  top: 5%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 
-    input {
-        width: 150px;
-        height: 25px;
-        background: var(--color_zafiro);
-        border: 0;
-        padding: 10px;
-        border-radius: 10px;
-        margin-bottom: 5%;
-    }
+  input {
+    width: 150px;
+    height: 25px;
+    background: var(--color_zafiro);
+    border: 0;
+    padding: 10px;
+    border-radius: 10px;
+    margin-bottom: 5%;
+  }
 }
 
-section#contactenos form input#nombre {}
+section#contactenos form input#nombre {
+}
 
-section#contactenos form input#email {}
+section#contactenos form input#email {
+}
 
-section#contactenos form input#telefono {}
+section#contactenos form input#telefono {
+}
 
-section#contactenos form #mensaje {}
+section#contactenos form #mensaje {
+}
 
 section#contactenos form input#enviar {
-    position: absolute;
-    width: 50%;
-    height: 25%;
-    background: var(--color_button_form);
-    color: var(--color_white);
-    top: 100%;
-    border-radius: 10px;
+  position: absolute;
+  width: 50%;
+  height: 25%;
+  background: var(--color_button_form);
+  color: var(--color_white);
+  top: 100%;
+  border-radius: 10px;
 }
 
 // Login
 .are {
-    background: var(--color_zafiro);
-    align-self: center;
+  background: var(--color_zafiro);
+  align-self: center;
 }
 
 section#login form {
-    margin: auto;
-    top: 32px;
-    width: 910px;
-    height: 232px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+  margin: auto;
+  top: 32px;
+  width: 910px;
+  height: 232px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .area .slideImageLogin .slide .img {
-    height: -webkit-fill-available;
-    width: 100vh;
+  height: -webkit-fill-available;
+  width: 100vh;
 }
 
 section#login form input#usuario {
-    border-radius: 8px;
-    border: solid 2px var(--color_zafiro);
-    padding: 3px;
-    width: 170px;
-    height: 25px;
-    margin: 10px;
-    order: 0;
+  border-radius: 8px;
+  border: solid 2px var(--color_zafiro);
+  padding: 3px;
+  width: 170px;
+  height: 25px;
+  margin: 10px;
+  order: 0;
 }
 
 section#login form input#password {
-    border-radius: 8px;
-    border: solid 2px var(--color_zafiro);
-    padding: 3px;
-    top: 60px;
-    width: 170px;
-    height: 25px;
-    margin: 10px;
-    order: 1;
+  border-radius: 8px;
+  border: solid 2px var(--color_zafiro);
+  padding: 3px;
+  top: 60px;
+  width: 170px;
+  height: 25px;
+  margin: 10px;
+  order: 1;
 }
 
 section#login form button#log {
-    margin: 10px 55px;
-    order: 2;
-    border-radius: 10px;
+  margin: 10px 55px;
+  order: 2;
+  border-radius: 10px;
 }
 
 section#login form button#log {
-    height: 30px;
-    background: blue;
-    color: var(--color_cardsFont);
-    font-size: larger;
-    text-align: center;
-    border-radius: 8px;
-    border: 0;
-    width: 100px;
+  height: 30px;
+  background: blue;
+  color: var(--color_cardsFont);
+  font-size: larger;
+  text-align: center;
+  border-radius: 8px;
+  border: 0;
+  width: 100px;
 }
 
 /* -- Footer -- */
 .kep-footer {
-    margin: auto;
-    width: 100%;
+  margin: auto;
+  width: 100%;
 }
 
 a:hover {
-    background-color: var(--color_zafiro);
-    background: var(--color_zafiro);
+  background-color: var(--color_zafiro);
+  background: var(--color_zafiro);
 }
 
 //Maps
 .kep-feature-section {
-    padding-left: 5%;
-    padding-bottom: 5%;
+  padding-left: 5%;
+  padding-bottom: 5%;
 
-    .kep-content-features {
-
-        h2 {
-            font-size: medium;
-        }
-
-        .kep-content-section-features {
-            margin-right: 8%;
-
-            ul {
-                display: flex;
-                flex-wrap: wrap;
-
-                li {
-                    flex: 50%;
-                    align-self: center;
-                    margin-bottom: 5%;
-
-                    div {
-                        align-items: center;
-                        display: flex;
-
-                        img {
-                            padding-right: 5%;
-                            width: 20%;
-                        }
-                    }
-                }
-            }
-        }
-
-        .kep-content-section-extras {
-            width: 30%;
-
-            ul {
-                display: flex;
-                flex-wrap: wrap;
-
-                li {
-                    margin-bottom: 6%;
-                    flex: 50%;
-                }
-            }
-        }
+  .kep-content-features {
+    h2 {
+      font-size: medium;
     }
+
+    .kep-content-section-features {
+      margin-right: 8%;
+
+      ul {
+        display: flex;
+        flex-wrap: wrap;
+
+        li {
+          flex: 50%;
+          align-self: center;
+          margin-bottom: 5%;
+
+          div {
+            align-items: center;
+            display: flex;
+
+            img {
+              padding-right: 5%;
+              width: 20%;
+            }
+          }
+        }
+      }
+    }
+
+    .kep-content-section-extras {
+      width: 30%;
+
+      ul {
+        display: flex;
+        flex-wrap: wrap;
+
+        li {
+          margin-bottom: 6%;
+          flex: 50%;
+        }
+      }
+    }
+  }
 }
 
 .kep-content-section-description {
-    display: flex;
-    flex-flow: wrap;
-    margin-bottom: 5%;
+  display: flex;
+  flex-flow: wrap;
+  margin-bottom: 5%;
 
-    .kep-content-description-div {
-        padding-left: 5%;
-        width: 90%;
-        padding-bottom: 5%;
+  .kep-content-description-div {
+    padding-left: 5%;
+    width: 90%;
+    padding-bottom: 5%;
+  }
+
+  .kep-content-maps-div {
+    padding-left: 8%;
+    place-self: center;
+
+    .map-container {
+      height: 250px !important;
     }
+  }
 
-    .kep-content-maps-div {
-        padding-left: 8%;
-        place-self: center;
-
-        .map-container {
-            height: 250px !important;
-        }
-    }
-
-    h2 {
-        font-size: 40px;
-    }
+  h2 {
+    font-size: 40px;
+  }
 }
 
+#boton {
+  float: left;
+  position: absolute;
+  margin-top: -212px;
+  margin-left: -140px;
+  background: none;
+  border: none;
+
+  img {
+    width: 20px;
+    height: 20px;
+  }
+}
 
 // Media querie
 
 /* Extra small devices (phones, 600px and down) */
-@media only screen and (max-width: 600px) {}
+@media only screen and (max-width: 600px) {
+}
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
-@media only screen and (min-width: 600px) {}
+@media only screen and (min-width: 600px) {
+}
 
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 768px) {
-    .kep-informative-section .kep-cards {
-        display: flex;
+  .kep-informative-section .kep-cards {
+    display: flex;
+  }
+
+  .kep-cards_item {
+    flex: 0 0 calc(29.333333% - 5em);
+    margin-left: 2.5px;
+  }
+
+  // .kep-informative-section .kep-cards {
+  //     margin-left: 4%;
+  // }
+
+  .kep-content-presentation-slide .img {
+    height: 250px;
+  }
+
+  .kep-content-section-description {
+    .kep-content-description-div {
+      text-align: left;
+      padding-left: 5%;
+      width: 45%;
     }
-    
-    .kep-cards_item {
-        flex: 0 0 calc(25.333333% - 5em);
+
+    .kep-content-maps-div {
+      padding-top: 5%;
+      place-self: start;
+
+      .map-container {
+        height: 300px !important;
+        width: 300px !important;
+      }
     }
 
-    .kep-informative-section .kep-cards {
-        margin-left: 4%;
+    h2 {
+      padding-left: 0% !important;
+    }
+  }
+
+  section#contactenos {
+    display: flex;
+
+    img {
+      width: 100%;
+      float: right;
+      height: 100%;
+      display: inline;
+    }
+  }
+
+  section#contactenos form {
+    align-items: flex-start;
+    top: 0%;
+
+    input {
+      width: 250px;
+      height: 20px;
+      margin-bottom: 2% !important;
+
+      &#enviar {
+        width: 100%;
+        margin-top: 5%;
+      }
+    }
+  }
+
+  .kep-feature-section {
+    .kep-content-features {
+      display: flex;
     }
 
-    .kep-content-presentation-slide .img {
-        height: 250px;
+    display: flex;
+
+    h2 {
+      font-size: xx-large;
     }
 
-    .kep-content-section-description {
-        .kep-content-description-div {
-            text-align: left;
-            padding-left: 5%;
-            width: 45%;
-        }
+    .kep-content-section-features {
+      margin-right: 30% !important;
+      width: 60% !important;
 
-        .kep-content-maps-div {
-            padding-top: 5%;
-            place-self: start;
+      ul {
+        li {
+          font-size: medium !important;
 
-            .map-container {
-                height: 300px !important;
-                width: 300px !important;
+          div {
+            img {
+              width: 15% !important;
+              padding-right: 10% !important;
             }
+          }
         }
-
-        h2 {
-            padding-left: 0% !important;
-        }
+      }
     }
 
-    section#contactenos {
-        display: flex;
-
-        img {
-            width: 100%;
-            float: right;
-            height: 100%;
-            display: inline;
+    .kep-content-section-extras {
+      ul {
+        li {
+          font-size: medium !important;
         }
+      }
     }
-
-    section#contactenos form {
-        align-items: flex-start;
-        top: 0%;
-
-        input {
-            width: 250px;
-            height: 20px;
-            margin-bottom: 2% !important;
-
-            &#enviar {
-                width: 100%;
-                margin-top: 5%;
-            }
-        }
-    }
-
-    .kep-feature-section {
-        .kep-content-features {
-            display: flex;
-        }
-
-        display:flex;
-
-        h2 {
-            font-size: xx-large;
-        }
-
-        .kep-content-section-features {
-            margin-right: 30% !important;
-            width: 60% !important;
-
-            ul {
-                li {
-                    font-size: medium !important;
-
-                    div {
-                        img {
-                            width: 15% !important;
-                            padding-right: 10% !important;
-                        }
-                    }
-                }
-            }
-        }
-
-        .kep-content-section-extras {
-            ul {
-                li {
-                    font-size: medium !important;
-                }
-            }
-        }
-    }
+  }
 }
-
 
 /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (min-width: 992px) {
-    .kep-informative-section .kep-cards {
-        display: flex;
+  .kep-informative-section .kep-cards {
+    display: flex;
+  }
+
+  .kep-cards_item {
+    flex: 0 0 calc(29.333333% - 5em);
+    margin-left: 2.5px;
+  }
+
+  // .kep-informative-section .kep-cards {
+  //     margin-left: 10%;
+  // }
+
+  .kep-content-presentation-slide .img {
+    height: 340px;
+  }
+
+  .kep-content-section-description {
+    .kep-content-description-div {
+      text-align: left;
+      padding-left: 5%;
+      width: 55%;
     }
 
-    .kep-cards_item {
-        flex: 0 0 calc(25.333333% - 5em);
+    .kep-content-maps-div {
+      padding-top: 5%;
+      place-self: start;
+
+      .map-container {
+        height: 300px !important;
+        width: 360px !important;
+      }
     }
 
-    .kep-informative-section .kep-cards {
-        margin-left: 10%;
+    h2 {
+      padding-left: 0% !important;
+    }
+  }
+
+  section#contactenos {
+    display: flex;
+
+    img {
+      width: 100%;
+      float: right;
+      height: 100%;
+      display: inline;
+    }
+  }
+
+  section#contactenos form {
+    align-items: flex-start;
+    top: 0%;
+
+    input {
+      width: 250px;
+      height: 20px;
+      margin-bottom: 2% !important;
     }
 
-    .kep-content-presentation-slide .img {
-        height: 340px;
+    &#enviar {
+      width: 100%;
+      margin-top: 5%;
+    }
+  }
+
+  .kep-feature-section {
+    display: flex;
+
+    .kep-content-features {
+      display: flex;
     }
 
-    .kep-content-section-description {
-        .kep-content-description-div {
-            text-align: left;
-            padding-left: 5%;
-            width: 55%;
-        }
+    h2 {
+      font-size: xx-large;
+    }
 
-        .kep-content-maps-div {
-            padding-top: 5%;
-            place-self: start;
+    .kep-content-section-features {
+      margin-right: 30% !important;
+      width: 60% !important;
 
-            .map-container {
-                height: 300px !important;
-                width: 360px !important;
+      ul {
+        li {
+          font-size: medium !important;
+
+          div {
+            img {
+              width: 9% !important;
+              padding-right: 10% !important;
             }
+          }
         }
-
-        h2 {
-            padding-left: 0% !important;
-        }
+      }
     }
 
-    section#contactenos {
-        display: flex;
-
-        img {
-            width: 100%;
-            float: right;
-            height: 100%;
-            display: inline;
+    .kep-content-section-extras {
+      ul {
+        li {
+          font-size: medium !important;
         }
+      }
     }
-
-
-    section#contactenos form {
-        align-items: flex-start;
-        top: 0%;
-
-        input {
-            width: 250px;
-            height: 20px;
-            margin-bottom: 2% !important;
-        }
-
-        &#enviar {
-            width: 100%;
-            margin-top: 5%;
-        }
-
-
-    }
-
-    .kep-feature-section {
-        display: flex;
-
-        .kep-content-features {
-            display: flex;
-        }
-        
-        h2 {
-            font-size: xx-large;
-        }
-
-        .kep-content-section-features {
-            margin-right: 30% !important;
-            width: 60% !important;
-
-            ul {
-                li {
-                    font-size: medium !important;
-
-                    div {
-                        img {
-                           
-                            width: 9% !important;
-                            padding-right: 10% !important;
-                        }
-                    }
-                }
-            }
-        }
-
-        .kep-content-section-extras {
-            ul {
-                li {
-                    font-size: medium !important;
-                }
-            }
-        }
-    }
-
+  }
 }
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 @media only screen and (min-width: 1200px) {
-    .kep-informative-section .kep-cards {
-        display: flex;
+  .kep-informative-section .kep-cards {
+    display: flex;
+  }
+
+  .kep-cards_item {
+    flex: 0 0 calc(29.333333% - 5em);
+    margin-left: 2.5px;
+  }
+
+  // .kep-informative-section .kep-cards {
+  //     margin-left: 10%;
+  // }
+
+  .kep-content-presentation-slide .img {
+    height: 380px;
+  }
+
+  .kep-feature-section {
+    display: flex;
+
+    .kep-content-features {
+      display: flex;
     }
 
-    .kep-cards_item {
-        flex: 0 0 calc(25.333333% - 5em);
+    h2 {
+      font-size: xx-large;
     }
 
-    .kep-informative-section .kep-cards {
-        margin-left: 10%;
-    }
+    .kep-content-section-features {
+      margin-right: 30% !important;
+      width: 60% !important;
 
-    .kep-content-presentation-slide .img {
-        height: 380px;
-    }
+      ul {
+        li {
+          font-size: medium !important;
 
-    .kep-feature-section {
-        display: flex;
-
-        .kep-content-features {
-            display: flex;
-        }
-
-        h2 {
-            font-size: xx-large;
-        }
-
-        .kep-content-section-features {
-            margin-right: 30% !important;
-            width: 60% !important;
-
-            ul {
-                li {
-                    font-size: medium !important;
-
-                    div {
-                        img {
-                            width: 8% !important;
-                            padding-right: 10% !important;
-                        }
-                    }
-                }
+          div {
+            img {
+              width: 8% !important;
+              padding-right: 10% !important;
             }
+          }
         }
-
-        .kep-content-section-extras {
-            ul {
-                li {
-                    font-size: medium !important;
-                }
-            }
-        }
+      }
     }
 
-    section#contactenos {
-        display: flex;
-
-        img {
-            width: 100%;
-            float: right;
-            height: 100%;
-            display: inline;
+    .kep-content-section-extras {
+      ul {
+        li {
+          font-size: medium !important;
         }
+      }
     }
+  }
 
-    section#contactenos form {
-        align-items: flex-start;
-        top: 0%;
+  section#contactenos {
+    display: flex;
 
-        input {
-            width: 250px;
-            height: 20px;
-            margin-bottom: 2% !important;
-
-
-            &#enviar {
-                width: 100%;
-                margin-top: 5%;
-            }
-        }
+    img {
+      width: 100%;
+      float: right;
+      height: 100%;
+      display: inline;
     }
+  }
+
+  section#contactenos form {
+    align-items: flex-start;
+    top: 0%;
+
+    input {
+      width: 250px;
+      height: 20px;
+      margin-bottom: 2% !important;
+
+      &#enviar {
+        width: 100%;
+        margin-top: 5%;
+      }
+    }
+  }
 }
 
-
 @media screen and (min-width: 765px) {
-    #menu_on {
-        left: 4%;
+  #menu_on {
+    left: 4%;
+  }
+
+  body {
+    font-size: 140%;
+    /* ampliamos más aún los textos si mide más de 1200px */
+  }
+
+  .kep-login-content {
+    display: flex;
+  }
+
+  .kep-login-content-image-logo {
+    img {
+      width: 400px;
     }
+  }
 
-    body {
-        font-size: 140%;
-        /* ampliamos más aún los textos si mide más de 1200px */
-    }
+  .kep-login-content-form {
+    align-self: center;
+    width: 100%;
+  }
 
-    .kep-login-content {
-        display: flex;
-    }
+  // Input
+  .kep-input {
+    width: 350px;
+    height: 50px;
+  }
 
-    .kep-login-content-image-logo {
-        img {
-            width: 400px;
-        }
-    }
+  .kep-btn {
+    height: 50px;
+    width: 250px;
+    border-radius: 17px;
+  }
 
-    .kep-login-content-form {
-        align-self: center;
-        width: 100%;
-    }
+  .kep-content {
+    display: flex;
+  }
 
-    // Input
-    .kep-input {
-        width: 350px;
-        height: 50px;
-    }
+  .kep-header nav ul {
+    padding-left: 60%;
+  }
 
-    .kep-btn {
-        height: 50px;
-        width: 250px;
-        border-radius: 17px;
-    }
+  .kep-header nav ul li {
+    width: 140px;
+  }
 
-    .kep-content {
-        display: flex;
-    }
+  .kep-section {
+    order: 1;
+    width: 100%;
+  }
 
-    .kep-header nav ul {
-        padding-left: 60%;
-    }
+  .kep-informative-section {
+    line-height: 40px;
+  }
 
-    .kep-header nav ul li {
-        width: 140px;
-    }
+  .kep-informative-section h2 {
+    text-align: left;
+    padding-left: 45px;
+    margin-bottom: 40px;
+    margin-top: 40px;
+  }
 
-    .kep-section {
-        order: 1;
-        width: 100%;
-    }
+  .main-menu {
+    padding-left: 14px;
+    width: 80px;
+  }
 
+  .main-menu .nav-icon {
+    width: 70px;
+  }
 
+  .kep-list-games {
+    line-height: 40px;
+  }
 
-    .kep-informative-section {
-        line-height: 40px;
-    }
+  .kep-list-games h2 {
+    text-align: left;
+    padding-left: 45px;
+    margin-bottom: 40px;
+    margin-top: 40px;
+  }
 
-    .kep-informative-section h2 {
-        text-align: left;
-        padding-left: 45px;
-        margin-bottom: 40px;
-        margin-top: 40px;
-    }
+  .kep-list-games ul {
+    display: flex;
+    justify-content: space-around;
+    flex-flow: row wrap;
+    margin-bottom: 24px;
+  }
 
-    .kep-informative-section ul {
-        display: flex;
-        justify-content: space-around;
-    }
+  .kep-list-games li {
+    padding-right: 115px;
+  }
 
-    .main-menu {
-        padding-left: 14px;
-        width: 80px;
-    }
-
-    .main-menu .nav-icon {
-        width: 70px;
-    }
-
-    .kep-list-games {
-        line-height: 40px;
-    }
-
-    .kep-list-games h2 {
-        text-align: left;
-        padding-left: 45px;
-        margin-bottom: 40px;
-        margin-top: 40px;
-    }
-
-    .kep-list-games ul {
-        display: flex;
-        justify-content: space-around;
-        flex-flow: row wrap;
-        margin-bottom: 24px;
-    }
-
-
-
-    .kep-list-games li {
-        padding-right: 115px;
-    }
-
-    .kep-list-games img {
-        height: 250px;
-        width: 250px;
-    }
+  .kep-list-games img {
+    height: 250px;
+    width: 250px;
+  }
 }
 
 html,
 body {
-    height: 100%;
+  height: 100%;
 }
 
 body {
-    margin: 0;
-    font-family: Roboto, "Helvetica Neue", sans-serif;
+  margin: 0;
+  font-family: Roboto, "Helvetica Neue", sans-serif;
 }

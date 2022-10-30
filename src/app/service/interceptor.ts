@@ -19,7 +19,6 @@ export class LoadingInterceptor implements HttpInterceptor {
   ) {}
 
   intercept(request: HttpRequest<unknown>, next: HttpHandler): Observable<HttpEvent<unknown>> {
-    console.log('caught');
     this.totalRequests++;
     this.loadingService.setLoading(true);
     return next.handle(request).pipe(
@@ -28,7 +27,7 @@ export class LoadingInterceptor implements HttpInterceptor {
         if (this.totalRequests == 0) {
             setTimeout(() => {
                 this.loadingService.setLoading(false);
-            }, 5000);
+            }, 2000);
         }
       })
     );

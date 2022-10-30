@@ -60,3 +60,58 @@
     }
   }
 }
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 768px) {
+  .filter-visibility {
+    padding-right: 40px;
+  }
+  .form-filter {
+    .select-filter {
+      margin: 0 500px;
+    }
+    .range-filter {
+      margin: 0 500px;
+    }
+    button {
+      margin: 20px 600px;
+    }
+  }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  .filter-visibility {
+    padding-right: 40px;
+  }
+  .form-filter {
+    .select-filter {
+      margin: 0 500px;
+    }
+    .range-filter {
+      margin: 0 500px;
+    }
+    button {
+      margin: 20px 600px;
+    }
+  }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+  .filter-visibility {
+    padding-right: 40px;
+  }
+  .form-filter {
+    .select-filter {
+      margin: 0 500px;
+    }
+    .range-filter {
+      margin: 0 500px;
+    }
+    button {
+      margin: 20px 630px;
+    }
+  }
+}
+

@@ -1,4 +1,5 @@
 import { Component, OnInit, Input } from '@angular/core';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-slide',
@@ -6,18 +7,22 @@ import { Component, OnInit, Input } from '@angular/core';
   styleUrls: ['./slide.component.scss']
 })
 export class SlideComponent implements OnInit {
-  slides = [
-    {'image': 'https://gsr.dev/material2-carousel/assets/demo.png'}, 
-    {'image': 'https://gsr.dev/material2-carousel/assets/demo.png'},
-    {'image': 'https://gsr.dev/material2-carousel/assets/demo.png'}, 
-    {'image': 'https://gsr.dev/material2-carousel/assets/demo.png'}, 
-    {'image': 'https://gsr.dev/material2-carousel/assets/demo.png'}
-  ];
-  @Input('img') public img: string;
-
-  constructor() { }
+  @Input() img = [];
+  slideConfig = {
+    "slidesToShow": 1,
+    "slidesToScroll": 1,
+    "dots": false,
+    "infinite": true,
+    "autoplay":true,
+    "arrows":false,
+  };
+  constructor( public router : Router ) {}
 
   ngOnInit(): void {
+  }
+
+  back() {
+    this.router.navigate(['']);
   }
 
 }

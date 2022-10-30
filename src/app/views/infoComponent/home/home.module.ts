@@ -4,24 +4,25 @@ import { CommonModule } from '@angular/common';
 import { HomeComponent } from './home.component';
 import { HomeRoutingModule } from './home-routing.module';
 import { CardsComponent } from '../../../layout/cards';
-import { SlideComponent } from '../../../layout/slide';
 import { FilterCardsComponent } from '../../../layout/filter-cards/filter-cards.component';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
-
+import { NgxPaginationModule } from 'ngx-pagination';
+import { SlideComponent } from 'src/app/layout/slide';
+import { SlickCarouselModule } from 'ngx-slick-carousel';
 @NgModule({
   declarations: [
     HomeComponent, 
     CardsComponent,
-    SlideComponent,
     FilterCardsComponent,
-    
+    SlideComponent
   ],
   imports: [
     CommonModule,
     HomeRoutingModule,
     FormsModule,
     ReactiveFormsModule,
-    
+    NgxPaginationModule,
+    SlickCarouselModule
   ],
   providers: [
 
