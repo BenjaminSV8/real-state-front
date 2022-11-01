@@ -1,16 +1,7 @@
 import { CurrencyPipe } from "@angular/common";
 import { Component, OnInit, Input, Output, EventEmitter } from "@angular/core";
-import {
-  FormBuilder,
-  FormGroup,
-  FormControl,
-} from "@angular/forms";
-import {
-  style,
-  animate,
-  transition,
-  trigger,
-} from "@angular/animations";
+import { FormBuilder, FormGroup, FormControl } from "@angular/forms";
+import { style, animate, transition, trigger } from "@angular/animations";
 
 @Component({
   selector: "app-filter-cards",
@@ -22,9 +13,7 @@ import {
         style({ opacity: 0 }),
         animate(500, style({ opacity: 0 })),
       ]),
-      transition(":leave", [
-        animate(50, style({ opacity: 1 })),
-      ]),
+      transition(":leave", [animate(50, style({ opacity: 1 }))]),
     ]),
   ],
 })
@@ -37,11 +26,12 @@ export class FilterCardsComponent {
   constructor(private fb: FormBuilder) {
     this.form = this.fb.group({
       // DON'T FORGET THE FORM INITIALISATION
-      type: new FormControl(''),
-      country: new FormControl(''),
-      range: new FormControl('')
+      type: new FormControl(""),
+      country: new FormControl(""),
+      range: new FormControl(""),
     });
   }
+  foo = 'Selecciona un estado';
 
   websiteList: any = [
     "Aguascalientes",
@@ -80,26 +70,23 @@ export class FilterCardsComponent {
 
   test = "";
   test2 = true;
-  // this.form = new FormGroup({
-  //   website: new FormControl('', Validators.required)
-  // });
 
   get f() {
     return this.form.controls;
   }
 
   submit() {
-    console.log(this.form.value);
-    this.filter.emit(this.form.value)
+    this.test2 = true;
+    this.filter.emit(this.form.value);
   }
 
   changeRange(value: string) {
     this.test = value;
   }
 
-  delete(){
-    console.log("eliminar")
-    this.deleteFilter.emit()
+  delete() {
+    this.test2 = true;
+    this.deleteFilter.emit();
   }
 
   visibilidad() {

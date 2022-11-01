@@ -40,10 +40,9 @@
     </div>
     <!-- MY FORM CONTROLS ARE ALREADY HERE -->
     <select class="select-filter" formControlName="country">
-      <option disabled selected="true">Selecciona un estado</option>
-      <option *ngFor="let web of websiteList" >
-        {{ web }}
-      </option>
+      <option [selected]="true" disabled>Selecciona un estado</option>
+      <option *ngFor="let option of websiteList">
+        {{option}}
     </select>
     <div class="range-filter">
       <div class="range-cost">
@@ -68,15 +67,3 @@
     Borrar
   </button>
 </div>
-
-<!-- <form [formGroup]="form" (ngSubmit)="submit()">  
-             
-  <div class="form-group">  
-      <label for="website">Website:</label>  
-      
-      <div *ngIf="f.website.touched && f.website.invalid" class="alert alert-danger">  
-          <div *ngIf="f.website.errors.required">Name is required.</div>  
-      </div>  
-  </div>  
-  
-</form>  -->

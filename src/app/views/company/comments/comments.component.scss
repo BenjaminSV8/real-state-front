@@ -139,6 +139,13 @@ a:active {
     align-self: center;
     width: 50%;
   }
+
+  .kep-subsection {
+    #boton {
+      margin-top: -375px !important;
+      margin-left: -600px !important;
+    }
+  }
 }
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
@@ -154,5 +161,11 @@ a:active {
   .seller-card-content {
     align-self: center;
     width: 50%;
+  }
+  .kep-subsection {
+    #boton {
+      margin-top: -375px !important;
+      margin-left: -600px !important;
+    }
   }
 }

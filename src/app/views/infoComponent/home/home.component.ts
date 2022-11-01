@@ -1,6 +1,5 @@
 import { Component, OnInit } from "@angular/core";
 import { HousesService } from "../../../service/houses.service";
-import { SpinnerOverlayService } from "../../../service/spinner.service";
 
 @Component({
   selector: "app-home",
@@ -35,29 +34,28 @@ export class HomeComponent implements OnInit {
     },
   ];
   items = [];
-  constructor(
-    private housesService: HousesService,
-    private spinnerService: SpinnerOverlayService
-  ) {}
+  constructor(private housesService: HousesService) {}
 
   ngOnInit(): void {
     this._requestGetHouses();
   }
 
   handlePageChange(event): void {
+    console.log(event)
     this.page = event;
     this._requestGetHouses();
   }
 
   submitFilter(event) {
     console.log(event);
+    this.page = 1;
     this.error = false;
     this._requestGetHousesFilter(event);
   }
 
-  deleteFilter (){
+  deleteFilter() {
     this.error = false;
-    this._requestGetHouses();
+    this.handlePageChange(1);
   }
 
   private _requestGetHousesFilter(filterValues) {

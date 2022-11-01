@@ -115,6 +115,7 @@ a:active {
 @media only screen and (min-width: 992px) {
   .seller-cards {
     display: flex;
+    margin-bottom: inherit;
     img.seller-img {
       display: inherit;
       width: 50%;
@@ -130,13 +131,17 @@ a:active {
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 @media only screen and (min-width: 1200px) {
   .seller-cards {
+    margin-bottom: inherit;
     display: flex;
     img.seller-img {
       display: inherit;
       width: 50%;
     }
   }
-
+  .kep-subsection #boton {
+    margin-top: -370px;
+    margin-left: -615px;
+  }
   .seller-card-content {
     align-self: center;
     width: 50%;

@@ -669,6 +669,14 @@ a:hover {
       }
     }
   }
+  .middleArea {
+    #boton {
+      margin-top: -355px;
+    }
+  }
+  .area {
+    margin-bottom: inherit;
+  }
 }
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
@@ -730,7 +738,7 @@ a:hover {
 
   section#contactenos {
     display: flex;
-
+    padding-bottom : inherit;
     img {
       width: 100%;
       float: right;
@@ -756,6 +764,14 @@ a:hover {
         margin-top: 5%;
       }
     }
+  }
+  .middleArea {
+    #boton {
+      margin-top: -355px;
+    }
+  }
+  .area {
+    margin-bottom: inherit;
   }
 }
 
