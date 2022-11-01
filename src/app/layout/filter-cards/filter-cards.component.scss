@@ -46,7 +46,7 @@
 
 .btn.btn-secondary {
   position: absolute;
-    top: 526px;
+  top: 526px;
 }
 
 .filter-visibility {
@@ -74,14 +74,18 @@
   }
   .form-filter {
     .select-filter {
-      margin: 0 500px;
+      margin: 0 218px;
     }
     .range-filter {
-      margin: 0 500px;
+      margin: 0 218px;
     }
     button {
-      margin: 20px 600px;
+      margin: 20px 218px;
     }
+  }
+  .btn.btn-secondary {
+    margin: 15px 92px;
+    top: 732px;
   }
 }
 
@@ -116,8 +120,8 @@
       margin: 0 500px;
     }
     button {
-      margin: 20px 630px;
+      margin: 20px 486px;
     }
   }
-}
 
+}

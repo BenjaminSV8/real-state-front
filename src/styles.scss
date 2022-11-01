@@ -210,6 +210,7 @@ section#contactenos {
     margin-bottom: initial;
     padding-top: 10px;
     text-align: center;
+    margin-bottom: 7px;
   }
 }
 
@@ -440,7 +441,7 @@ a:hover {
   }
 
   .kep-cards_item {
-    flex: 0 0 calc(29.333333% - 5em);
+    flex: 1 0 calc(50.333333% - 5em);
     margin-left: 2.5px;
   }
 
@@ -449,7 +450,7 @@ a:hover {
   // }
 
   .kep-content-presentation-slide .img {
-    height: 250px;
+    height: 305px;
   }
 
   .kep-content-section-description {
@@ -476,6 +477,7 @@ a:hover {
 
   section#contactenos {
     display: flex;
+    padding-bottom: 30%;
 
     img {
       width: 100%;
@@ -483,19 +485,32 @@ a:hover {
       height: 100%;
       display: inline;
     }
+
+    .message {
+      width: 198px;
+    }
+  }
+
+  .kep-subsection {
+    .seller-card-content{
+      width: 100% !important;
+    }
   }
 
   section#contactenos form {
-    align-items: flex-start;
-    top: 0%;
-
+    top: -10%;
+    h2 {
+      margin-bottom: 20px;
+      font-size: large;
+    }
     input {
-      width: 250px;
-      height: 20px;
-      margin-bottom: 2% !important;
+      width: 180px;
+      height: 17px;
+      margin-bottom: 8% !important;
 
       &#enviar {
-        width: 100%;
+        width: 126px;
+        height: 40px;
         margin-top: 5%;
       }
     }
@@ -536,6 +551,14 @@ a:hover {
           font-size: medium !important;
         }
       }
+    }
+  }
+  .area {
+    margin-bottom: 43%;
+  }
+  .middleArea {
+    #boton {
+      margin-top: -280px;
     }
   }
 }
@@ -593,9 +616,10 @@ a:hover {
   }
 
   section#contactenos form {
-    align-items: flex-start;
-    top: 0%;
-
+    top: -13%;
+    h2 {
+      margin-bottom: 20px;
+    }
     input {
       width: 250px;
       height: 20px;
@@ -716,8 +740,11 @@ a:hover {
   }
 
   section#contactenos form {
-    align-items: flex-start;
-    top: 0%;
+    top: -15%;
+
+    h2 {
+      margin-bottom: 20px;
+    }
 
     input {
       width: 250px;
